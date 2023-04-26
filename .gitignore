@@ -17,6 +17,8 @@ var/*
 !var/files/.gitkeep
 !var/tools/
 !var/tools/migration
+!var/mydb/
+
 var/tools/migration/composer.lock
 var/tools/migration/conf.php
 var/tools/migration/vendor
