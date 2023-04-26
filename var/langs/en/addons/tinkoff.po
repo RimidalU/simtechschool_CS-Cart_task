@@ -1,0 +1,109 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::tinkoff"
+msgid "Tinkoff [Beta]"
+msgstr "Tinkoff [Beta]"
+
+msgctxt "Addons::description::tinkoff"
+msgid "Allows you to accept payments via Tinkoff"
+msgstr "Allows you to accept payments via Tinkoff"
+
+msgctxt "Languages::addons.tinkoff.tinkoff_payment"
+msgid "Tinkoff"
+msgstr "Tinkoff"
+
+msgctxt "Languages::addons.tinkoff.url_for_payment_notifications"
+msgid "URL for payment notifications"
+msgstr "URL for payment notifications"
+
+msgctxt "Languages::addons.tinkoff.url_for_success"
+msgid "URL for successful payments"
+msgstr "URL for successful payments"
+
+msgctxt "Languages::addons.tinkoff.url_for_fail"
+msgid "URL for failed payments"
+msgstr "URL for failed payments"
+
+msgctxt "Languages::addons.tinkoff.terminal_key"
+msgid "Terminal"
+msgstr "Terminal"
+
+msgctxt "Languages::addons.tinkoff.terminal_key_notice"
+msgid "Copy this from your Tinkoff terminal settings"
+msgstr "Copy this from your Tinkoff terminal settings"
+
+msgctxt "Languages::addons.tinkoff.terminal_password"
+msgid "Password"
+msgstr "Password"
+
+msgctxt "Languages::addons.tinkoff.terminal_password_notice"
+msgid "Copy this from your Tinkoff terminal settings"
+msgstr "Copy this from your Tinkoff terminal settings"
+
+msgctxt "Languages::addons.tinkoff.send_receipt"
+msgid "Send receipt"
+msgstr "Send receipt"
+
+msgctxt "Languages::addons.tinkoff.receipt_acquiring_should_be_set"
+msgid "Bank accepts the receipt only if the corresponding online cashier option is activated in the terminal settings"
+msgstr "Bank accepts the receipt only if the corresponding online cashier option is activated in the terminal settings"
+
+msgctxt "Languages::addons.tinkoff.pay_type"
+msgid "Pay type"
+msgstr "Pay type"
+
+msgctxt "Languages::addons.tinkoff.one_step_payment"
+msgid "One-step payment"
+msgstr "One-step payment"
+
+msgctxt "Languages::addons.tinkoff.two_step_payment"
+msgid "Two-step payment"
+msgstr "Two-step payment"
+
+msgctxt "Languages::addons.tinkoff.transfer_funds"
+msgid "Transfer funds"
+msgstr "Transfer funds"
+
+msgctxt "Languages::addons.tinkoff.funds_were_transferred"
+msgid "Funds were transferred"
+msgstr "Funds were transferred"
+
+msgctxt "Languages::addons.tinkoff.payment_status"
+msgid "Payment status"
+msgstr "Payment status"
+
+msgctxt "Languages::addons.tinkoff.payment_failed"
+msgid "Payment failed"
+msgstr "Payment failed"
+
+msgctxt "Languages::addons.tinkoff.payment_message"
+msgid "Payment message"
+msgstr "Payment message"
+
+msgctxt "Languages::addons.tinkoff.get_qr"
+msgid "Use QR code for payment"
+msgstr "Use QR code for payment"
+
+msgctxt "Languages::addons.tinkoff.confirmed_order_status"
+msgid "Order status for sending the closing receipt"
+msgstr "Order status for sending the closing receipt"
+
+msgctxt "Languages::addons.tinkoff.confirmed_order_status.description"
+msgid "This status means that the product has been delivered, or that the service has been rendered in full."
+msgstr "This status means that the product has been delivered, or that the service has been rendered in full."
+
+msgctxt "Languages::addons.tinkoff.closing_receipt_was_sended"
+msgid "Closing receipt was sended"
+msgstr "Closing receipt was sended"
+
+msgctxt "Languages::addons.tinkoff.tinkoff_send_closing_receipt_error"
+msgid "Error send closing receipt"
+msgstr "Error send closing receipt"
+
+msgctxt "Languages::addons.tinkoff.ffd_version"
+msgid "FFD Version"
+msgstr "FFD Version"

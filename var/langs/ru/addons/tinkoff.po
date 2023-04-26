@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.16.2/addons/tinkoff.po\n"
+"X-Crowdin-File-ID: 7613\n"
+"PO-Revision-Date: 2023-03-21 11:19\n"
+
+msgctxt "Addons::name::tinkoff"
+msgid "Tinkoff [Beta]"
+msgstr "Тинькофф [Beta]"
+
+msgctxt "Addons::description::tinkoff"
+msgid "Allows you to accept payments via Tinkoff"
+msgstr "Позволяет принимать платежи через Тинькофф."
+
+msgctxt "Languages::addons.tinkoff.tinkoff_payment"
+msgid "Tinkoff"
+msgstr "Тинькофф"
+
+msgctxt "Languages::addons.tinkoff.url_for_payment_notifications"
+msgid "URL for payment notifications"
+msgstr "URL для уведомлений"
+
+msgctxt "Languages::addons.tinkoff.url_for_success"
+msgid "URL for successful payments"
+msgstr "URL для удавшихся платежей"
+
+msgctxt "Languages::addons.tinkoff.url_for_fail"
+msgid "URL for failed payments"
+msgstr "URL для неудавшихся платежей"
+
+msgctxt "Languages::addons.tinkoff.terminal_key"
+msgid "Terminal"
+msgstr "Терминал"
+
+msgctxt "Languages::addons.tinkoff.terminal_key_notice"
+msgid "Copy this from your Tinkoff terminal settings"
+msgstr "Скопируйте из настроек терминала Тинькофф"
+
+msgctxt "Languages::addons.tinkoff.terminal_password"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "Languages::addons.tinkoff.terminal_password_notice"
+msgid "Copy this from your Tinkoff terminal settings"
+msgstr "Скопируйте из настроек терминала Тинькофф"
+
+msgctxt "Languages::addons.tinkoff.send_receipt"
+msgid "Send receipt"
+msgstr "Отправлять чек"
+
+msgctxt "Languages::addons.tinkoff.receipt_acquiring_should_be_set"
+msgid "Bank accepts the receipt only if the corresponding online cashier option is activated in the terminal settings"
+msgstr "Банк принимает чек, только если в настройках терминала активирована соответствующая онлайн-касса."
+
+msgctxt "Languages::addons.tinkoff.pay_type"
+msgid "Pay type"
+msgstr "Тип оплаты"
+
+msgctxt "Languages::addons.tinkoff.one_step_payment"
+msgid "One-step payment"
+msgstr "Оплата в один шаг"
+
+msgctxt "Languages::addons.tinkoff.two_step_payment"
+msgid "Two-step payment"
+msgstr "Оплата в два шага"
+
+msgctxt "Languages::addons.tinkoff.transfer_funds"
+msgid "Transfer funds"
+msgstr "Перевести средства"
+
+msgctxt "Languages::addons.tinkoff.funds_were_transferred"
+msgid "Funds were transferred"
+msgstr "Средства переведены"
+
+msgctxt "Languages::addons.tinkoff.payment_status"
+msgid "Payment status"
+msgstr "Статус платежа"
+
+msgctxt "Languages::addons.tinkoff.payment_failed"
+msgid "Payment failed"
+msgstr "Платеж не удался"
+
+msgctxt "Languages::addons.tinkoff.payment_message"
+msgid "Payment message"
+msgstr "Сообщение при платеже"
+
+msgctxt "Languages::addons.tinkoff.get_qr"
+msgid "Use QR code for payment"
+msgstr "Использовать QR-код для оплаты"
+
+msgctxt "Languages::addons.tinkoff.confirmed_order_status"
+msgid "Order status for sending the closing receipt"
+msgstr "Статус заказа для отправки закрывающего чека"
+
+msgctxt "Languages::addons.tinkoff.confirmed_order_status.description"
+msgid "This status means that the product has been delivered, or that the service has been rendered in full."
+msgstr "Этот статус означает, что товар был доставлен, а услуга оказана полностью."
+
+msgctxt "Languages::addons.tinkoff.closing_receipt_was_sended"
+msgid "Closing receipt was sended"
+msgstr "Закрывающий чек был отправлен"
+
+msgctxt "Languages::addons.tinkoff.tinkoff_send_closing_receipt_error"
+msgid "Error send closing receipt"
+msgstr "Ошибка при отправке закрывающего чека"
+
+msgctxt "Languages::addons.tinkoff.ffd_version"
+msgid "FFD Version"
+msgstr "Версия ФФД"
+

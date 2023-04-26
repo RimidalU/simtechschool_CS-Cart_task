@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/image_zoom.po\n"
+"X-Crowdin-File-ID: 7435\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::image_zoom"
+msgid "Image zoom"
+msgstr "Tasvirni kattalashtirish"
+
+msgctxt "Addons::description::image_zoom"
+msgid "Shows zoomed image on product image hover"
+msgstr "Mahsulot tasviri kursorida kattalashtirilgan tasvirni ko'rsatadi"
+
+msgctxt "SettingsSections::image_zoom::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::image_zoom::cz_animation_time"
+msgid "Animation time"
+msgstr "Animatsiya vaqti"
+
+msgctxt "SettingsOptions::image_zoom::cz_zoom_position"
+msgid "Zoom position"
+msgstr "Kattalashtirish pozitsiyasi"
+
+msgctxt "SettingsTooltips::image_zoom::cz_animation_time"
+msgid "Duration of the animation effects in milliseconds."
+msgstr "Animatsiya effektlarining davomiyligi millisekundlarda."
+
+msgctxt "SettingsTooltips::image_zoom::cz_zoom_position"
+msgid "Specifies position of zoom window."
+msgstr "Kattalashtirish oynasining o'rnini belgilaydi."
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::3"
+msgid "Upper right corner"
+msgstr "Yuqori o'ng burchak"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::5"
+msgid "Bottom right corner"
+msgstr "Pastki o'ng burchak"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::11"
+msgid "Bottom left corner"
+msgstr "Pastki chap burchak"
+
+msgctxt "SettingsVariants::image_zoom::cz_zoom_position::13"
+msgid "Upper left corner"
+msgstr "Yuqori chap burchak"
+

@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/janrain.po\n"
+"X-Crowdin-File-ID: 7437\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::janrain"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Addons::description::janrain"
+msgid "Adds the Social Login feature; allows customers use Facebook, Twitter, etc. to log in on the store"
+msgstr "Ijtimoiy kirish xususiyatini qo'shadi; mijozlarga do'konga kirish uchun Facebook, Twitter va boshqalardan foydalanish imkonini beradi"
+
+msgctxt "Languages::janrain_general_info"
+msgid "<p>Get these values and configure social login at <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p>"
+msgstr "<p>Ushbu qiymatlarni oling va ijtimoiy tizimga kirishni <a href=\"http://janrain.com\" target=\"_blank\">janrain.com</a></p> sahifasida oling."
+
+msgctxt "Languages::janrain_social_login"
+msgid "Social login"
+msgstr "Ijtimoiy login"
+
+msgctxt "Languages::janrain_need_update_profile"
+msgid "The \"Password\" field and some other mandatory fields are empty at the moment. Please update your profile."
+msgstr "\"Parol\" maydoni va boshqa ba'zi majburiy maydonlar hozir bo'sh. Profilingizni yangilang."
+
+msgctxt "Languages::janrain_cant_create_profile"
+msgid "Unfortunately, we failed to create a customer and log in to the store due to one of the following reasons:<br />- You logged in to our store earlier using some other OpenID provider in which the same email is used.<br />- You have already registered in our store using your email.<br />Please contact the store owner to resolve the problems."
+msgstr "Afsuski, quyidagi sabablardan biri tufayli mijoz yarata olmadik va do‘konga kira olmadik:<br />- Siz avvalroq xuddi shu elektron pochta manzili ishlatiladigan boshqa OpenID provayderi yordamida do‘konimizga kirgansiz.<br / >- Siz allaqachon elektron pochtangiz orqali doʻkonimizda roʻyxatdan oʻtgansiz.<br />Muammolarni hal qilish uchun doʻkon egasi bilan bogʻlaning."
+
+msgctxt "SettingsSections::janrain::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::janrain::general_info"
+msgid "General info"
+msgstr "Umumiy ma'lumot"
+
+msgctxt "SettingsOptions::janrain::apikey"
+msgid "API Key"
+msgstr "API kaliti"
+
+msgctxt "SettingsOptions::janrain::appdomain"
+msgid "Application Domain"
+msgstr "Ilova domeni"
+
+msgctxt "Languages::janrain.janrain_cookies_title"
+msgid "Janrain"
+msgstr "Janrain"
+
+msgctxt "Languages::janrain.janrain_cookies_description"
+msgid "Janrain is a service that allows you to sign into the website with your accounts from various social networks. It was acquired by Akamai in 2019; here is <a href=\"https://www.akamai.com/site/en/documents/akamai/akamai-privacy-statement.pdf\" target=\"_blank\">Akamai privacy statement</a>."
+msgstr "Janrain - bu turli ijtimoiy tarmoqlardagi akkauntlaringiz bilan veb-saytga kirish imkonini beruvchi xizmatdir. U Akamai tomonidan 2019 yilda sotib olingan; bu yerda <a href=\"https://www.akamai.com/site/en/documents/akamai/akamai-privacy-statement.pdf\" target=\"_blank\">Akamai maxfiylik bayonoti</a>."
+

@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/call_requests.po\n"
+"X-Crowdin-File-ID: 7387\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::call_requests"
+msgid "Call requests"
+msgstr "Qo'ng'iroq so'rovlari"
+
+msgctxt "Addons::description::call_requests"
+msgid "Adds the \"Buy now with one click\" and \"Request call\" buttons"
+msgstr "“Bir marta bosish bilan hozir sotib ol” va “Qoʻngʻiroq qilish” tugmalarini qoʻshadi"
+
+msgctxt "SettingsSections::call_requests::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::call_requests::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::call_requests::phone"
+msgid "Rewrite phone"
+msgstr "Telefonni qayta yozish"
+
+msgctxt "SettingsOptions::call_requests::phone_prefix_length"
+msgid "Highlight first chars [Deprecated]"
+msgstr "Birinchi belgilarni ajratib ko'rsatish [Deprecated]"
+
+msgctxt "SettingsOptions::call_requests::buy_now_with_one_click"
+msgid "Enable the \"Buy now with one click\" option"
+msgstr "“Bir marta bosish bilan hozir sotib olish” variantini yoqing"
+
+msgctxt "SettingsOptions::call_requests::order_status"
+msgid "Order status"
+msgstr "Buyurtma holati"
+
+msgctxt "SettingsOptions::call_requests::phone_mask"
+msgid "Phone mask [Deprecated]"
+msgstr "Telefon niqobi [Deprecated]"
+
+msgctxt "SettingsTooltips::call_requests::phone_mask"
+msgid "Leave empty to use automatic country-based phone pattern, or type in a custom pattern. You can use spaces, commas, +, -, and digits. Note that 9 represents any digit; if you need a 9, type \\\\9. Examples: +9 (999) 999 99 99, 99999999, 999 999 99 or +99-99-9999-9999."
+msgstr "Mamlakat boʻyicha avtomatik telefon naqshini ishlatish uchun boʻsh qoldiring yoki maxsus naqsh kiriting. Bo'shliqlar, vergullar, +, - va raqamlardan foydalanishingiz mumkin. E'tibor bering, 9 har qanday raqamni bildiradi; agar sizga 9 kerak bo'lsa, \\\\\\\\ 9-ni kiriting. Misollar: +9 (999) 999 99 99, 99999999, 999 999 99 yoki +99-99-9999-9999."
+
+msgctxt "SettingsTooltips::call_requests::phone_prefix_length"
+msgid "Including parenthesis, spaces, etc. Use to highlight country code, area code, and phone prefix."
+msgstr "Qavslar, boʻshliqlar va boshqalarni oʻz ichiga oladi. Mamlakat kodi, hudud kodi va telefon prefiksini taʼkidlash uchun foydalaning."
+
+msgctxt "SettingsOptions::call_requests::enable_call_requests_for_vendors"
+msgid "Enable call requests for vendors"
+msgstr "Sotuvchilar uchun qo'ng'iroq so'rovlarini yoqing"
+
+msgctxt "SettingsTooltips::call_requests::enable_call_requests_for_vendors"
+msgid "This will also replace marketplace contact information with vendors' where necessary."
+msgstr "Bu, shuningdek, kerak bo'lganda, sotuvchilar bilan bog'lanish ma'lumotlarini almashtiradi."
+
+msgctxt "Languages::privileges.manage_call_requests"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privileges.view_call_requests"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::privilege_groups.call_requests"
+msgid "Call requests"
+msgstr "Qo'ng'iroq so'rovlari"
+
+msgctxt "Languages::call_requests"
+msgid "Call requests"
+msgstr "Qo'ng'iroq so'rovlari"
+
+msgctxt "Languages::call_requests_menu_description"
+msgid "Manage customer call requests"
+msgstr "Mijozlarning qo'ng'iroq so'rovlarini boshqaring"
+
+msgctxt "Languages::call_requests.request_call"
+msgid "Request call"
+msgstr "Qo'ng'iroq qilish"
+
+msgctxt "Languages::call_requests.buy_now_with_one_click"
+msgid "Buy now with 1-click"
+msgstr "1 marta bosish bilan hozir sotib oling"
+
+msgctxt "Languages::call_requests.error_validate_call_form"
+msgid "Please enter your email or phone number"
+msgstr "Iltimos, elektron pochtangizni yoki telefon raqamingizni kiriting"
+
+msgctxt "Languages::call_requests.request_recieved"
+msgid "We have received your request! Our manager will contact you soon."
+msgstr "Biz sizning so'rovingizni oldik! Menejerimiz tez orada siz bilan bog'lanadi."
+
+msgctxt "Languages::call_requests.order_placed"
+msgid "We have received your request! The order #[order_id] has been successfully created. Our manager will contact you soon."
+msgstr "Biz sizning so'rovingizni oldik! #[order_id] buyurtmasi muvaffaqiyatli yaratildi. Menejerimiz tez orada siz bilan bog'lanadi."
+
+msgctxt "Languages::call_requests.phone_from_settings"
+msgid "Phone from settings"
+msgstr "Sozlamalardan telefon"
+
+msgctxt "Languages::call_requests.enter_phone_or_email_text"
+msgid "Please enter your phone number or email (for our manager to contact you)"
+msgstr "Iltimos, telefon raqamingizni yoki elektron pochtangizni kiriting (menejerimiz siz bilan bog'lanishi uchun)"
+
+msgctxt "Languages::call_requests.status.new"
+msgid "New"
+msgstr "Yangi"
+
+msgctxt "Languages::call_requests.status.in_progress"
+msgid "In progress"
+msgstr "Jarayonda"
+
+msgctxt "Languages::call_requests.status.completed"
+msgid "Completed"
+msgstr "Bajarildi"
+
+msgctxt "Languages::call_requests.status.no_answer"
+msgid "No answer"
+msgstr "Javob yo'q"
+
+msgctxt "Languages::call_requests.responsible"
+msgid "Responsible"
+msgstr "Mas'uliyatli"
+
+msgctxt "Languages::call_requests.notes"
+msgid "Notes"
+msgstr "Eslatmalar"
+
+msgctxt "Languages::call_requests.requested_product"
+msgid "Requested product"
+msgstr "So'ralgan mahsulot"
+
+msgctxt "Languages::call_requests.convenient_time"
+msgid "Convenient time"
+msgstr "Qulay vaqt"
+
+msgctxt "Languages::call_requests.awaiting_call"
+msgid "Awaiting call"
+msgstr "Qo'ng'iroq kutilmoqda"
+
+msgctxt "Languages::call_requests.order_exists"
+msgid "Order exists"
+msgstr "Buyurtma mavjud"
+
+msgctxt "Languages::call_requests.person_name_and_phone"
+msgid "Name and phone"
+msgstr "Ism va telefon"
+
+msgctxt "Languages::call_requests.no_name_specified"
+msgid "No name specified"
+msgstr "Ism ko'rsatilmagan"
+
+msgctxt "Languages::call_requests.use_for_call_requests"
+msgid "Call request and buy now with one click form"
+msgstr "Qo'ng'iroq qiling va bir marta bosish formasi bilan hozir sotib oling"
+
+msgctxt "Languages::block_call_request"
+msgid "Call request"
+msgstr "Qo'ng'iroq so'rovi"
+
+msgctxt "Languages::block_call_request_description"
+msgid "Store phone number and form for requesting a call"
+msgstr "Qo'ng'iroq qilish uchun telefon raqami va shaklni saqlang"
+
+msgctxt "Languages::tmpl_call_request"
+msgid "Call request form"
+msgstr "Qo'ng'iroq qilish uchun ariza shakli"
+
+msgctxt "Languages::call_requests.text_call_request"
+msgid "Customer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number]."
+msgstr "Mijoz [customer] [phone_number] orqali <a href=\"[href]\">qo‘ng‘iroqingizni kutmoqda</a>."
+
+msgctxt "Languages::call_requests.text_call_request_call_time"
+msgid "The convenient call time is between [time_from] and [time_to]."
+msgstr "Qulay qo'ng'iroq vaqti [time_from] va [time_to] oralig'ida."
+
+msgctxt "Languages::call_requests.text_buy_with_one_click_request"
+msgid "Сustomer [customer] is <a href=\"[href]\">awaiting your call</a> on [phone_number], regarding the purchase of the product <a href=\"[product_href]\">[product_name]</a>."
+msgstr "Mijoz [customer] mahsulotini <a href=\"[product_href]\">[product_name]</a> xarid qilish bo‘yicha [phone_number] raqamiga <a href=\"[href]\">qo‘ng‘iroqingizni</a> kutmoqda. ."
+
+msgctxt "Languages::call_requests.error_validator_phone"
+msgid "The phone number in the <b>[field]</b> field is invalid."
+msgstr "<b>[field]</b> maydonidagi telefon raqami yaroqsiz."
+
+msgctxt "Languages::email_template.call_requests_buy_with_one_click"
+msgid "Call requests: buy with one click notification"
+msgstr "Qo'ng'iroq so'rovlari: bir marta bosish bildirishnomasi bilan sotib oling"
+
+msgctxt "Languages::email_template.call_requests_call_request"
+msgid "Call requests: call request notification"
+msgstr "Qo'ng'iroq so'rovlari: qo'ng'iroq so'rovi bildirishnomasi"
+
+msgctxt "Languages::call_request.work_time"
+msgid "Mon-Fr 9a.m.-6p.m."
+msgstr "Dushanba-Jum soat 9:00-18:00"
+
+msgctxt "Languages::call_requests.request_call_request_form"
+msgid "Call requests: request form"
+msgstr "Qo'ng'iroq so'rovlari: so'rov shakli"
+
+msgctxt "Languages::call_requests.agreement_text_full_request_call_request_form"
+msgid "<p>We ([company]) will use the data you provide here to contact you regarding your call request or order. That data will remain in our system, visible to our staff (or the relevant vendor), until you withdraw your consent. If you’d like to have your personal data removed, send an email to [email].</p> <p>If you believe that your personal data has been misused, you have the right to lodge a complaint with a supervisory authority. We’re obliged by EU General Data Protection Regulation to let you know about this right; we don’t actually intend to misuse your data.</p>"
+msgstr "<p>Biz ([company]) bu yerda taqdim etgan maʼlumotlaringizdan qoʻngʻiroq soʻrovingiz yoki buyurtmangiz boʻyicha siz bilan bogʻlanish uchun foydalanamiz. Siz roziligingizni qaytarib olmaguningizcha, bu maʼlumotlar tizimimizda saqlanib qoladi va xodimlarimizga (yoki tegishli sotuvchiga) koʻrinadi. Agar shaxsiy maʼlumotlaringiz oʻchirilishini istasangiz, [email] manziliga xat yuboring.</p> <p>Agar shaxsiy maʼlumotlaringizdan notoʻgʻri foydalanilgan deb hisoblasangiz, nazorat qiluvchi organga shikoyat qilish huquqiga egasiz. . Biz Yevropa Ittifoqining maʼlumotlarni himoya qilish boʻyicha umumiy reglamentiga koʻra sizga ushbu huquq haqida xabar berishga majburmiz; maʼlumotlaringizdan notoʻgʻri foydalanish niyatimiz yoʻq.</p>"
+
+msgctxt "Languages::call_requests.agreement_text_short_request_call_request_form"
+msgid "I agree to have my personal data <u>processed as follows.</u>"
+msgstr "Men shaxsiy ma'lumotlarimga <u>quyidagicha ishlov berishga roziman.</u>"
+
+msgctxt "Languages::gdpr_call_requests"
+msgid "Personal data from call requests"
+msgstr "Qo'ng'iroq so'rovlaridan shaxsiy ma'lumotlar"
+
+msgctxt "Languages::call_requests.event.request_created.name"
+msgid "Call requests: request created"
+msgstr "Qo'ng'iroq so'rovlari: so'rov yaratildi"
+
+msgctxt "Languages::call_requests.event.request_about_product_created.name"
+msgid "Call requests: request about product created"
+msgstr "Qo'ng'iroq so'rovlari: yaratilgan mahsulot haqida so'rov"
+
+msgctxt "Languages::call_requests.dashboard.analytics_card.recent_call_requests"
+msgid "Recent call requests"
+msgstr "Oxirgi qo'ng'iroq so'rovlari"
+
+msgctxt "Languages::call_requests.dashboard.analytics_card.view_call_requests"
+msgid "View call requests"
+msgstr "Qo'ng'iroq so'rovlarini ko'rish"
+

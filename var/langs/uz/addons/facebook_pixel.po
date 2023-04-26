@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/facebook_pixel.po\n"
+"X-Crowdin-File-ID: 7411\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::facebook_pixel"
+msgid "Facebook Pixel"
+msgstr "Facebook pikseli"
+
+msgctxt "Addons::description::facebook_pixel"
+msgid "Integrates a Facebook Pixel with the store"
+msgstr "Facebook Pixel-ni do'kon bilan birlashtiradi"
+
+msgctxt "SettingsSections::facebook_pixel::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::facebook_pixel::pixel_id"
+msgid "Facebook Pixel Identifier"
+msgstr "Facebook piksel identifikatori"
+
+msgctxt "SettingsOptions::facebook_pixel::track_all_page_views"
+msgid "Track all page views"
+msgstr "Barcha sahifa koʻrishlarini kuzatib boring"
+
+msgctxt "SettingsOptions::facebook_pixel::track_add_to_cart"
+msgid "Track adding product to cart"
+msgstr "Savatga mahsulot qo'shishni kuzatib boring"
+
+msgctxt "SettingsOptions::facebook_pixel::track_order_placed"
+msgid "Track placing order"
+msgstr "Buyurtmani joylashtirishni kuzatib boring"
+
+msgctxt "Languages::facebook_pixel.facebook_pixel_cookies_title"
+msgid "Facebook Pixel"
+msgstr "Facebook pikseli"
+
+msgctxt "Languages::facebook_pixel.facebook_pixel_cookies_description"
+msgid "Facebook Pixel is a tool that allows us to measure ad efficiency by tracking that the browser or device that received the ad also visited a product page, added product to cart, or placed an order. Here is <a href=\"https://www.facebook.com/about/privacy/previous\" target=\"_blank\">Facebook privacy policy</a>."
+msgstr "Facebook Pixel - bu reklamani olgan brauzer yoki qurilma mahsulot sahifasiga tashrif buyurganini, savatga mahsulot qo'shganini yoki buyurtma berganligini kuzatish orqali reklama samaradorligini o'lchash imkonini beruvchi vositadir. Mana <a href=\"https://www.facebook.com/about/privacy/previous\" target=\"_blank\">Facebook maxfiylik siyosati</a>."
+

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:14\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "مدن"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "توفر الوظيفة الإضافية وظائف جديدة - تتم إضافة المدن تلقائيًا إلى صفحة تقديم الطلب."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "لإنشاء مدينة جديدة ، يجب تحديد الدولة والمنطقة ، والنقر فوق الزر \"بحث\" وإنشاء مدينة باستخدام الزر \"+\". إذا لم تكن هناك مناطق للبلد ، فيجب إنشاؤها."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "أضف مدينة جديدة"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "مدينة جديدة"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "اختر مدينة"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "لم يتم إنشاء دول"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "لم يتم اختيار ولاية"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "مدينة أخرى"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "إنشاء دولة جديدة"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "يمكن أن يشاهد"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "يمكن التحرير"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "يمكن التحرير"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "مدن"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "كود المدينة الصديق"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "تحديث المدن"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "تحديث"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "تم تحديث جدول المدن"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "المدينة. ، المدينة"
+

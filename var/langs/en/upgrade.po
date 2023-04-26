@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Languages::yandex_delivery.upgrade_notification.title"
+msgid "Yandex Delivery shut down, shipping methods disabled"
+msgstr "Yandex Delivery shut down, shipping methods disabled"
+
+msgctxt "Languages::yandex_delivery.upgrade_notification.message"
+msgid "Yandex has closed the Yandex Delivery service with the old personal account. Your store still had shipping methods that relied on Yandex Delivery for rate calculation. Because those shipping methods will no longer work, we've changed their status to \"Disabled\"."
+msgstr "Yandex has closed the Yandex Delivery service with the old personal account. Your store still had shipping methods that relied on Yandex Delivery for rate calculation. Because those shipping methods will no longer work, we've changed their status to \"Disabled\"."

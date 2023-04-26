@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /release-4.16.2/addons/paypal_checkout.po\n"
+"X-Crowdin-File-ID: 7467\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "페이팔 체크아웃"
+
+msgctxt "Addons::description::paypal_checkout"
+msgid "Allows you to accept payments through PayPal. Customers can pay with a card or with their PayPal account."
+msgstr "PayPal을 통해 결제를 수락할 수 있습니다. 고객은 카드 또는 PayPal 계정으로 결제할 수 있습니다."
+
+msgctxt "SettingsSections::paypal_checkout::general"
+msgid "General"
+msgstr "일반적인"
+
+msgctxt "Languages::paypal_checkout.paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "페이팔 체크아웃"
+
+msgctxt "Languages::paypal_checkout.paypal"
+msgid "PayPal"
+msgstr "페이팔"
+
+msgctxt "Languages::paypal_checkout.client_id"
+msgid "App Client ID"
+msgstr "앱 클라이언트 ID"
+
+msgctxt "Languages::paypal_checkout.secret"
+msgid "App Secret"
+msgstr "앱 비밀"
+
+msgctxt "Languages::paypal_checkout.order_id"
+msgid "Order ID in PayPal"
+msgstr "PayPal의 주문 ID"
+
+msgctxt "Languages::paypal_checkout.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "PayPal에서 ID 캡처"
+
+msgctxt "Languages::paypal_checkout.webhook_help_message"
+msgid "Specify the following URL when configuring a webhook for your REST application:"
+msgstr "REST 애플리케이션에 대한 웹훅을 구성할 때 다음 URL을 지정하십시오."
+
+msgctxt "Languages::paypal_checkout.webhook"
+msgid "PayPal Checkout webhook: [payload]"
+msgstr "PayPal Checkout 웹훅: [payload]"
+
+msgctxt "Languages::paypal_checkout.settings.account"
+msgid "Account settings"
+msgstr "계정 설정"
+
+msgctxt "Languages::paypal_checkout.settings.enable_funding"
+msgid "Funding sources to show on checkout"
+msgstr "결제 시 표시할 자금 출처"
+
+msgctxt "Languages::paypal_checkout.funding.card"
+msgid "Credit or debit cards"
+msgstr "신용카드 또는 직불카드"
+
+msgctxt "Languages::paypal_checkout.funding.credit"
+msgid "PayPal Credit"
+msgstr "페이팔 크레딧"
+
+msgctxt "Languages::paypal_checkout.funding.venmo"
+msgid "Venmo"
+msgstr "벤모"
+
+msgctxt "Languages::paypal_checkout.funding.sepa"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-라스트슈리프트"
+
+msgctxt "Languages::paypal_checkout.funding.bancontact"
+msgid "Bancontact"
+msgstr "Bancontact"
+
+msgctxt "Languages::paypal_checkout.funding.eps"
+msgid "eps"
+msgstr "주당 순 이익"
+
+msgctxt "Languages::paypal_checkout.funding.giropay"
+msgid "giropay"
+msgstr "지로페이"
+
+msgctxt "Languages::paypal_checkout.funding.ideal"
+msgid "iDEAL"
+msgstr "이상적인"
+
+msgctxt "Languages::paypal_checkout.funding.mybank"
+msgid "MyBank"
+msgstr "마이뱅크"
+
+msgctxt "Languages::paypal_checkout.funding.p24"
+msgid "Przelewy24"
+msgstr "프레즐위24"
+
+msgctxt "Languages::paypal_checkout.funding.sofort"
+msgid "Sofort"
+msgstr "소포트"
+
+msgctxt "Languages::paypal_checkout.settings.enable_cards"
+msgid "Cards to show on checkout"
+msgstr "결제 시 보여줄 카드"
+
+msgctxt "Languages::paypal_checkout.card.visa"
+msgid "Visa"
+msgstr "비자"
+
+msgctxt "Languages::paypal_checkout.card.mastercard"
+msgid "Mastercard"
+msgstr "마스터 카드"
+
+msgctxt "Languages::paypal_checkout.card.amex"
+msgid "American Express"
+msgstr "아메리칸 익스프레스"
+
+msgctxt "Languages::paypal_checkout.card.discover"
+msgid "Discover"
+msgstr "발견하다"
+
+msgctxt "Languages::paypal_checkout.card.jcb"
+msgid "JCB"
+msgstr "JCB"
+
+msgctxt "Languages::paypal_checkout.card.elo"
+msgid "Elo"
+msgstr "엘로"
+
+msgctxt "Languages::paypal_checkout.card.hiper"
+msgid "Hiper"
+msgstr "하이퍼"
+
+msgctxt "Languages::paypal_checkout.debug_id"
+msgid "PayPal Debug ID"
+msgstr "PayPal 디버그 ID"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_title"
+msgid "PayPal"
+msgstr "페이팔"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_description"
+msgid "PayPal is a payment provider. It allows us to accept payments, if you choose a payment method powered by PayPal. Here is <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal privacy statement</a>."
+msgstr "PayPal은 결제 제공업체입니다. PayPal에서 제공하는 결제 방법을 선택하면 결제를 수락할 수 있습니다. 다음은 <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal 개인정보 보호정책</a>입니다."
+

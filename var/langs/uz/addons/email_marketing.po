@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/email_marketing.po\n"
+"X-Crowdin-File-ID: 7409\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::email_marketing"
+msgid "E-mail marketing"
+msgstr "Elektron pochta marketingi"
+
+msgctxt "Addons::description::email_marketing"
+msgid "Synchronizes your newsletter subscriber lists with MailChimp and Mad Mimi"
+msgstr "Axborot byulletenlari obunachilari ro'yxatini MailChimp va Mad Mimi bilan sinxronlashtiradi"
+
+msgctxt "Languages::subscribers_menu_description"
+msgid "Manage newsletter subscribers and settings."
+msgstr "Axborot byulletenlari obunachilari va sozlamalarini boshqaring."
+
+msgctxt "Languages::email_marketing.subscription_confirmed"
+msgid "Thank you for subscribing to our newsletter"
+msgstr "Bizning xabarnomamizga obuna bo'lganingiz uchun tashakkur"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed"
+msgid "Your subscription has been confirmed. No extra actions is required."
+msgstr "Obunangiz tasdiqlandi. Hech qanday qo'shimcha harakatlar talab qilinmaydi."
+
+msgctxt "Languages::email_marketing.subscription_pending"
+msgid "Email confirmation is required!"
+msgstr "Elektron pochtani tasdiqlash talab qilinadi!"
+
+msgctxt "Languages::email_marketing.text_subscription_pending"
+msgid "Thank you for subscribing to our newsletter.<p>A confirmation email has been sent to you. Please use the link in the email to confirm your subscription</p>"
+msgstr "Yangiliklar byulletenimizga obuna bo'lganingiz uchun tashakkur.<p>Tasdiqlash xati sizga yuborildi. Obunani tasdiqlash uchun e-pochtadagi havoladan foydalaning</p>"
+
+msgctxt "Languages::email_marketing.confirm_subscription"
+msgid "Please confirm subscription"
+msgstr "Iltimos, obunani tasdiqlang"
+
+msgctxt "Languages::email_marketing.text_confirm_subscription"
+msgid "We received a subscription request from you. Please confirm it:<p><a href=\"[href]\">Click here to confirm your subscription to our newsletter</a></p>If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above."
+msgstr "Sizdan obuna soʻrovi oldik. Iltimos, buni tasdiqlang:<p><a href=\"[href]\">Axborot byulleteniga obuna bo‘lganingizni tasdiqlash uchun shu yerni bosing</a></p>Agar siz ushbu xatni noto‘g‘ri olgan bo‘lsangiz, shunchaki o‘chirib tashlang. Yuqoridagi tasdiqlash havolasini bosmasangiz, obuna bo'lmaysiz."
+
+msgctxt "Languages::email_marketing.subscription_confirmed_2"
+msgid "Subscription confirmed"
+msgstr "Obuna tasdiqlandi"
+
+msgctxt "Languages::email_marketing.text_subscription_confirmed_2"
+msgid "Your subscription to our newsletter has been confirmed. Thank you for subscribing!"
+msgstr "Axborot byulleteniga obunangiz tasdiqlandi. Obuna bo'lganingiz uchun tashakkur!"
+
+msgctxt "Languages::email_marketing.email_subscribed"
+msgid "You were subscribed to our newsletter"
+msgstr "Siz bizning axborotnomamizga obuna bo'ldingiz"
+
+msgctxt "Languages::email_marketing.text_email_subscribed"
+msgid "Thank you for subscribing to our newsletter. <p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Bizning xabarnomamizga obuna bo'lganingiz uchun tashakkur. <p>Agar istalgan vaqtda xatlarimizni olishni to‘xtatmoqchi bo‘lsangiz, <a href=\"[href]\">obunani bekor qilish uchun ushbu havolani bosing</a>.</p>"
+
+msgctxt "Languages::email_marketing.email_subscribed_2optin"
+msgid "Subscription confirmed"
+msgstr "Obuna tasdiqlandi"
+
+msgctxt "Languages::email_marketing.text_email_subscribed_2optin"
+msgid "Your subscription to our newsletter has been confirmed.<p>If at any time you wish to stop receiving our emails, <a href=\"[href]\">click on this link to unsubscribe</a>.</p>"
+msgstr "Axborot byulleteniga obunangiz tasdiqlandi.<p>Agar istalgan vaqtda xatlarimizni olishni to‘xtatmoqchi bo‘lsangiz, <a href=\"[href]\">obunani bekor qilish uchun ushbu havolani bosing</a>.</p>"
+
+msgctxt "Languages::email_marketing.unsubscribe_successful"
+msgid "Unsubscribe successful"
+msgstr "Obunani bekor qilish muvaffaqiyatli"
+
+msgctxt "Languages::email_marketing.text_unsubscribe_successful"
+msgid "Your email has been removed from our list."
+msgstr "Sizning elektron pochtangiz ro'yxatimizdan olib tashlandi."
+
+msgctxt "Languages::email_marketing.export_all"
+msgid "Export all"
+msgstr "Hammasini eksport qiling"
+
+msgctxt "Languages::email_marketing.enter_api_key_and_save"
+msgid "Enter API key and save first"
+msgstr "API kalitini kiriting va avval saqlang"
+
+msgctxt "Languages::email_marketing.warning_email_exists"
+msgid "[email] is already subscribed"
+msgstr "[email] allaqachon obuna bo'lgan"
+
+msgctxt "Languages::email_marketing.new_subscriber"
+msgid "New subscriber"
+msgstr "Yangi obunachi"
+
+msgctxt "Languages::email_marketing.sync"
+msgid "Sync"
+msgstr "Sinxronlash"
+
+msgctxt "Languages::email_marketing.text_subscribe"
+msgid "Subscribe to our newsletter"
+msgstr "Bizning yangiliklarimizga obuna bo'ling"
+
+msgctxt "Languages::email_marketing.tmpl_subscription"
+msgid "Email marketing: Newsletter subscription form"
+msgstr "Elektron pochta marketingi: Axborot byulleteniga obuna shakli"
+
+msgctxt "Languages::privileges.manage_email_marketing"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privileges.view_email_marketing"
+msgid "Can view"
+msgstr "Can view\n"
+
+msgctxt "Languages::privilege_groups.email_marketing"
+msgid "Email marketing"
+msgstr "Elektron pochta marketingi"
+
+msgctxt "Languages::email_marketing.error_no_list"
+msgid "Please select mailing list in add-on settings to start import"
+msgstr "Importni boshlash uchun qo‘shimcha sozlamalarda pochta ro‘yxatini tanlang"
+
+msgctxt "SettingsSections::email_marketing::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsSections::email_marketing::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp\n"
+
+msgctxt "SettingsSections::email_marketing::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "SettingsOptions::email_marketing::em_show_on_checkout"
+msgid "Newsletter checkbox on checkout"
+msgstr "Hisob-kitob paytida axborot byulleteni belgilash katakchasi"
+
+msgctxt "SettingsOptions::email_marketing::em_checkout_enabled"
+msgid "Tick off by default"
+msgstr "Sukut bo'yicha belgilang"
+
+msgctxt "SettingsOptions::email_marketing::em_double_opt_in"
+msgid "Double opt-in"
+msgstr "Ikki marta ro'yxatdan o'tish"
+
+msgctxt "SettingsOptions::email_marketing::em_welcome_letter"
+msgid "Send a welcome letter with the unsubscribe link"
+msgstr "Obunani bekor qilish havolasi bilan tabrik xatini yuboring"
+
+msgctxt "SettingsOptions::email_marketing::em_service"
+msgid "Email integration provider"
+msgstr "Elektron pochta integratsiyasi provayderi"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_api_key"
+msgid "API key"
+msgstr "API kaliti"
+
+msgctxt "SettingsOptions::email_marketing::em_mailchimp_list"
+msgid "List"
+msgstr "Roʻyxat"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_username"
+msgid "E-mail"
+msgstr "Elektron pochta"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_api_key"
+msgid "API key"
+msgstr "API kaliti"
+
+msgctxt "SettingsOptions::email_marketing::em_madmimi_list"
+msgid "List"
+msgstr "Roʻyxat"
+
+msgctxt "SettingsVariants::email_marketing::em_service::dummy"
+msgid "--"
+msgstr "--\n"
+
+msgctxt "SettingsVariants::email_marketing::em_service::mailchimp"
+msgid "MailChimp"
+msgstr "MailChimp"
+
+msgctxt "SettingsVariants::email_marketing::em_service::madmimi"
+msgid "MadMimi"
+msgstr "MadMimi"
+
+msgctxt "Languages::email_template.email_marketing_confirmation"
+msgid "Email marketing: subscription confirmation"
+msgstr "Elektron pochta marketingi: obunani tasdiqlash"
+
+msgctxt "Languages::email_template.email_marketing_welcome"
+msgid "Email marketing: welcome letter"
+msgstr "Elektron pochta marketingi: xush kelibsiz xat"
+
+msgctxt "Languages::email_template.email_marketing_welcome_2optin"
+msgid "Email marketing: welcome letter (2optin)"
+msgstr "Elektron pochta marketingi: xush kelibsiz xat (2optin)"
+

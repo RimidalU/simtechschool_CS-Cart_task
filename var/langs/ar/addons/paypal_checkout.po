@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Arabic\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File: /release-4.16.2/addons/paypal_checkout.po\n"
+"X-Crowdin-File-ID: 7467\n"
+"PO-Revision-Date: 2023-03-21 11:14\n"
+
+msgctxt "Addons::name::paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "الخروج من PayPal"
+
+msgctxt "Addons::description::paypal_checkout"
+msgid "Allows you to accept payments through PayPal. Customers can pay with a card or with their PayPal account."
+msgstr "يسمح لك بقبول المدفوعات من خلال PayPal. يمكن للعملاء الدفع ببطاقة أو باستخدام حساب PayPal الخاص بهم."
+
+msgctxt "SettingsSections::paypal_checkout::general"
+msgid "General"
+msgstr "عام"
+
+msgctxt "Languages::paypal_checkout.paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "الخروج من PayPal"
+
+msgctxt "Languages::paypal_checkout.paypal"
+msgid "PayPal"
+msgstr "باي بال"
+
+msgctxt "Languages::paypal_checkout.client_id"
+msgid "App Client ID"
+msgstr "معرف عميل التطبيق"
+
+msgctxt "Languages::paypal_checkout.secret"
+msgid "App Secret"
+msgstr "سر التطبيق"
+
+msgctxt "Languages::paypal_checkout.order_id"
+msgid "Order ID in PayPal"
+msgstr "معرف الطلب في PayPal"
+
+msgctxt "Languages::paypal_checkout.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "معرف الالتقاط في PayPal"
+
+msgctxt "Languages::paypal_checkout.webhook_help_message"
+msgid "Specify the following URL when configuring a webhook for your REST application:"
+msgstr "حدد عنوان URL التالي عند تكوين خطاف ويب لتطبيق REST:"
+
+msgctxt "Languages::paypal_checkout.webhook"
+msgid "PayPal Checkout webhook: [payload]"
+msgstr "الرد التلقائي على الويب عبر PayPal Checkout: [payload]"
+
+msgctxt "Languages::paypal_checkout.settings.account"
+msgid "Account settings"
+msgstr "إعدادت الحساب"
+
+msgctxt "Languages::paypal_checkout.settings.enable_funding"
+msgid "Funding sources to show on checkout"
+msgstr "مصادر التمويل لتظهر عند الخروج"
+
+msgctxt "Languages::paypal_checkout.funding.card"
+msgid "Credit or debit cards"
+msgstr "الائتمان أو بطاقات السحب الآلي"
+
+msgctxt "Languages::paypal_checkout.funding.credit"
+msgid "PayPal Credit"
+msgstr "ائتمان PayPal"
+
+msgctxt "Languages::paypal_checkout.funding.venmo"
+msgid "Venmo"
+msgstr "فينمو"
+
+msgctxt "Languages::paypal_checkout.funding.sepa"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+msgctxt "Languages::paypal_checkout.funding.bancontact"
+msgid "Bancontact"
+msgstr "بانكونتاكت"
+
+msgctxt "Languages::paypal_checkout.funding.eps"
+msgid "eps"
+msgstr "eps"
+
+msgctxt "Languages::paypal_checkout.funding.giropay"
+msgid "giropay"
+msgstr "جيروباي"
+
+msgctxt "Languages::paypal_checkout.funding.ideal"
+msgid "iDEAL"
+msgstr "المثالي"
+
+msgctxt "Languages::paypal_checkout.funding.mybank"
+msgid "MyBank"
+msgstr "بنكي"
+
+msgctxt "Languages::paypal_checkout.funding.p24"
+msgid "Przelewy24"
+msgstr "برزيلوي 24"
+
+msgctxt "Languages::paypal_checkout.funding.sofort"
+msgid "Sofort"
+msgstr "سوفورت"
+
+msgctxt "Languages::paypal_checkout.settings.enable_cards"
+msgid "Cards to show on checkout"
+msgstr "بطاقات لتظهر عند الخروج"
+
+msgctxt "Languages::paypal_checkout.card.visa"
+msgid "Visa"
+msgstr "تأشيرة"
+
+msgctxt "Languages::paypal_checkout.card.mastercard"
+msgid "Mastercard"
+msgstr "بطاقة ماستر بطاقة ائتمان"
+
+msgctxt "Languages::paypal_checkout.card.amex"
+msgid "American Express"
+msgstr "أمريكان اكسبريس"
+
+msgctxt "Languages::paypal_checkout.card.discover"
+msgid "Discover"
+msgstr "يكتشف"
+
+msgctxt "Languages::paypal_checkout.card.jcb"
+msgid "JCB"
+msgstr "JCB"
+
+msgctxt "Languages::paypal_checkout.card.elo"
+msgid "Elo"
+msgstr "إلو"
+
+msgctxt "Languages::paypal_checkout.card.hiper"
+msgid "Hiper"
+msgstr "هيبر"
+
+msgctxt "Languages::paypal_checkout.debug_id"
+msgid "PayPal Debug ID"
+msgstr "معرف تصحيح PayPal"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_title"
+msgid "PayPal"
+msgstr "باي بال"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_description"
+msgid "PayPal is a payment provider. It allows us to accept payments, if you choose a payment method powered by PayPal. Here is <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal privacy statement</a>."
+msgstr "PayPal هو مزود الدفع. يسمح لنا بقبول المدفوعات ، إذا اخترت طريقة دفع مدعومة من PayPal. إليك <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">بيان خصوصية PayPal</a>."
+

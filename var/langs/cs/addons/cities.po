@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Czech\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:14\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Města"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Doplněk poskytuje novou funkcionalitu – města se automaticky přidávají na stránku pro zadání objednávky."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Chcete-li vytvořit nové město, měli byste vybrat zemi a region, kliknout na tlačítko „Hledat“ a vytvořit město pomocí tlačítka „+“. Pokud pro zemi neexistují žádné regiony, měly by být vytvořeny."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Přidat nové město"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Nové Město"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Vyberte město"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Nebyly vytvořeny žádné státy"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Není vybrán žádný stát"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "jiné město"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Vytvořte nový stát"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Lze prohlížet"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Může upravit"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Může upravit"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Města"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Kód město sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Aktualizujte města"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Aktualizace"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Stolová města byla aktualizována"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "město., město"
+

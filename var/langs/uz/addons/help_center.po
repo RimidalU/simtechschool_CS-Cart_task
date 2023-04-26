@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/help_center.po\n"
+"X-Crowdin-File-ID: 7429\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::help_center"
+msgid "Help center"
+msgstr "Yordam markazi"
+
+msgctxt "Addons::description::help_center"
+msgid "Adds a help button with links to relevant documentation and/or videos to various pages in the admin panel."
+msgstr "Administrator panelidagi turli sahifalarga tegishli hujjatlar va/yoki videolarga havolalar bilan yordam tugmasini qo‘shadi."
+
+msgctxt "Languages::help_center.help"
+msgid "Help"
+msgstr "Yordam bering"
+
+msgctxt "Languages::help_center.help_center"
+msgid "Help Center"
+msgstr "Yordam markazi"
+
+msgctxt "Languages::help_center.growth_center"
+msgid "Growth center"
+msgstr "O'sish markazi"
+
+msgctxt "Languages::help_center.loading"
+msgid "Loading..."
+msgstr "Yuklanmoqda..."
+
+msgctxt "Languages::help_center.no_data_relevant"
+msgid "Relevant information is not available for this section."
+msgstr "Ushbu bo'lim uchun tegishli ma'lumotlar mavjud emas."
+
+msgctxt "Languages::help_center.no_data"
+msgid "Information is not available for this section."
+msgstr "Ushbu bo'lim uchun tegishli ma'lumotlar mavjud emas."
+
+msgctxt "Languages::help_center.see_all_n_results"
+msgid "See all [n] results..."
+msgstr "Barcha [n]natijalarni koʻrish..."
+
+msgctxt "Languages::help_center.customer_care"
+msgid "Customer Care"
+msgstr "Mijozlarga xizmat"
+
+msgctxt "Languages::help_center.ask"
+msgid "Ask us a question"
+msgstr "Bizga savol bering"
+
+msgctxt "Languages::help_center.customer_care.view_all_tickets"
+msgid "View all tickets"
+msgstr "Barcha chiptalarni ko'rish"
+
+msgctxt "Languages::help_center.customer_care.all_tickets"
+msgid "All tickets"
+msgstr "Barcha chiptalar"
+
+msgctxt "Languages::help_center.customer_care.no_support_tickets"
+msgid "No support tickets found."
+msgstr "Hech qanday yordam chiptalari topilmadi."
+
+msgctxt "Languages::help_center.customer_care.submit_ticket"
+msgid "Submit a ticket"
+msgstr "Chipta yuboring"
+
+msgctxt "Languages::help_center.customer_care.service_unavailable"
+msgid "Your Customer Care subscription is not active"
+msgstr "Mijozlarni qo‘llab-quvvatlash xizmati obunangiz faol emas"
+
+msgctxt "Languages::help_center.customer_care.service_unavailable_description"
+msgid "Prolong the subscription to keep receiving support."
+msgstr "Prolong the subscription to keep receiving support.\n"
+
+msgctxt "Languages::help_center.customer_care.prolong_subscription"
+msgid "Prolong subscription"
+msgstr "Obunani uzaytirish"
+
+msgctxt "Languages::help_center.customer_care.sign_in_text"
+msgid "Sign in with your Help Desk account <br>to contact Customer Care and see your latest tickets."
+msgstr "Mijozlarni qoʻllab-quvvatlash xizmatiga murojaat qilish va oxirgi chiptalaringizni koʻrish uchun <br>Yordam stoli hisob qaydnomangiz bilan kiring."
+
+msgctxt "Languages::help_center.customer_care.status.resolved"
+msgid "Resolved"
+msgstr "Yechilgan"
+
+msgctxt "Languages::help_center.customer_care.status.open"
+msgid "Open"
+msgstr "Ochiq"
+
+msgctxt "Languages::help_center.customer_care.few_tickets_require_your_attention"
+msgid "A few tickets from Customer Care team require your attention. <a href=\"[url]\" target=\"[target]\">Click here to view tickets</a>"
+msgstr "Mijozlarni qo'llab-quvvatlash jamoasidan bir nechta chiptalar sizning e'tiboringizni talab qiladi. <a href=\"[url]\" target=\"[target]\">Chiptalarni ko‘rish uchun shu yerni bosing</a>"
+

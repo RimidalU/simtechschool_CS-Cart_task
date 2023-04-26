@@ -1,0 +1,490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/newsletters.po\n"
+"X-Crowdin-File-ID: 7447\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::newsletters"
+msgid "Newsletters"
+msgstr "Axborot byulletenlari"
+
+msgctxt "Addons::description::newsletters"
+msgid "Lets you configure newsletter sending"
+msgstr "Axborot byulletenlarini yuborishni sozlash imkonini beradi"
+
+msgctxt "Languages::newsletters_menu_description"
+msgid "Create and send newsletters to your customer."
+msgstr "Xaridoringizga axborot byulletenlarini yarating va yuboring."
+
+msgctxt "Languages::news_plain"
+msgid "Plain"
+msgstr "Oddiy"
+
+msgctxt "Languages::text_signup_for_subscriptions"
+msgid "Sign up for our newsletters!"
+msgstr "Bizning yangiliklarimizga obuna bo'ling!"
+
+msgctxt "Languages::tmpl_subscription"
+msgid "Newsletters: subscription form"
+msgstr "Axborot byulletenlari: obuna shakli"
+
+msgctxt "Languages::unsubscribe_link"
+msgid "Unsubscribe link"
+msgstr "Obunani bekor qilish havolasi"
+
+msgctxt "Languages::ne_add_subscribers_from_users"
+msgid "Add subscribers from the list of users"
+msgstr "Foydalanuvchilar ro'yxatidan obunachilarni qo'shing"
+
+msgctxt "Languages::ne_warning_subscr_email_exists"
+msgid "<b>[email]</b> is already in the subscribers list"
+msgstr "<b>[email]</b> allaqachon obunachilar ro'yxatida"
+
+msgctxt "Languages::warning_subscribers_import"
+msgid "Some mailing lists from the input file could not be found in the database. Certain imported subscribers will be left unassigned."
+msgstr "Kirish faylidagi ba'zi pochta ro'yxatlarini ma'lumotlar bazasida topib bo'lmadi. Ayrim import qilingan obunachilar tayinlanmagan holda qoldiriladi."
+
+msgctxt "Languages::subscribers_menu_item_text"
+msgid "Subscribers"
+msgstr "Obunachilar"
+
+msgctxt "Languages::block_mailing_lists"
+msgid "Newsletter subscription"
+msgstr "Axborot byulleteniga obuna"
+
+msgctxt "Languages::block_mailing_lists_description"
+msgid "Email field for newsletter subscription"
+msgstr "Axborot byulleteniga obuna bo'lish uchun elektron pochta maydoni"
+
+msgctxt "Languages::block_lite_checkout_newsletters"
+msgid "Checkout: Newsletters"
+msgstr "Tekshirish: Axborotnomalar"
+
+msgctxt "Languages::block_lite_checkout_newsletters_description"
+msgid "Ability to sign up for newsletters"
+msgstr "Axborot byulletenlariga ro'yxatdan o'tish qobiliyati"
+
+msgctxt "Languages::privileges.view_newsletters"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::privileges.manage_newsletters"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.newsletters"
+msgid "Newsletters"
+msgstr "Axborot byulletenlari"
+
+msgctxt "Languages::warning_newsletter_no_recipients"
+msgid "Newsletter hasn't been sent because no recipients were found matching the selected criteria."
+msgstr "Axborot byulleteni yuborilmadi, chunki tanlangan mezonlarga mos keladigan qabul qiluvchi topilmadi."
+
+msgctxt "Languages::text_newsletter_sent"
+msgid "The newsletter(s) have been sent successfully."
+msgstr "Xabarnoma(lar) muvaffaqiyatli yuborildi."
+
+msgctxt "Languages::email_cannot_be_empty"
+msgid "E-mail cannot be empty"
+msgstr "Elektron pochta bo'sh bo'lishi mumkin emas"
+
+msgctxt "Languages::sending_email_to"
+msgid "Sending email to [email]..."
+msgstr "[email] manziliga xat yuborilmoqda..."
+
+msgctxt "Languages::text_subscriber_added"
+msgid "Your e-mail has been successfully added to our free e-mail updates list"
+msgstr "Sizning elektron pochtangiz bizning bepul elektron pochta yangilanishlari ro'yxatiga muvaffaqiyatli qo'shildi"
+
+msgctxt "Languages::error_email_already_subscribed"
+msgid "Your e-mail is already subscribed."
+msgstr "Sizning elektron pochtangiz allaqachon obuna bo'lgan."
+
+msgctxt "Languages::text_subscriber_removed"
+msgid "Your e-mail has been successfully removed from our free e-mail updates list"
+msgstr "Sizning elektron pochtangiz bepul elektron pochta yangilanishlari ro'yxatidan muvaffaqiyatli olib tashlandi"
+
+msgctxt "Languages::text_subscriber_activated"
+msgid "Your email has been successfully activated"
+msgstr "Sizning elektron pochtangiz muvaffaqiyatli faollashtirildi"
+
+msgctxt "Languages::link_message_for_test_letter"
+msgid "The link will be displayed in a live newsletter"
+msgstr "Havola jonli axborot byulletenida ko'rsatiladi"
+
+msgctxt "Languages::newsletters"
+msgid "Newsletters"
+msgstr "Axborot byulletenlari"
+
+msgctxt "Languages::autoresponders"
+msgid "Autoresponders"
+msgstr "Avtomatik javob beruvchilar"
+
+msgctxt "Languages::campaigns"
+msgid "Campaigns"
+msgstr "Kampaniyalar"
+
+msgctxt "Languages::sent"
+msgid "Sent"
+msgstr "Yuborildi"
+
+msgctxt "Languages::subscribers_num"
+msgid "Number of subscribers"
+msgstr "Obunachilar soni"
+
+msgctxt "Languages::editing_mailing_list"
+msgid "Editing mailing list"
+msgstr "Pochta ro'yxatini tahrirlash"
+
+msgctxt "Languages::from_name"
+msgid "From name"
+msgstr "Nomidan"
+
+msgctxt "Languages::from_email"
+msgid "From email"
+msgstr "Elektron pochtadan"
+
+msgctxt "Languages::reply_to"
+msgid "Reply to"
+msgstr "Ga javob"
+
+msgctxt "Languages::register_autoresponder"
+msgid "Confirmation email"
+msgstr "Tasdiqlash elektron pochtasi"
+
+msgctxt "Languages::no_autoresponder"
+msgid "No autoresponder"
+msgstr "Avtomatik javob beruvchi yo'q"
+
+msgctxt "Languages::show_on_checkout"
+msgid "Show at checkout"
+msgstr "Kassada ko'rsatish"
+
+msgctxt "Languages::hide_on_checkout"
+msgid "Hide at checkout"
+msgstr "Kassada yashiring"
+
+msgctxt "Languages::addons.newsletters.show_on_registration_and_profile"
+msgid "Show on the Registration and Profile Details pages"
+msgstr "Roʻyxatdan oʻtish va profil maʼlumotlari sahifalarida koʻrsating"
+
+msgctxt "Languages::addons.newsletters.hide_on_registration_and_profile"
+msgid "Hide on the Registration and Profile Details pages"
+msgstr "Roʻyxatdan oʻtish va profil maʼlumotlari sahifalarida yashiring"
+
+msgctxt "Languages::show_on_separate_page"
+msgid "Show on separate page"
+msgstr "Alohida sahifada ko'rsatish"
+
+msgctxt "Languages::campaign_stats"
+msgid "Campaign statistics"
+msgstr "Kampaniya statistikasi"
+
+msgctxt "Languages::add_campaign"
+msgid "Add campaign"
+msgstr "Kampaniya qo'shing"
+
+msgctxt "Languages::new_campaign"
+msgid "New campaign"
+msgstr "Yangi kampaniya"
+
+msgctxt "Languages::newsletter_templates"
+msgid "Newsletter templates"
+msgstr "Axborot byulletenlari shablonlar"
+
+msgctxt "Languages::newsletter_autoresponders"
+msgid "Newsletter autoresponders"
+msgstr "Axborot byulletenlariga avtomatik javob beruvchilar"
+
+msgctxt "Languages::subject"
+msgid "Subject"
+msgstr "Mavzu"
+
+msgctxt "Languages::add_newsletter"
+msgid "Add newsletter"
+msgstr "Axborot byulletenini qo'shing"
+
+msgctxt "Languages::add_template"
+msgid "Add template"
+msgstr "Shablon qo'shing"
+
+msgctxt "Languages::add_autoresponder"
+msgid "Add autoresponder"
+msgstr "Avtomatik javob beruvchini qo'shing"
+
+msgctxt "Languages::more_subjects"
+msgid "Random subjects (one per line)"
+msgstr "Tasodifiy mavzular (har bir satrda bitta)"
+
+msgctxt "Languages::body_html"
+msgid "HTML body"
+msgstr "HTML tanasi"
+
+msgctxt "Languages::no_template"
+msgid "No template"
+msgstr "Shablon yo'q"
+
+msgctxt "Languages::load"
+msgid "Load"
+msgstr "Yuklash"
+
+msgctxt "Languages::campaign"
+msgid "Campaign"
+msgstr "Kampaniya"
+
+msgctxt "Languages::send_to"
+msgid "Send to"
+msgstr "Kimga yuboring"
+
+msgctxt "Languages::add_recipients_from_users"
+msgid "Add recipients from users"
+msgstr "Foydalanuvchilardan qabul qiluvchilarni qo'shing"
+
+msgctxt "Languages::customers_with_abandoned"
+msgid "Customers with abandoned"
+msgstr "Tashlab ketilgan mijozlar"
+
+msgctxt "Languages::cart_or_wishlist"
+msgid "Cart or Wishlist"
+msgstr "Savat yoki istaklar roʻyxati"
+
+msgctxt "Languages::which_is"
+msgid "which is"
+msgstr "qaysi"
+
+msgctxt "Languages::days_old"
+msgid "days old"
+msgstr "kunlik"
+
+msgctxt "Languages::send_to_test_email"
+msgid "Send to test email"
+msgstr "Sinov xatiga yuboring"
+
+msgctxt "Languages::save_and_send"
+msgid "Save and send"
+msgstr "Saqlash va yuborish"
+
+msgctxt "Languages::newsletter"
+msgid "Newsletter"
+msgstr "Axborot byulleteni"
+
+msgctxt "Languages::newsletter_template"
+msgid "Newsletter template"
+msgstr "Axborot byulleteni shabloni"
+
+msgctxt "Languages::newsletter_autoresponder"
+msgid "Newsletter autoresponder"
+msgstr "Axborot byulleteniga avtomatik javob beruvchi"
+
+msgctxt "Languages::mailing_list"
+msgid "Mailing list"
+msgstr "Pochta ro'yxati"
+
+msgctxt "Languages::confirmed"
+msgid "Confirmed"
+msgstr "Tasdiqlangan"
+
+msgctxt "Languages::subscribed_to"
+msgid "Subscribed to [num] lists"
+msgstr "[num] roʻyxatlarga obuna boʻlgan"
+
+msgctxt "Languages::subscribed"
+msgid "Subscribed"
+msgstr "Obuna boʻlgan"
+
+msgctxt "Languages::text_success_subscription"
+msgid "You have been successfully subscribed to our free e-mail updates and promotions!"
+msgstr "Siz bizning bepul elektron pochta yangilanishlari va reklama aktsiyalariga muvaffaqiyatli obuna bo'ldingiz!"
+
+msgctxt "Languages::text_unsubscribe_instructions"
+msgid "We respect your privacy and do not send unsolicited e-mail to users who have not requested correspondence. You have received this e-mail because you requested to receive our free updates and promotions.<br /><br /> If you wish to unsubscribe, please follow the link below:"
+msgstr "Biz sizning maxfiyligingizni hurmat qilamiz va yozishmalarni so'ramagan foydalanuvchilarga kiruvchi elektron pochta xabarlarini yubormaymiz. Siz bizning bepul yangilanishlarimiz va aksiyalarimizni olishni soʻraganingiz uchun ushbu elektron xatni oldingiz.<br /><br /> Obunani bekor qilishni istasangiz, quyidagi havolaga oʻting:"
+
+msgctxt "Languages::updates_subscription"
+msgid "updates and promotions subscription"
+msgstr "yangilanishlar va aktsiyalar obunasi"
+
+msgctxt "Languages::ult_shared_with"
+msgid "Shared with:"
+msgstr "Kimga ulashildi:"
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_email"
+msgid "Email of a sender."
+msgstr "Yuboruvchining elektron pochtasi."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_from_name"
+msgid "Name of a sender (e.g. company name)."
+msgstr "Yuboruvchining nomi (masalan, kompaniya nomi)."
+
+msgctxt "Languages::tt_addons_newsletters_views_mailing_lists_update_reply_to"
+msgid "Email to send replies to."
+msgstr "Javoblarni yuborish uchun elektron pochta."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_more_subjects"
+msgid "If several subjects are specified, email subject is randomly picked from this list."
+msgstr "Agar bir nechta mavzu ko'rsatilgan bo'lsa, elektron pochta mavzusi ushbu ro'yxatdan tasodifiy tanlanadi."
+
+msgctxt "Languages::tt_addons_newsletters_views_newsletters_update_users"
+msgid "If the message text contains the unsubscribe link, it will be empty for these users."
+msgstr "Agar xabar matnida obunani bekor qilish havolasi bo'lsa, u ushbu foydalanuvchilar uchun bo'sh bo'ladi."
+
+msgctxt "Languages::add_mailing_lists"
+msgid "Add mailing list"
+msgstr "Pochta ro'yxatini qo'shing"
+
+msgctxt "Languages::manage_subscribers"
+msgid "Manage subscribers"
+msgstr "Obunachilarni boshqarish"
+
+msgctxt "Languages::new_mailing_lists"
+msgid "New mailing list"
+msgstr "Yangi pochta ro'yxati"
+
+msgctxt "Languages::newsletters.new_subscribers"
+msgid "New subscribers"
+msgstr "Yangi obunachilar"
+
+msgctxt "SettingsSections::newsletters::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::newsletters::newsletters_per_pass"
+msgid "Newsletters sent per step"
+msgstr "Har bir bosqichda yuboriladigan axborot byulletenlari"
+
+msgctxt "SettingsOptions::newsletters::elm_advanced_mailing_server_options"
+msgid "Advanced mailing server options"
+msgstr "Kengaytirilgan pochta serveri imkoniyatlari"
+
+msgctxt "SettingsOptions::newsletters::mailer_send_method"
+msgid "Method of sending e-mails"
+msgstr "Elektron pochta xabarlarini yuborish usuli"
+
+msgctxt "SettingsOptions::newsletters::elm_smtp_server_settings"
+msgid "SMTP server settings"
+msgstr "SMTP server sozlamalari"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_host"
+msgid "SMTP host"
+msgstr "SMTP xost"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_username"
+msgid "SMTP username"
+msgstr "SMTP foydalanuvchi nomi"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_password"
+msgid "SMTP password"
+msgstr "SMTP paroli"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_ecrypted_connection"
+msgid "Use Encrypted Connection"
+msgstr "Shifrlangan ulanishdan foydalaning"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::none"
+msgid "None"
+msgstr "Yo'q"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::tls"
+msgid "TLS"
+msgstr "TLS"
+
+msgctxt "SettingsVariants::newsletters::mailer_smtp_ecrypted_connection::ssl"
+msgid "SSL"
+msgstr "SSL"
+
+msgctxt "SettingsOptions::newsletters::mailer_smtp_auth"
+msgid "Use SMTP authentication"
+msgstr "SMTP autentifikatsiyasidan foydalaning"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::smtp"
+msgid "via SMTP server"
+msgstr "SMTP server orqali"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::mail"
+msgid "via php mail function"
+msgstr "php pochta funktsiyasi orqali"
+
+msgctxt "SettingsVariants::newsletters::mailer_send_method::default"
+msgid "use default settings"
+msgstr "standart sozlamalardan foydalaning"
+
+msgctxt "SettingsSections::newsletters::promotions"
+msgid "Promotions"
+msgstr "Aktsiyalar"
+
+msgctxt "SettingsOptions::newsletters::coupon"
+msgid "Choose a promotion whose promo code will be given at subscription"
+msgstr "Obuna paytida promo-kodi beriladigan aksiyani tanlang"
+
+msgctxt "Languages::subscribers_promo_subject"
+msgid "Thank you for subscribing! Use the coupon code [coupon] in our special offer \"[promotion]\"."
+msgstr "Obuna bo'lganingiz uchun tashakkur! Kupon kodidan [coupon] \"[promotion]\" maxsus taklifimizda foydalaning."
+
+msgctxt "Languages::subscribers_no_promo"
+msgid "No promotion"
+msgstr "Rag'batlantirish yo'q"
+
+msgctxt "Languages::promotion_cond_subscribed"
+msgid "Customer is subscribed"
+msgstr "Xaridor obuna bo'ldi"
+
+msgctxt "Languages::addons.newsletters.email_exists_in_list"
+msgid "<b>[email]</b> is already in the mailing list"
+msgstr "<b>[email]</b> allaqachon pochta ro'yxatida"
+
+msgctxt "Languages::email_template.newsletters_newsletter"
+msgid "Newsletter"
+msgstr "Axborot byulleteni"
+
+msgctxt "Languages::email_template.newsletters_promotion"
+msgid "Newsletters: promotion"
+msgstr "Axborot byulletenlari: reklama"
+
+msgctxt "Languages::activation_key"
+msgid "Activation key"
+msgstr "Faollashtirish kaliti"
+
+msgctxt "Languages::unsubscribe_key"
+msgid "Unsubscribe key"
+msgstr "Obunani bekor qilish kaliti"
+
+msgctxt "Languages::subscribers_date"
+msgid "Subscribers date"
+msgstr "Obunachilar sanasi"
+
+msgctxt "Languages::mailing_list_date"
+msgid "Mailing list date"
+msgstr "Pochta ro'yxati sanasi"
+
+msgctxt "Languages::gdpr_newsletters"
+msgid "Personal data from newsletters"
+msgstr "Axborot byulletenlaridan shaxsiy ma'lumotlar"
+
+msgctxt "Languages::newsletters.subscribe_to_newsletters"
+msgid "Newsletters: Subscribe to newsletters"
+msgstr "Axborot byulletenlari: Axborot byulletenlariga obuna bo'ling"
+
+msgctxt "Languages::newsletters.agreement_text_short_subscribe_to_newsletters"
+msgid "I agree to have my personal data <u>processed as follows</u> and I want to subscribe for the following newsletters:"
+msgstr "Men shaxsiy ma'lumotlarimga <u>quyidagicha ishlov berilishiga</u> roziman va quyidagi axborot byulletenlariga obuna bo'lishni xohlayman:"
+
+msgctxt "Languages::newsletters.agreement_text_full_subscribe_to_newsletters"
+msgid "<p>When you sign up for a specific newsletter, we ([company]) add your email address to a corresponding mailing list. While it is there, we know that we can contact you by email regarding that topic.</p> <p>You can always have your email address removed from our mailing lists. There are multiple ways to do it:</p><ul> <li>Once your account is registered, just sign in and unsubscribe from newsletters in profile settings.</li> <li>Use the “Unsubscribe” link in our newsletters that you receive.</li> <li>Send an email to [email].</li> </ul> <p>We may use a third-party email service (MailChimp and/or Mad Mimi) to send newsletters. Some members of our staff can view mailing lists with email addresses. That way they’ll be able to remove your email address from the mailing list, should you request us to do so.</p> <p>Please note that mailing lists are independent from each other. If you decide not to receive newsletters at all, you’ll have to unsubscribe from all the mailing lists. Even if you do that, you’ll still receive account-related emails (such as order status notifications, password reset emails, and more). It is essential for operating an online store.</p> <p>If you decide that you no longer want to use our store and would like to have your personal data removed from our database (or if you’d like to get all the personal data associated with your account that we have), please send an email to [email].</p> <p>If you believe that your personal data has been misused, you have the right to lodge a complaint with a supervisory authority. We’re obliged by EU General Data Protection Regulation to let you know about this right; we don’t actually intend to misuse your data.</p>"
+msgstr "<p>Muayyan axborot byulleteniga ro'yxatdan o'tganingizda, biz ([company]) sizning elektron pochta manzilingizni tegishli pochta ro'yxatiga qo'shamiz. U yerda ekan, biz siz bilan ushbu mavzu boʻyicha elektron pochta orqali bogʻlanishimiz mumkinligini bilamiz.</p> <p>Siz har doim elektron pochta manzilingizni pochta roʻyxatlarimizdan olib tashlashingiz mumkin. Buning bir necha yoʻli mavjud:</p><ul> <li>Hisob qaydnomangiz roʻyxatdan oʻtgandan soʻng, profil sozlamalarida tizimga kiring va yangiliklar byulletenlariga obunani bekor qiling.</li> <li>Bizning sahifamizdagi “Obunani bekor qilish” havolasidan foydalaning. siz olgan axborot byulletenlari.</li> <li>Xatni [email] manziliga yuboring.</li> </ul> <p>Yuborish uchun uchinchi tomon elektron pochta xizmatidan (MailChimp va/yoki Mad Mimi) foydalanishimiz mumkin. axborot byulletenlari. Bizning xodimlarimizning ba'zi a'zolari elektron pochta manzillari bilan pochta ro'yxatlarini ko'rishlari mumkin. Shunday qilib, agar bizdan buni talab qilsangiz, ular sizning e-pochta manzilingizni pochta roʻyxatidan oʻchirib tashlashi mumkin.</p> <p>Pochta roʻyxatlari bir-biridan mustaqil ekanligini unutmang. Agar siz umuman axborot byulletenlarini olmaslikka qaror qilsangiz, barcha pochta ro'yxatlariga obunani bekor qilishingiz kerak bo'ladi. Agar shunday qilsangiz ham, siz hali ham hisob bilan bog'liq elektron pochta xabarlarini olasiz (masalan, buyurtma holati haqida bildirishnomalar, parolni tiklash xatlari va boshqalar). Bu onlayn-do'konni boshqarish uchun zarurdir.</p> <p>Agar siz do'konimizdan boshqa foydalanishni istamasangiz va shaxsiy ma'lumotlaringizni ma'lumotlar bazamizdan o'chirib tashlamoqchi bo'lsangiz (yoki barchasini olishni istasangiz) hisobingiz bilan bog‘liq shaxsiy ma’lumotlar), iltimos, [email] manziliga e-pochta orqali xabar yuboring.</p> <p>Agar shaxsiy ma’lumotlaringizdan noto‘g‘ri foydalanilgan deb hisoblasangiz, nazorat organiga shikoyat qilish huquqiga egasiz. hokimiyat. Biz Yevropa Ittifoqining maʼlumotlarni himoya qilish boʻyicha umumiy reglamentiga binoan sizga ushbu huquq haqida xabar berishga majburmiz; maʼlumotlaringizdan notoʻgʻri foydalanish niyatimiz yoʻq.</p>"
+
+msgctxt "Languages::newsletters.use_for_subscribe_form"
+msgid "Subscribe form"
+msgstr "Obuna shakli"
+
+msgctxt "Languages::newsletters.default_mailing_list"
+msgid "Default mailing list"
+msgstr "Standart pochta ro'yxati"
+

@@ -1,0 +1,153 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+
+msgctxt "Addons::name::robokassa"
+msgid "Robokassa"
+msgstr "Robokassa"
+
+msgctxt "Addons::description::robokassa"
+msgid "Allows you to accept payments via Robokassa"
+msgstr "Allows you to accept payments via Robokassa"
+
+msgctxt "Languages::robokassa.robokassa"
+msgid "Robokassa"
+msgstr "Robokassa"
+
+msgctxt "Languages::robokassa.store_id"
+msgid "Store ID"
+msgstr "Store ID"
+
+msgctxt "Languages::robokassa.account_number"
+msgid "Account number"
+msgstr "Account number"
+
+msgctxt "Languages::robokassa.master_store_id"
+msgid "Master store ID"
+msgstr "Master store ID"
+
+msgctxt "Languages::robokassa.get_payment_methods"
+msgid "Get payment methods"
+msgstr "Get payment methods"
+
+msgctxt "Languages::robokassa.text_status_map"
+msgid "Map of order statuses"
+msgstr "Map of order statuses"
+
+msgctxt "Languages::robokassa.paid"
+msgid "Paid"
+msgstr "Paid"
+
+msgctxt "Languages::robokassa.final_status"
+msgid "Forming full payment receipt"
+msgstr "Forming full payment receipt"
+
+msgctxt "Languages::robokassa.prepayment_receipt_created"
+msgid "Prepayment receipt created"
+msgstr "Prepayment receipt created"
+
+msgctxt "Languages::robokassa.payment_receipt_created"
+msgid "Full payment receipt created"
+msgstr "Full payment receipt created"
+
+msgctxt "Languages::robokassa.notification_url_method"
+msgid "Method of sending data to [url_type]"
+msgstr "Method of sending data to [url_type]"
+
+msgctxt "Languages::robokassa.technical_preferences"
+msgid "Technical preferences for your Robokassa e-shop"
+msgstr "Technical preferences for your Robokassa e-shop"
+
+msgctxt "Languages::robokassa.password1"
+msgid "Password1"
+msgstr "Password1"
+
+msgctxt "Languages::robokassa.password2"
+msgid "Password2"
+msgstr "Password2"
+
+msgctxt "Languages::robokassa.control_summ_wrong"
+msgid "Wrong control summ"
+msgstr "Wrong control summ"
+
+msgctxt "Languages::robokassa.approved"
+msgid "Approved"
+msgstr "Approved"
+
+msgctxt "Languages::robokassa.merchant_response_was_not_received"
+msgid "No response from the merchant received. Please check this transaction manually."
+msgstr "No response from the merchant received. Please check this transaction manually."
+
+msgctxt "Languages::robokassa.text_transaction_cancelled"
+msgid "Transaction was canceled by the customer"
+msgstr "Transaction was canceled by the customer"
+
+msgctxt "Languages::robokassa.result_url"
+msgid "Result Url"
+msgstr "Result Url"
+
+msgctxt "Languages::robokassa.notification_result_url_method"
+msgid "Method of sending data to Result Url"
+msgstr "Method of sending data to Result Url"
+
+msgctxt "Languages::robokassa.success_url"
+msgid "Success Url"
+msgstr "Success Url"
+
+msgctxt "Languages::robokassa.notification_success_url_method"
+msgid "Method of sending data to Success Url"
+msgstr "Method of sending data to Success Url"
+
+msgctxt "Languages::robokassa.fail_url"
+msgid "Fail Url"
+msgstr "Fail Url"
+
+msgctxt "Languages::robokassa.notification_fail_url_method"
+msgid "Method of sending data to Fail Url"
+msgstr "Method of sending data to Fail Url"
+
+msgctxt "Languages::robokassa.merchantid"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::robokassa.description"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "Languages::robokassa.test_live_mode"
+msgid "Test/Live mode"
+msgstr "Test/Live mode"
+
+msgctxt "Languages::robokassa.commission"
+msgid "Commission"
+msgstr "Commission"
+
+msgctxt "Languages::robokassa.payment_method"
+msgid "Payment method"
+msgstr "Payment method"
+
+msgctxt "Languages::robokassa.final_status"
+msgid "Formation of the final receipt"
+msgstr "Formation of the final receipt"
+
+msgctxt "Languages::robokassa.test"
+msgid "Test"
+msgstr "Test"
+
+msgctxt "Languages::robokassa.live"
+msgid "Live"
+msgstr "Live"
+
+msgctxt "Languages::robokassa.customer"
+msgid "Customer"
+msgstr "Customer"
+
+msgctxt "Languages::robokassa.administrator"
+msgid "Administrator"
+msgstr "Administrator"
+
+msgctxt "Languages::robokassa.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Withdrawal for the order #[order_id]"

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "都市"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "このアドオンは新しい機能を提供します - 都市は注文ページに自動的に追加されます。"
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "新しい都市を作成するには、国と地域を選択し、[検索] ボタンをクリックして、[+] ボタンを使用して都市を作成します。その国の地域がない場合は、作成する必要があります。"
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "新しい都市を追加"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "ニューシティー"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "都市を選択"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "ステートが作成されていません"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "州が選択されていません"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "別の都市"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "新しい状態を作成する"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "閲覧可能"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "編集することができます"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "編集することができます"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "都市"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "コードシティSDK"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "都市を更新する"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "アップデート"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "テーブルの都市が更新されました"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "都市、都市"
+

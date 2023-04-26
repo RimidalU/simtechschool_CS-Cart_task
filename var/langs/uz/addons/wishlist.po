@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/wishlist.po\n"
+"X-Crowdin-File-ID: 7551\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::wishlist"
+msgid "Wish List"
+msgstr "Istaklar roʻyxati"
+
+msgctxt "Addons::description::wishlist"
+msgid "Lets customers store items in personal wish lists"
+msgstr "Mijozlarga narsalarni shaxsiy istaklar ro'yxatida saqlash imkonini beradi"
+
+msgctxt "Languages::add_to_wishlist"
+msgid "Add to wish list"
+msgstr "Istaklar ro'yxatiga qo'shing"
+
+msgctxt "Languages::clear_wishlist"
+msgid "Clear wish list"
+msgstr "Istaklar ro'yxatini tozalash"
+
+msgctxt "Languages::view_wishlist"
+msgid "View wish list"
+msgstr "Istaklar ro'yxatini ko'rish"
+
+msgctxt "Languages::wishlist_content"
+msgid "Wish list content"
+msgstr "Istaklar ro'yxati tarkibi"
+
+msgctxt "Languages::wishlist"
+msgid "Wish list"
+msgstr "Istaklar roʻyxati"
+
+msgctxt "Languages::wishlist_short"
+msgid "Wish list"
+msgstr "Istaklar roʻyxati"
+
+msgctxt "Languages::wishlist_note"
+msgid "Go to your wishlist"
+msgstr "Istaklar ro'yxatiga o'ting"
+
+msgctxt "Languages::text_failed_gift_certificate_addition"
+msgid "Failed to add the certificate. Make sure the summary amount is not zero."
+msgstr "Sertifikat qo‘shib bo‘lmadi. Xulosa miqdori nolga teng emasligiga ishonch hosil qiling."
+
+msgctxt "Languages::text_gift_cert_added_to_wishlist"
+msgid "The gift certificate has been added to the wish list"
+msgstr "Sovg'a sertifikati istaklar ro'yxatiga qo'shildi"
+
+msgctxt "Languages::product_added_to_wl"
+msgid "The product was added to your Wish list"
+msgstr "Mahsulot istaklar ro'yxatiga qo'shildi"
+
+msgctxt "Languages::product_in_wishlist"
+msgid "This product is already in the wish list"
+msgstr "Bu mahsulot allaqachon istaklar ro'yxatida"
+
+msgctxt "Languages::wishlist_products"
+msgid "Wish list products"
+msgstr "Istaklar ro'yxati mahsulotlar"
+

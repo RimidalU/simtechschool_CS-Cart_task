@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-22 07:16\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Города"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Возможность автоматического заполнения поля \"Город\" при оформлении заказа."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Для создания нового города: выберите страну и регион, нажмите кнопку \"Поиск\", создайте город с помощью кнопки \"+\". Если у страны нет регионов, необходимо их создать."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Добавить новый город"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Новый город"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Выберите город"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Нет созданных областей"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Не выбрана область"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "другой город"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Создать новый регион"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Просмотр"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Редактирование"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Редактирование"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Города"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Код города СДЭК"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Обновить список городов"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Обновить"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Список городов был обновлен"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "г."
+

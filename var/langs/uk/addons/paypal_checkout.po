@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.16.2/addons/paypal_checkout.po\n"
+"X-Crowdin-File-ID: 7467\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "PayPal Checkout"
+
+msgctxt "Addons::description::paypal_checkout"
+msgid "Allows you to accept payments through PayPal. Customers can pay with a card or with their PayPal account."
+msgstr "Дозволяє приймати платежі через PayPal. Клієнти можуть платити за допомогою картки або свого облікового запису PayPal."
+
+msgctxt "SettingsSections::paypal_checkout::general"
+msgid "General"
+msgstr "Загальний"
+
+msgctxt "Languages::paypal_checkout.paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "PayPal Checkout"
+
+msgctxt "Languages::paypal_checkout.paypal"
+msgid "PayPal"
+msgstr "PayPal"
+
+msgctxt "Languages::paypal_checkout.client_id"
+msgid "App Client ID"
+msgstr "Ідентифікатор клієнта програми"
+
+msgctxt "Languages::paypal_checkout.secret"
+msgid "App Secret"
+msgstr "App Secret"
+
+msgctxt "Languages::paypal_checkout.order_id"
+msgid "Order ID in PayPal"
+msgstr "ID замовлення в PayPal"
+
+msgctxt "Languages::paypal_checkout.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "Захоплення ідентифікатора в PayPal"
+
+msgctxt "Languages::paypal_checkout.webhook_help_message"
+msgid "Specify the following URL when configuring a webhook for your REST application:"
+msgstr "Укажіть таку URL-адресу, налаштовуючи вебхук для програми REST:"
+
+msgctxt "Languages::paypal_checkout.webhook"
+msgid "PayPal Checkout webhook: [payload]"
+msgstr "Вебхук PayPal Checkout: [payload]"
+
+msgctxt "Languages::paypal_checkout.settings.account"
+msgid "Account settings"
+msgstr "Налаштування аккаунта"
+
+msgctxt "Languages::paypal_checkout.settings.enable_funding"
+msgid "Funding sources to show on checkout"
+msgstr "Джерела фінансування для показу на касі"
+
+msgctxt "Languages::paypal_checkout.funding.card"
+msgid "Credit or debit cards"
+msgstr "Кредитні або дебетові картки"
+
+msgctxt "Languages::paypal_checkout.funding.credit"
+msgid "PayPal Credit"
+msgstr "Кредит PayPal"
+
+msgctxt "Languages::paypal_checkout.funding.venmo"
+msgid "Venmo"
+msgstr "Венмо"
+
+msgctxt "Languages::paypal_checkout.funding.sepa"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+msgctxt "Languages::paypal_checkout.funding.bancontact"
+msgid "Bancontact"
+msgstr "Bancontact"
+
+msgctxt "Languages::paypal_checkout.funding.eps"
+msgid "eps"
+msgstr "eps"
+
+msgctxt "Languages::paypal_checkout.funding.giropay"
+msgid "giropay"
+msgstr "giropay"
+
+msgctxt "Languages::paypal_checkout.funding.ideal"
+msgid "iDEAL"
+msgstr "IDEAL"
+
+msgctxt "Languages::paypal_checkout.funding.mybank"
+msgid "MyBank"
+msgstr "MyBank"
+
+msgctxt "Languages::paypal_checkout.funding.p24"
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+msgctxt "Languages::paypal_checkout.funding.sofort"
+msgid "Sofort"
+msgstr "Софорт"
+
+msgctxt "Languages::paypal_checkout.settings.enable_cards"
+msgid "Cards to show on checkout"
+msgstr "Картки для показу на касі"
+
+msgctxt "Languages::paypal_checkout.card.visa"
+msgid "Visa"
+msgstr "Віза"
+
+msgctxt "Languages::paypal_checkout.card.mastercard"
+msgid "Mastercard"
+msgstr "Mastercard"
+
+msgctxt "Languages::paypal_checkout.card.amex"
+msgid "American Express"
+msgstr "American Express"
+
+msgctxt "Languages::paypal_checkout.card.discover"
+msgid "Discover"
+msgstr "Відкрийте для себе"
+
+msgctxt "Languages::paypal_checkout.card.jcb"
+msgid "JCB"
+msgstr "JCB"
+
+msgctxt "Languages::paypal_checkout.card.elo"
+msgid "Elo"
+msgstr "Ело"
+
+msgctxt "Languages::paypal_checkout.card.hiper"
+msgid "Hiper"
+msgstr "Гіпер"
+
+msgctxt "Languages::paypal_checkout.debug_id"
+msgid "PayPal Debug ID"
+msgstr "Ідентифікатор налагодження PayPal"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_title"
+msgid "PayPal"
+msgstr "PayPal"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_description"
+msgid "PayPal is a payment provider. It allows us to accept payments, if you choose a payment method powered by PayPal. Here is <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal privacy statement</a>."
+msgstr "PayPal є постачальником платежів. Це дозволяє нам приймати платежі, якщо ви виберете спосіб оплати, який підтримує PayPal. Ось <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">Заява про конфіденційність PayPal</a>."
+

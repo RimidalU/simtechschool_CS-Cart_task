@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Byer"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Tillegget gir ny funksjonalitet – byer som legges til automatisk på bestillingssiden."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "For å opprette en ny by, bør du velge land og region, klikke på \"Søk\"-knappen og opprette en by ved å bruke \"+\"-knappen. Hvis det ikke finnes regioner for landet, bør de opprettes."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Legg til ny by"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Ny by"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Velg by"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Ingen stater opprettet"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Ingen stat valgt"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "en annen by"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Opprett ny tilstand"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Kan se"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Kan redigere"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Kan redigere"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Byer"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Kode by sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Oppdater byer"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Oppdater"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Tabellbyer ble oppdatert"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "by., by"
+

@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "城市"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "该附加组件提供了新功能——城市将自动添加到下订单页面。"
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "要创建一个新城市，您应该选择国家和地区，单击“搜索”按钮并使用“+”按钮创建一个城市。如果该国家/地区没有区域，则应创建它们。"
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "添加新城市"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "新城市"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "选择城市"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "没有创建状态"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "未选择状态"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "另一个城市"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "创建新状态"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "可以查看"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "可以编辑"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "可以编辑"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "城市"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "码城服务台"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "更新城市"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "更新"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "表格城市已更新"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "城市., 城市"
+

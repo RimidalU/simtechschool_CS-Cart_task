@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+  <id>tinkoff</id>
+  <version>1.0</version>
+  <default_language>en</default_language>
+  <priority>1000</priority>
+  <status>active</status>
+  <compatibility>
+    <dependencies>rus_taxes</dependencies>
+  </compatibility>
+
+  <installer>\Tygh\Addons\Tinkoff\Installer</installer>
+  <bootstrap>\Tygh\Addons\Tinkoff\Bootstrap</bootstrap>
+
+  <autoload>
+    <psr4 prefix="Tygh\Addons\Tinkoff\">src</psr4>
+  </autoload>
+</addon>

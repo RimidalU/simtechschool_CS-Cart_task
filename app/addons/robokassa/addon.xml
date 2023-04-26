@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>robokassa</id>
+    <version>1.0</version>
+    <default_language>ru</default_language>
+    <priority>4500</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <dependencies>rus_taxes</dependencies>
+    </compatibility>
+    <autoload>
+        <psr4 prefix="Tygh\Addons\Robokassa\">src</psr4>
+    </autoload>
+    <bootstrap>\Tygh\Addons\Robokassa\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\Robokassa\Installer</installer>
+    <queries>
+        <item for="install" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies
+            ADD COLUMN robokassa_store_id VARCHAR(128),
+            ADD COLUMN robokassa_account_number INT(4) UNSIGNED
+        </item>
+        <item for="uninstall" editions="MULTIVENDOR">
+            ALTER TABLE ?:companies
+            DROP COLUMN robokassa_store_id,
+            DROP COLUMN robokassa_account_number
+        </item>
+    </queries>
+</addon>

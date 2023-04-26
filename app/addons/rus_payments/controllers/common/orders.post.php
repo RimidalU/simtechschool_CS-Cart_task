@@ -1,0 +1,316 @@
+<?php
+/***************************************************************************
+ *                                                                          *
+ *   (c) 2004 Vladimir V. Kalynyak, Alexey V. Vinokurov, Ilya M. Shalnev    *
+ *                                                                          *
+ * This  is  commercial  software,  only  users  who have purchased a valid *
+ * license  and  accept  to the terms of the  License Agreement can install *
+ * and use this program.                                                    *
+ *                                                                          *
+ ****************************************************************************
+ * PLEASE READ THE FULL TEXT  OF THE SOFTWARE  LICENSE   AGREEMENT  IN  THE *
+ * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
+ ****************************************************************************/
+
+use Tygh\Enum\NotificationSeverity;
+use Tygh\Enum\SiteArea;
+use Tygh\Payments\RusInvoicePayment;
+use Tygh\Registry;
+
+if (!defined('BOOTSTRAP')) { die('Access denied'); }
+
+if ($mode == 'print_sbrf_receipt' || $mode == "send_sbrf_receipt") {
+
+    $order_info = fn_get_order_info($_REQUEST['order_id']);
+
+    $currencies = Registry::get('currencies');
+
+    if (isset($currencies['RUB'])) {
+        $currency = $currencies['RUB'];
+
+        $for_rub = fn_format_rate_value($order_info['total'], 'F', $currency['decimals'], $currency['decimals_separator'], $currency['thousands_separator'], $currency['coefficient']);
+
+        if ($currency['decimals'] != 0) {
+            $length_for_rub = $currency['decimals']+1;
+            $rub = substr($for_rub , 0 , -$length_for_rub );
+
+            $length_for_kop = $currency['decimals'];
+
+            $kop = substr($for_rub , -$length_for_kop );
+
+            $total_print = '<strong>' . $rub . '</strong>&nbsp;' . __("sbrf_rub") . '&nbsp;<strong>' . $kop . '</strong>&nbsp;' . __("sbrf_kop");
+        } else {
+            $total_print = '<strong>' . $for_rub . '</strong>&nbsp;' . __("sbrf_rub");
+        }
+    } else {
+        $total_print = fn_format_price_by_currency($order_info['total']);
+    }
+
+    $view = Tygh::$app['view'];
+
+    $view->assign('total_print', $total_print);
+    $view->assign('order_info', $order_info);
+    $view->assign('fonts_path', fn_get_theme_path('[relative]/[theme]/media/fonts'));
+
+    $temp_dir = Registry::get('config.dir.cache_misc') . 'tmp/';
+    fn_mkdir($temp_dir);
+
+    $path = fn_qr_generate($order_info, '|', $temp_dir);
+    $url_qr_code = Registry::get('config.current_location') . '/' . fn_get_rel_dir($path);
+    $view->assign('url_qr_code', $url_qr_code);
+
+    if ($mode === 'send_sbrf_receipt') {
+        if (!empty($order_info['email'])) {
+            fn_disable_live_editor_mode();
+
+            $html = $view->displayMail('addons/rus_payments/print_sbrf_receipt.tpl', false, SiteArea::STOREFRONT);
+
+            if (!is_dir(fn_get_files_dir_path())) {
+                fn_mkdir(fn_get_files_dir_path());
+            }
+
+            $receipt_file_path = fn_get_files_dir_path() . "sberbank_receipt-{$order_info['order_id']}.pdf";
+            if (Tygh\Addons\PdfDocuments\Pdf::render($html, $receipt_file_path, true)) {
+                register_shutdown_function(static function () use ($receipt_file_path) {
+                    fn_rm($receipt_file_path);
+                });
+
+                $data = [
+                    'order_info'  => $order_info,
+                    'total_print' => $total_print,
+                    'fonts_path'  => fn_get_theme_path('[relative]/[theme]/media/fonts'),
+                    'url_qr_code' => $url_qr_code,
+                    'email_subj'  => __('sbrf_receipt_for_payment', ['[order_id]' => $order_info['order_id']]),
+                ];
+
+                /** @var Tygh\Mailer\Mailer $mailer */
+                $mailer = Tygh::$app['mailer'];
+
+                $mailer->send(
+                    [
+                        'to'          => $order_info['email'],
+                        'from'        => 'default_company_orders_department',
+                        'data'        => $data,
+                        'attachments' => [$receipt_file_path],
+                        'tpl'         => 'addons/rus_payments/print_sbrf_receipt.tpl',
+                        'is_html'     => true,
+                    ],
+                    SiteArea::ADMIN_PANEL
+                );
+
+                fn_set_notification(NotificationSeverity::NOTICE, __('notice'), __('text_email_sent'));
+            } else {
+                fn_set_notification(NotificationSeverity::ERROR, __('notice'), __('rus_payments.sberbank.error_text_email_not_sent'));
+            }
+        }
+    } else {
+        $view->assign('show_print_button', true);
+        $view->displayMail('addons/rus_payments/print_sbrf_receipt.tpl', true, SiteArea::STOREFRONT);
+    }
+
+    return [CONTROLLER_STATUS_NO_CONTENT];
+
+}  elseif ($mode == 'print_invoice_payment' || $mode == 'send_account_payment') {
+
+    $month = array(
+        1 => 'Января',
+        2 => 'Февраля',
+        3 => 'Марта',
+        4 => 'Апреля',
+        5 => 'Мая',
+        6 => 'Июня',
+        7 => 'Июля',
+        8 => 'Августа',
+        9 => 'Сентября',
+        10 => 'Октября',
+        11 => 'Ноября',
+        12 => 'Декабря'
+    );
+
+    $order_info = fn_get_order_info($_REQUEST['order_id']);
+    $currencies = Registry::get('currencies');
+    $language_direction = fn_is_rtl_language() ? 'rtl' : 'ltr';
+
+    if (CART_SECONDARY_CURRENCY == 'RUB' && isset($currencies['RUB'])) {
+        $currency = $currencies['RUB'];
+
+        $for_rub = fn_format_rate_value($order_info['total'], 'F', $currency['decimals'], $currency['decimals_separator'], $currency['thousands_separator'], $currency['coefficient']);
+
+        if ($currency['decimals'] != 0) {
+            $length_for_rub = $currency['decimals'] + 1;
+            $rub = substr($for_rub, 0, -$length_for_rub);
+
+            $length_for_kop = $currency['decimals'];
+
+            $kop = substr($for_rub, -$length_for_kop);
+
+            $total_print = '<strong>' . $rub . '</strong>&nbsp;' . __("sbrf_rub") . '&nbsp;<strong>' . $kop . '</strong>&nbsp;' . __("sbrf_kop");
+        } else {
+            $total_print = '<strong>' . $for_rub . '</strong>&nbsp;' . __("sbrf_rub");
+        }
+    } else {
+        $total_print = fn_format_price_by_currency($order_info['total']);
+    }
+
+    $order_info['sum_tax'] = 0;
+    if (!empty($order_info['taxes'])) {
+        foreach ($order_info['taxes'] as $data_tax) {
+            $order_info['sum_tax'] = $order_info['sum_tax'] + $data_tax['tax_subtotal'];
+        }
+    }
+
+    $order_info['info_customer'] = "";
+    if (!empty($order_info['payment_info'])) {
+        if (!empty($order_info['payment_info']['organization_customer'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '">' . $order_info['payment_info']['organization_customer'] . '</span> ';
+        }
+
+        if (!empty($order_info['payment_info']['inn_customer'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '"><span>' . __('inn_customer') . ':</span> '
+                . '<span>' . $order_info['payment_info']['inn_customer'] . '</span></span> ';
+        }
+
+        if (!empty($order_info['payment_info']['phone'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '"><span>' . __('phone') . ':</span> '
+                . '<span dir="ltr">' . $order_info['payment_info']['phone'] . '</span></span> ';
+        }
+
+        if (!empty($order_info['payment_info']['zip_postal_code'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '"><span>' . __('zip_postal_code') . ':</span> '
+                . '<span>' . $order_info['payment_info']['zip_postal_code'] . '</span></span> ';
+        }
+
+        if (!empty($order_info['payment_info']['address'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '"><span>' . __('address') . ':</span> '
+                . '<span>' . $order_info['payment_info']['address'] . '</span></span> ';
+        }
+
+        if (!empty($order_info['payment_info']['bank_details'])) {
+            $order_info['info_customer'] .= '<span dir="' . $language_direction . '"><span>' . __('addons.rus_payments.bank_details') . ':</span> '
+                . '<span>' . $order_info['payment_info']['bank_details'] . '</span></span> ';
+        }
+    }
+
+    $order_info['info_supplier'] = "";
+    $data_payment = $order_info['payment_method']['processor_params'];
+    if (!empty($data_payment)) {
+        if (!empty($data_payment['account_recepient_name'])) {
+            $order_info['info_supplier'] .= '<span dir="' . $language_direction . '">' . $data_payment['account_recepient_name'] . '</span> ';
+        }
+
+        if (!empty($data_payment['account_inn'])) {
+            $order_info['info_supplier'] .= '<span dir="' . $language_direction . '"><span>' . __('inn_customer') . ':</span> '
+                . '<span>' . $data_payment['account_inn'] . '</span></span> ';
+        }
+
+        if (!empty($data_payment['account_kpp'])) {
+            $order_info['info_supplier'] .= '<span dir="' . $language_direction . '"><span>' . __('addons.rus_payments.account_kpp') . ':</span> '
+                . '<span>' . $data_payment['account_kpp'] . '</span></span> ';
+        }
+
+        if (!empty($data_payment['account_address'])) {
+            $order_info['info_supplier'] .= '<span dir="' . $language_direction . '"><span>' . __('address') . ':</span> '
+                . '<span>' . $data_payment['account_address'] . '</span></span> ';
+        }
+
+        if (!empty($data_payment['account_phone'])) {
+            $order_info['info_supplier'] .= '<span dir="' . $language_direction . '"><span>' . __('phone') . ':</span> '
+                . '<span dir="ltr">' . $data_payment['account_phone'] . '</span></span> ';
+        }
+    }
+
+    $view = Tygh::$app['view'];
+
+    $str_date = "";
+    $n_month = (int)date("m", $order_info['timestamp']);
+    $invoice_date = date("d", $order_info['timestamp']) . ' ' . $month[$n_month] . ' ' . date("Y", $order_info['timestamp']);
+
+    $order_info['str_total'] = '';
+    if (CART_SECONDARY_CURRENCY == 'RUB') {
+        $total = fn_format_rate_value($order_info['total'], 'F', $currency['decimals'], $currency['decimals_separator'], '', $currency['coefficient']);
+        $order_info['str_total'] = RusInvoicePayment::clearDoit($total);
+        $view->assign('is_rub_total', true);
+    }
+
+    $order_info['path_stamp'] = fn_get_image_pairs($order_info['payment_id'], 'stamp', 'M', true, true, DESCR_SL);
+    $order_info['text_invoice_payment'] = __("addons.rus_payments.text_invoice_payment", array('[number_account]' => $order_info['order_id'], '[invoice_data]' => $invoice_date));
+
+    $view->assign('total_print', $total_print);
+    $view->assign('order_info', $order_info);
+    $view->assign('account_settings', array());
+    $view->assign('fonts_path', fn_get_theme_path('[relative]/[theme]/media/fonts'));
+    if ($order_info['shipping_cost'] != 0) {
+        $view->assign('shipping_cost', true);
+    }
+
+    if (empty($order_info['path_stamp']['icon']['image_path'])) {
+        $view->assign('url_images', '');
+    } else {
+        $view->assign('url_images', $order_info['path_stamp']['icon']['image_path']);
+    }
+
+    if ($mode === 'send_account_payment') {
+        if (!empty($order_info['email'])) {
+            fn_disable_live_editor_mode();
+
+            $html = $view->displayMail('addons/rus_payments/print_invoice_payment.tpl', false, SiteArea::STOREFRONT);
+
+            if (!is_dir(fn_get_files_dir_path())) {
+                fn_mkdir(fn_get_files_dir_path());
+            }
+
+            $receipt_file_path = fn_get_files_dir_path() . "account_payment-{$order_info['order_id']}.pdf";
+            if (Tygh\Addons\PdfDocuments\Pdf::render($html, $receipt_file_path, 'save')) {
+                register_shutdown_function(static function () use ($receipt_file_path) {
+                    fn_rm($receipt_file_path);
+                });
+
+                $data = [
+                    'order_info' => $order_info,
+                    'total_print' => $total_print,
+                    'fonts_path' => fn_get_theme_path('[relative]/[theme]/media/fonts'),
+                ];
+
+                /** @var \Tygh\Mailer\Mailer $mailer */
+                $mailer = Tygh::$app['mailer'];
+
+                $mailer->send(
+                    [
+                        'to'          => $order_info['email'],
+                        'from'        => 'default_company_orders_department',
+                        'data'        => $data,
+                        'attachments' => [$receipt_file_path],
+                        'tpl'         => 'addons/rus_payments/print_invoice_payment.tpl',
+                        'is_html'     => true,
+                    ],
+                    SiteArea::ADMIN_PANEL
+                );
+
+                fn_set_notification(NotificationSeverity::NOTICE, __('notice'), __('text_email_sent'));
+            } else {
+                fn_set_notification(NotificationSeverity::ERROR, __('notice'), __('rus_payments.sberbank.error_text_email_not_sent'));
+            }
+        }
+    } else {
+        $view->assign('show_print_button', true);
+        $view->displayMail('addons/rus_payments/print_invoice_payment.tpl', true, 'C');
+    }
+
+    exit;
+
+} elseif ($mode == 'get_stamp') {
+
+    Header("Content-Type: image/png");
+    Header("Content-Type: image/jpg");
+    Header("Content-Type: image/jpeg");
+    Header("Content-Type: image/gif");
+
+    $path_stamp = fn_get_image_pairs($_REQUEST['payment_id'], 'stamp', 'M', true, true, DESCR_SL);
+
+    $image = fn_get_contents($path_stamp['icon']['absolute_path']);
+
+    fn_echo($image);
+
+    exit;
+
+}

@@ -1,0 +1,738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/social_buttons.po\n"
+"X-Crowdin-File-ID: 7509\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::social_buttons"
+msgid "Social buttons"
+msgstr "Ijtimoiy tugmalar"
+
+msgctxt "Addons::description::social_buttons"
+msgid "Adds the buttons for sharing products and pages in social media (Twitter, Facebook, etc.). Helps social networks and messengers to display better previews for the links to your site"
+msgstr "Ijtimoiy tarmoqlarda (Twitter, Facebook va boshqalar) mahsulot va sahifalarni almashish uchun tugmalarni qo'shadi. Ijtimoiy tarmoqlar va messenjerlarga saytingizga havolalarni yaxshiroq ko'rishga yordam beradi"
+
+msgctxt "Languages::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::facebook_obj_type"
+msgid "Facebook object type"
+msgstr "Facebook ob'ekt turi"
+
+msgctxt "Languages::fb_activities"
+msgid "Activities"
+msgstr "Faoliyatlar"
+
+msgctxt "Languages::fb_businesses"
+msgid "Businesses"
+msgstr "Korxonalar"
+
+msgctxt "Languages::fb_groups"
+msgid "Groups"
+msgstr "Guruhlar"
+
+msgctxt "Languages::fb_organizations"
+msgid "Organizations"
+msgstr "Tashkilotlar"
+
+msgctxt "Languages::fb_people"
+msgid "People"
+msgstr "Odamlar"
+
+msgctxt "Languages::fb_places"
+msgid "Places"
+msgstr "Joylar"
+
+msgctxt "Languages::fb_products_entertainment"
+msgid "Products and Entertainment"
+msgstr "Mahsulotlar va o'yin-kulgi"
+
+msgctxt "Languages::fb_websites"
+msgid "Websites"
+msgstr "Veb-saytlar"
+
+msgctxt "Languages::text_recommendation_notes"
+msgid "Your friend has recommended this page to you. Please follow the link:"
+msgstr "Sizning do'stingiz ushbu sahifani sizga tavsiya qildi. Iltimos, havolaga o'ting:"
+
+msgctxt "Languages::sb_share"
+msgid "Share"
+msgstr "Ulashish"
+
+msgctxt "SettingsSections::social_buttons::yandex"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "SettingsSections::social_buttons::twitter"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "SettingsSections::social_buttons::facebook"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "SettingsSections::social_buttons::vkontakte"
+msgid "Vkontakte"
+msgstr "Vkontakte"
+
+msgctxt "SettingsOptions::social_buttons::yandex_enable"
+msgid "Show Yandex.Share block"
+msgstr "Yandex.Share blokini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::yandex_share_code"
+msgid "Yandex.Share code"
+msgstr "Yandex.Share kodi"
+
+msgctxt "SettingsOptions::social_buttons::yandex_display_on"
+msgid "Display on"
+msgstr "Displey yoqilgan"
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::products"
+msgid "Product details pages"
+msgstr "Mahsulot tafsilotlari sahifalari"
+
+msgctxt "SettingsVariants::social_buttons::yandex_display_on::pages"
+msgid "Pages"
+msgstr "Sahifalar"
+
+msgctxt "SettingsTooltips::social_buttons::yandex_share_code"
+msgid "You can configure the block and get the code at <a href=\"http://api.yandex.ru/share/\" target=\"_blank\">http://api.yandex.ru/share/</a>"
+msgstr "Blokni sozlashingiz va kodni <a href=\"http://api.yandex.ru/share/\" target=\"_blank\">http://api.yandex.ru/share/</a> sahifasida olishingiz mumkin."
+
+msgctxt "SettingsOptions::social_buttons::twitter_enable"
+msgid "Show Twitter button"
+msgstr "Twitter tugmasini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::twitter_via"
+msgid "Via"
+msgstr "orqali"
+
+msgctxt "SettingsOptions::social_buttons::twitter_size"
+msgid "Button size"
+msgstr "Tugma o'lchami"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_count"
+msgid "Display count"
+msgstr "Ko'rsatish soni"
+
+msgctxt "SettingsOptions::social_buttons::twitter_display_on"
+msgid "Display on"
+msgstr "Displey yoqilgan"
+
+msgctxt "SettingsOptions::social_buttons::facebook_enable"
+msgid "Show Facebook button"
+msgstr "Facebook tugmachasini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::facebook_app_id"
+msgid "Facebook app ID"
+msgstr "Facebook ilovasi identifikatori"
+
+msgctxt "SettingsOptions::social_buttons::facebook_href"
+msgid "The URL of the page to like"
+msgstr "Yoqqan sahifaning URL manzili"
+
+msgctxt "SettingsOptions::social_buttons::facebook_send"
+msgid "Include a Send button with the Like button"
+msgstr "Yoqtirish tugmasi bilan Yuborish tugmasini qo'shing"
+
+msgctxt "SettingsOptions::social_buttons::facebook_width"
+msgid "Width of the Like button (px)"
+msgstr "Like tugmasi kengligi (px)"
+
+msgctxt "SettingsOptions::social_buttons::facebook_layout"
+msgid "Button layout"
+msgstr "Tugmaning joylashuvi"
+
+msgctxt "SettingsOptions::social_buttons::facebook_show_faces"
+msgid "Display profile photos"
+msgstr "Profil rasmlarini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action"
+msgid "Button verb"
+msgstr "Tugma fe'li"
+
+msgctxt "SettingsOptions::social_buttons::facebook_lang"
+msgid "Language"
+msgstr "Til"
+
+msgctxt "SettingsOptions::social_buttons::facebook_action_font"
+msgid "Button font"
+msgstr "Tugma shrifti"
+
+msgctxt "SettingsOptions::social_buttons::facebook_colorscheme"
+msgid "Color scheme"
+msgstr "Rang sxemasi"
+
+msgctxt "SettingsOptions::social_buttons::facebook_display_on"
+msgid "Display on"
+msgstr "Displey yoqilgan"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_enable"
+msgid "Show Vkontakte button"
+msgstr "Vkontakte tugmachasini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_appid"
+msgid "Vkontakte app ID"
+msgstr "Vkontakte ilova identifikatori"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_button_style"
+msgid "Button layout"
+msgstr "Tugmaning joylashuvi"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_height"
+msgid "Button height (px)"
+msgstr "Tugma balandligi (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_width"
+msgid "Button width (px)"
+msgstr "Tugma kengligi (px)"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_buttons_name"
+msgid "Button name"
+msgstr "Tugma nomi"
+
+msgctxt "SettingsOptions::social_buttons::vkontakte_display_on"
+msgid "Display on"
+msgstr "Displey yoqilgan"
+
+msgctxt "SettingsTooltips::social_buttons::twitter_via"
+msgid "User name to attribute the Tweet to (i.e. 'via @username')"
+msgstr "Tvit uchun foydalanuvchi nomi (masalan, \"@username\" orqali)"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_app_id"
+msgid "Specify any Facebook app ID, otherwise the button will not be shown"
+msgstr "Har qanday Facebook ilovasi identifikatorini belgilang, aks holda tugma ko'rsatilmaydi"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_href"
+msgid "Leave empty to use an actual page URL"
+msgstr "Haqiqiy sahifa URL manzilidan foydalanish uchun boʻsh qoldiring"
+
+msgctxt "SettingsTooltips::social_buttons::facebook_show_faces"
+msgid "Enable to display profile photos below the button (standard layout only)"
+msgstr "Tugma ostidagi profil rasmlarini ko'rsatishni yoqish (faqat standart tartib)"
+
+msgctxt "SettingsTooltips::social_buttons::vkontakte_width"
+msgid "Only for the button with text counter"
+msgstr "Faqat matn hisoblagichli tugma uchun"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::medium"
+msgid "Medium"
+msgstr "O'rta"
+
+msgctxt "SettingsVariants::social_buttons::twitter_size::large"
+msgid "Large"
+msgstr "katta"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::none"
+msgid "None"
+msgstr "Yo'q"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::horizontal"
+msgid "Horizontal"
+msgstr "Gorizontal"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_count::vertical"
+msgid "vertical"
+msgstr "vertikal"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::products"
+msgid "Product details pages"
+msgstr "Mahsulot tafsilotlari sahifalari"
+
+msgctxt "SettingsVariants::social_buttons::twitter_display_on::pages"
+msgid "Pages"
+msgstr "Sahifalar"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::products"
+msgid "Product details pages"
+msgstr "Mahsulot tafsilotlari sahifalari"
+
+msgctxt "SettingsVariants::social_buttons::facebook_display_on::pages"
+msgid "Pages"
+msgstr "Sahifalar"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::products"
+msgid "Product details pages"
+msgstr "Mahsulot tafsilotlari sahifalari"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_display_on::pages"
+msgid "Pages"
+msgstr "Sahifalar"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::standard"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::button_count"
+msgid "With count"
+msgstr "Hisob bilan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_layout::box_count"
+msgid "With large count"
+msgstr "Katta hisob bilan"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::like"
+msgid "Like"
+msgstr "Menga yoqadi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::like"
+msgid "Like"
+msgstr "Menga yoqadi"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action::recommend"
+msgid "Recommend"
+msgstr "Tavsiya etilgan"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::af_ZA"
+msgid "Afrikaans"
+msgstr "afrikaans"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ar_AR"
+msgid "Arabic"
+msgstr "Arabcha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::az_AZ"
+msgid "Azerbaijani"
+msgstr "ozarbayjon"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::be_BY"
+msgid "Belarusian"
+msgstr "belarus"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bg_BG"
+msgid "Bulgarian"
+msgstr "bolgar"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bn_IN"
+msgid "Bengali"
+msgstr "bengal"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::bs_BA"
+msgid "Bosnian"
+msgstr "bosniyalik"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ca_ES"
+msgid "Catalan"
+msgstr "katalon"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cs_CZ"
+msgid "Czech"
+msgstr "chex"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::cy_GB"
+msgid "Welsh"
+msgstr "uels"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::da_DK"
+msgid "Danish"
+msgstr "Daniya"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::de_DE"
+msgid "German"
+msgstr "nemis"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::el_GR"
+msgid "Greek"
+msgstr "yunoncha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_GB"
+msgid "English (UK)"
+msgstr "Ingliz (Buyuk Britaniya)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_PI"
+msgid "English (Pirate)"
+msgstr "Ingliz (qaroqchi)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_UD"
+msgid "English (Upside Down)"
+msgstr "Ingliz tili (Ost pastga)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::en_US"
+msgid "English (US)"
+msgstr "Ingliz (AQSh)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eo_EO"
+msgid "Esperanto"
+msgstr "Esperanto"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_ES"
+msgid "Spanish (Spain)"
+msgstr "Ispan (Ispaniya)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::es_LA"
+msgid "Spanish"
+msgstr "ispancha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::et_EE"
+msgid "Estonian"
+msgstr "eston"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::eu_ES"
+msgid "Basque"
+msgstr "bask"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fa_IR"
+msgid "Persian"
+msgstr "forscha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fb_LT"
+msgid "Leet Speak"
+msgstr "Leet Speak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fi_FI"
+msgid "Finnish"
+msgstr "fin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fo_FO"
+msgid "Faroese"
+msgstr "farer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_CA"
+msgid "French (Canada)"
+msgstr "Fransuz (Kanada)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fr_FR"
+msgid "French (France)"
+msgstr "Fransuz (Frantsiya)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::fy_NL"
+msgid "Frisian"
+msgstr "frizcha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ga_IE"
+msgid "Irish"
+msgstr "irland"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::gl_ES"
+msgid "Galician"
+msgstr "galisian"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::he_IL"
+msgid "Hebrew"
+msgstr "yahudiy"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hi_IN"
+msgid "Hindi"
+msgstr "hind"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hr_HR"
+msgid "Croatian"
+msgstr "xorvat"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hu_HU"
+msgid "Hungarian"
+msgstr "venger"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::hy_AM"
+msgid "Armenian"
+msgstr "arman"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::id_ID"
+msgid "Indonesian"
+msgstr "indonez"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::is_IS"
+msgid "Icelandic"
+msgstr "island"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::it_IT"
+msgid "Italian"
+msgstr "italyancha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ja_JP"
+msgid "Japanese"
+msgstr "yapon"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ka_GE"
+msgid "Georgian"
+msgstr "gruzin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::km_KH"
+msgid "Khmer"
+msgstr "kxmer"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ko_KR"
+msgid "Korean"
+msgstr "koreys"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ku_TR"
+msgid "Kurdish"
+msgstr "kurd"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::la_VA"
+msgid "Latin"
+msgstr "lotin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lt_LT"
+msgid "Lithuanian"
+msgstr "litva"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::lv_LV"
+msgid "Latvian"
+msgstr "latviyalik"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::mk_MK"
+msgid "Macedonian"
+msgstr "makedon"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ml_IN"
+msgid "Malayalam"
+msgstr "malayalam"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ms_MY"
+msgid "Malay"
+msgstr "malay"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nb_NO"
+msgid "Norwegian (bokmal)"
+msgstr "Norveg (bokmal)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ne_NP"
+msgid "Nepali"
+msgstr "nepal"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nl_NL"
+msgid "Dutch"
+msgstr "golland"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::nn_NO"
+msgid "Norwegian (nynorsk)"
+msgstr "norveg (nynorsk)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pa_IN"
+msgid "Punjabi"
+msgstr "panjob"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pl_PL"
+msgid "Polish"
+msgstr "polyak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ps_AF"
+msgid "Pashto"
+msgstr "pushtu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_BR"
+msgid "Portuguese (Brazil)"
+msgstr "portugal (Braziliya)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::pt_PT"
+msgid "Portuguese (Portugal)"
+msgstr "Portugal (Portugaliya)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ro_RO"
+msgid "Romanian"
+msgstr "rumin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ru_RU"
+msgid "Russian"
+msgstr "rus"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sk_SK"
+msgid "Slovak"
+msgstr "slovak"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sl_SI"
+msgid "Slovenian"
+msgstr "sloven"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sq_AL"
+msgid "Albanian"
+msgstr "alban"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sr_RS"
+msgid "Serbian"
+msgstr "serb"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sv_SE"
+msgid "Swedish"
+msgstr "shvedcha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::sw_KE"
+msgid "Swahili"
+msgstr "suahili"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::ta_IN"
+msgid "Tamil"
+msgstr "tamil"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::te_IN"
+msgid "Telugu"
+msgstr "Telugu"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::th_TH"
+msgid "Thai"
+msgstr "tay"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tl_PH"
+msgid "Filipino"
+msgstr "filippin"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::tr_TR"
+msgid "Turkish"
+msgstr "turkcha"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::uk_UA"
+msgid "Ukrainian"
+msgstr "ukrain"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::vi_VN"
+msgid "Vietnamese"
+msgstr "vetnam"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_CN"
+msgid "Simplified Chinese (China)"
+msgstr "soddalashtirilgan xitoycha (Xitoy)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_HK"
+msgid "Traditional Chinese (Hong Kong)"
+msgstr "an'anaviy xitoy (Gonkong)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_lang::zh_TW"
+msgid "Traditional Chinese (Taiwan)"
+msgstr "an'anaviy xitoy (Tayvan)"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::arial"
+msgid "Arial"
+msgstr "Arial"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::lucida grande"
+msgid "Lucida grande"
+msgstr "Lucida grande\n"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::segoe ui"
+msgid "Segoe ui"
+msgstr "Segoe ui"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::tahoma"
+msgid "Tahoma"
+msgstr "Tahoma"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::trebuchet ms"
+msgid "Trebuchet ms"
+msgstr "Trebuchet ms"
+
+msgctxt "SettingsVariants::social_buttons::facebook_action_font::verdana"
+msgid "Verdana"
+msgstr "Verdana"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::light"
+msgid "Light"
+msgstr "Nur"
+
+msgctxt "SettingsVariants::social_buttons::facebook_colorscheme::dark"
+msgid "Dark"
+msgstr "Qorong'i"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::full"
+msgid "Button with a text counter"
+msgstr "Matn hisoblagichli tugma"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::button"
+msgid "Button with a little counter"
+msgstr "Kichkina hisoblagichli tugma"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::mini"
+msgid "Mini button"
+msgstr "Mini tugma"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_button_style::Vertical"
+msgid "Mini button, counter on top"
+msgstr "Mini tugma, tepada hisoblagich"
+
+msgctxt "SettingsVariants::social_buttons::vkontakte_buttons_name::interesting"
+msgid "It's interesting"
+msgstr "Bu qiziq"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_display_on"
+msgid "Display on"
+msgstr "Displey yoqilgan"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::products"
+msgid "Product details pages"
+msgstr "Mahsulot tafsilotlari sahifalari"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_display_on::pages"
+msgid "Pages"
+msgstr "Sahifalar"
+
+msgctxt "SettingsSections::social_buttons::pinterest"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_enable"
+msgid "Show Pinterest button"
+msgstr "Pinterest tugmasini ko'rsatish"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_size"
+msgid "Button size"
+msgstr "Tugma o'lchami"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::20"
+msgid "Small"
+msgstr "Kichik"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_size::28"
+msgid "Large"
+msgstr "katta"
+
+msgctxt "SettingsOptions::social_buttons::pinterest_shape"
+msgid "Shape"
+msgstr "Shakl"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::rect"
+msgid "Rectangular"
+msgstr "To'rtburchak"
+
+msgctxt "SettingsVariants::social_buttons::pinterest_shape::round"
+msgid "Circular"
+msgstr "Doiraviy"
+
+msgctxt "Languages::social_buttons.facebook_cookie_title"
+msgid "Facebook"
+msgstr "Facebook"
+
+msgctxt "Languages::social_buttons.facebook_cookie_description"
+msgid "Facebook cookies enable Facebook-related functionality, such as Facebook button on the product page. Here is <a href=\"https://www.facebook.com/about/privacy/previous\" target=\"_blank\">Facebook privacy policy</a>."
+msgstr "Facebook cookie-fayllari mahsulot sahifasidagi Facebook tugmasi kabi Facebook bilan bog'liq funksiyalarni faollashtiradi. Mana <a href=\"https://www.facebook.com/about/privacy/previous\" target=\"_blank\">Facebook maxfiylik siyosati</a>."
+
+msgctxt "Languages::social_buttons.pinterest_cookie_title"
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgctxt "Languages::social_buttons.pinterest_cookie_description"
+msgid "Pinterest cookies enable Pinterest-related functionality, such as Pinterest button on the product page. Here is <a href=\"https://policy.pinterest.com/en/privacy-policy\" target=\"_blank\">Pinterest privacy policy</a>."
+msgstr "Pinterest cookie-fayllari mahsulot sahifasidagi Pinterest tugmasi kabi Pinterest bilan bog'liq funksiyalarni faollashtiradi. Mana <a href=\"https://policy.pinterest.com/en/privacy-policy\" target=\"_blank\">Pinterest maxfiylik siyosati</a>."
+
+msgctxt "Languages::social_buttons.twitter_cookie_title"
+msgid "Twitter"
+msgstr "Twitter"
+
+msgctxt "Languages::social_buttons.twitter_cookie_description"
+msgid "Twitter cookies enable Twitter-related functionality, such as the Twitter button on the product page. Here is <a href=\"https://twitter.com/en/privacy\" target=\"_blank\">Twitter privacy policy</a>."
+msgstr "Twitter cookie-fayllari mahsulot sahifasidagi Twitter tugmasi kabi Twitter bilan bog'liq funksiyalarni faollashtiradi. Mana <a href=\"https://twitter.com/en/privacy\" target=\"_blank\">Twitter maxfiylik siyosati</a>."
+
+msgctxt "Languages::social_buttons.vkontakte_cookie_title"
+msgid "VK"
+msgstr "VK"
+
+msgctxt "Languages::social_buttons.vkontakte_cookie_description"
+msgid "VK cookies enable VK-related functionality, such as VK button on the product page. Here is <a href=\"https://m.vk.com/privacy\" target=\"_blank\">VK privacy policy</a>."
+msgstr "VK cookie-fayllari mahsulot sahifasidagi VK tugmasi kabi VK bilan bog'liq funksiyalarni faollashtiradi. Mana <a href=\"https://m.vk.com/privacy\" target=\"_blank\">VK maxfiylik siyosati</a>."
+
+msgctxt "Languages::social_buttons.yandex_cookie_title"
+msgid "Yandex"
+msgstr "Yandex"
+
+msgctxt "Languages::social_buttons.yandex_cookie_description"
+msgid "Yandex helps us display the buttons of multiple social networks (for example, on product pages). Here is <a href=\"https://yandex.com/legal/confidential/\" target=\"_blank\">Yandex privacy policy</a>."
+msgstr "Yandex bizga bir nechta ijtimoiy tarmoqlarning tugmalarini ko'rsatishga yordam beradi (masalan, mahsulot sahifalarida). Mana <a href=\"https://yandex.com/legal/confidential/\" target=\"_blank\">Yandex maxfiylik siyosati</a>."
+

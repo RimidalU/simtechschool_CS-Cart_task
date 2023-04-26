@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: sv-SE\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Städer"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Tillägget ger ny funktionalitet – städer som läggs till automatiskt på beställningssidan."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "För att skapa en ny stad, bör du välja land och region, klicka på \"Sök\"-knappen och skapa en stad med \"+\"-knappen. Om det inte finns några regioner för landet bör de skapas."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Lägg till ny stad"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Ny stad"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Välj stad"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Inga stater skapade"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Inget tillstånd valt"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "en annan stad"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Skapa nytt tillstånd"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Kan visa"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Kan redigera"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Kan redigera"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Städer"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Kod stad sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Uppdatera städer"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Uppdatering"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Tabellstäder uppdaterades"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "stad., stad"
+

@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /release-4.16.2/addons/paypal_checkout.po\n"
+"X-Crowdin-File-ID: 7467\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "贝宝结帐"
+
+msgctxt "Addons::description::paypal_checkout"
+msgid "Allows you to accept payments through PayPal. Customers can pay with a card or with their PayPal account."
+msgstr "允许您通过 PayPal 接受付款。客户可以使用卡或他们的 PayPal 帐户付款。"
+
+msgctxt "SettingsSections::paypal_checkout::general"
+msgid "General"
+msgstr "一般的"
+
+msgctxt "Languages::paypal_checkout.paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "贝宝结帐"
+
+msgctxt "Languages::paypal_checkout.paypal"
+msgid "PayPal"
+msgstr "贝宝"
+
+msgctxt "Languages::paypal_checkout.client_id"
+msgid "App Client ID"
+msgstr "应用客户端 ID"
+
+msgctxt "Languages::paypal_checkout.secret"
+msgid "App Secret"
+msgstr "应用秘密"
+
+msgctxt "Languages::paypal_checkout.order_id"
+msgid "Order ID in PayPal"
+msgstr "PayPal 中的订单 ID"
+
+msgctxt "Languages::paypal_checkout.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "在 PayPal 中获取 ID"
+
+msgctxt "Languages::paypal_checkout.webhook_help_message"
+msgid "Specify the following URL when configuring a webhook for your REST application:"
+msgstr "为 REST 应用程序配置 webhook 时指定以下 URL："
+
+msgctxt "Languages::paypal_checkout.webhook"
+msgid "PayPal Checkout webhook: [payload]"
+msgstr "PayPal Checkout 网络挂钩： [payload]"
+
+msgctxt "Languages::paypal_checkout.settings.account"
+msgid "Account settings"
+msgstr "帐号设定"
+
+msgctxt "Languages::paypal_checkout.settings.enable_funding"
+msgid "Funding sources to show on checkout"
+msgstr "结帐时显示的资金来源"
+
+msgctxt "Languages::paypal_checkout.funding.card"
+msgid "Credit or debit cards"
+msgstr "信用卡或借记卡"
+
+msgctxt "Languages::paypal_checkout.funding.credit"
+msgid "PayPal Credit"
+msgstr "贝宝信用"
+
+msgctxt "Languages::paypal_checkout.funding.venmo"
+msgid "Venmo"
+msgstr "文莫"
+
+msgctxt "Languages::paypal_checkout.funding.sepa"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+msgctxt "Languages::paypal_checkout.funding.bancontact"
+msgid "Bancontact"
+msgstr "班接触"
+
+msgctxt "Languages::paypal_checkout.funding.eps"
+msgid "eps"
+msgstr "每股收益"
+
+msgctxt "Languages::paypal_checkout.funding.giropay"
+msgid "giropay"
+msgstr "转帐"
+
+msgctxt "Languages::paypal_checkout.funding.ideal"
+msgid "iDEAL"
+msgstr "理想的"
+
+msgctxt "Languages::paypal_checkout.funding.mybank"
+msgid "MyBank"
+msgstr "我的银行"
+
+msgctxt "Languages::paypal_checkout.funding.p24"
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+msgctxt "Languages::paypal_checkout.funding.sofort"
+msgid "Sofort"
+msgstr "软软"
+
+msgctxt "Languages::paypal_checkout.settings.enable_cards"
+msgid "Cards to show on checkout"
+msgstr "结帐时显示的卡片"
+
+msgctxt "Languages::paypal_checkout.card.visa"
+msgid "Visa"
+msgstr "签证"
+
+msgctxt "Languages::paypal_checkout.card.mastercard"
+msgid "Mastercard"
+msgstr "万事达"
+
+msgctxt "Languages::paypal_checkout.card.amex"
+msgid "American Express"
+msgstr "美国运通"
+
+msgctxt "Languages::paypal_checkout.card.discover"
+msgid "Discover"
+msgstr "发现"
+
+msgctxt "Languages::paypal_checkout.card.jcb"
+msgid "JCB"
+msgstr "JCB"
+
+msgctxt "Languages::paypal_checkout.card.elo"
+msgid "Elo"
+msgstr "埃洛"
+
+msgctxt "Languages::paypal_checkout.card.hiper"
+msgid "Hiper"
+msgstr "希佩尔"
+
+msgctxt "Languages::paypal_checkout.debug_id"
+msgid "PayPal Debug ID"
+msgstr "贝宝调试 ID"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_title"
+msgid "PayPal"
+msgstr "贝宝"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_description"
+msgid "PayPal is a payment provider. It allows us to accept payments, if you choose a payment method powered by PayPal. Here is <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal privacy statement</a>."
+msgstr "PayPal 是一家支付提供商。如果您选择由 PayPal 提供支持的付款方式，它允许我们接受付款。这是 <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal 隐私声明</a>。"
+

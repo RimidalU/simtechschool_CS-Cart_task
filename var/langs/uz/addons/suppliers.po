@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/suppliers.po\n"
+"X-Crowdin-File-ID: 7517\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::suppliers"
+msgid "Suppliers [Deprecated]"
+msgstr "Yetkazib beruvchilar [Deprecated]"
+
+msgctxt "Addons::description::suppliers"
+msgid "We are planning to remove this add-on. If you are using it, <a target=\"_blank\" href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\">let us know how<\\/a>."
+msgstr "Biz ushbu qo'shimchani olib tashlashni rejalashtirmoqdamiz. Agar siz undan foydalanayotgan bo'lsangiz, <a target=\"_blank\" href=\"https://helpdesk.cs-cart.com/index.php?dispatch=communication.tickets&submit_ticket=Y\">qanday qilib bizga xabar bering</a> ."
+
+msgctxt "Languages::search_by_supplier"
+msgid "Search by supplier"
+msgstr "Yetkazib beruvchi bo'yicha qidiruv"
+
+msgctxt "Languages::notify_supplier"
+msgid "Notify supplier"
+msgstr "Yetkazib beruvchiga xabar bering"
+
+msgctxt "Languages::view_supplier_products"
+msgid "View supplier products"
+msgstr "Yetkazib beruvchi mahsulotlarini ko'rish"
+
+msgctxt "Languages::supplier"
+msgid "Supplier"
+msgstr "Yetkazib beruvchi"
+
+msgctxt "Languages::supplier_email_header"
+msgid "The following products have been purchased in our store and need to be shipped."
+msgstr "Bizning do'konimizda quyidagi mahsulotlar xarid qilingan va ularni jo'natish kerak."
+
+msgctxt "Languages::suppliers_menu_description"
+msgid "List of supplier accounts registered in the store."
+msgstr "Do'konda ro'yxatdan o'tgan yetkazib beruvchi hisoblari ro'yxati."
+
+msgctxt "Languages::dear_sirs"
+msgid "Dear Sirs"
+msgstr "Hurmatli Janoblar"
+
+msgctxt "Languages::add_supplier"
+msgid "Add supplier"
+msgstr "Yetkazib beruvchini qo'shing"
+
+msgctxt "Languages::available_for_supplier"
+msgid "Available for supplier"
+msgstr "Yetkazib beruvchi uchun mavjud"
+
+msgctxt "Languages::editing_supplier"
+msgid "Editing supplier"
+msgstr "Tahrirlovchi yetkazib beruvchi"
+
+msgctxt "Languages::supplier_deleted"
+msgid "Supplier has been deleted successfully."
+msgstr "Ta'minotchi muvaffaqiyatli o'chirildi."
+
+msgctxt "Languages::privileges.manage_suppliers"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.suppliers"
+msgid "Suppliers"
+msgstr "Yetkazib beruvchilar"
+
+msgctxt "SettingsSections::suppliers::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::suppliers::display_supplier"
+msgid "Display product supplier company"
+msgstr "Mahsulot yetkazib beruvchi kompaniyani ko'rsatish"
+
+msgctxt "SettingsOptions::suppliers::display_shipping_methods_separately"
+msgid "Display shipping methods to each supplier separately"
+msgstr "Har bir yetkazib beruvchiga etkazib berish usullarini alohida ko'rsating"
+
+msgctxt "Languages::email_template.suppliers_notification"
+msgid "Supplier notification"
+msgstr "Yetkazib beruvchi xabarnomasi"
+
+msgctxt "Languages::email_template.supplier_notification_with_status"
+msgid "Supplier notification: [name]"
+msgstr "Yetkazib beruvchiga bildirishnoma: [ism]"
+
+msgctxt "Languages::email_template.suppliers_notification_default"
+msgid "Supplier notification: Default template for a new order status"
+msgstr "Yetkazib beruvchiga bildirishnoma: Yangi buyurtma holati uchun standart shablon"
+
+msgctxt "Languages::template_document_supplier_order_invoice"
+msgid "Suppliers: invoice"
+msgstr "Yetkazib beruvchilar: faktura"
+
+msgctxt "Languages::document_preview_suppliers_not_found"
+msgid "Couldn't find a supplier. Preview only works with existing data. Please create a supplier and use Preview again."
+msgstr "Yetkazib beruvchi topilmadi. Ko'rib chiqish faqat mavjud ma'lumotlar bilan ishlaydi. Iltimos, yetkazib beruvchi yarating va qaytadan ko‘rib chiqishdan foydalaning."
+
+msgctxt "Languages::suppliers.event.order.supplier_notified.name"
+msgid "Suppliers: order status changed to [status]"
+msgstr "Yetkazib beruvchilar: buyurtma holati [status] ga o'zgartirildi"
+
+msgctxt "Languages::event.receiver.s"
+msgid "Supplier"
+msgstr "Yetkazib beruvchi"
+
+msgctxt "Languages::suppliers.supplier_notifications"
+msgid "Supplier notifications"
+msgstr "Yetkazib beruvchi xabarnomalari"
+

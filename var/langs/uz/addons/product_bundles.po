@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/product_bundles.po\n"
+"X-Crowdin-File-ID: 7481\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::product_bundles"
+msgid "Product bundles"
+msgstr "Mahsulot to'plamlari"
+
+msgctxt "Addons::description::product_bundles"
+msgid "Allows you to create product bundles and set up discounts for them."
+msgstr "Mahsulot to'plamlarini yaratish va ular uchun chegirmalar o'rnatish imkonini beradi."
+
+msgctxt "SettingsSections::product_bundles::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::product_bundles::show_bundles"
+msgid "Show bundles"
+msgstr "To'plamlarni ko'rsatish"
+
+msgctxt "SettingsVariants::product_bundles::show_bundles::before_product_description"
+msgid "Before product description"
+msgstr "Mahsulot tavsifidan oldin"
+
+msgctxt "SettingsVariants::product_bundles::show_bundles::in_a_product_tab"
+msgid "In a product tab"
+msgstr "Mahsulot yorlig'ida"
+
+msgctxt "Languages::product_bundles.tab_title"
+msgid "Bundles with this product"
+msgstr "Ushbu mahsulot bilan to'plamlar"
+
+msgctxt "Languages::product_bundles.product_bundles"
+msgid "Product bundles"
+msgstr "Mahsulot to'plamlari"
+
+msgctxt "Languages::product_bundles.product_bundles_menu_description"
+msgid "View, add and edit product bundles."
+msgstr "Mahsulot to'plamlarini ko'rish, qo'shish va tahrirlash."
+
+msgctxt "Languages::product_bundles.promo_image"
+msgid "Promo image"
+msgstr "Promo rasm"
+
+msgctxt "Languages::product_bundles.display_in_promotions"
+msgid "Display in promotions"
+msgstr "Aktsiyalarda ko'rsatish"
+
+msgctxt "Languages::product_bundles.bundle_products"
+msgid "Bundle products"
+msgstr "To'plamli mahsulotlar"
+
+msgctxt "Languages::product_bundles.price_for_all"
+msgid "Price for all"
+msgstr "Hamma uchun narx"
+
+msgctxt "Languages::product_bundles.share_discount"
+msgid "Share discount"
+msgstr "Ulashish chegirmasi"
+
+msgctxt "Languages::product_bundles.product_bundle_name"
+msgid "Bundle name"
+msgstr "To'plam nomi"
+
+msgctxt "Languages::product_bundles.products_in_bundle"
+msgid "Products in bundle"
+msgstr "To'plamdagi mahsulotlar"
+
+msgctxt "Languages::product_bundles.total_cost"
+msgid "Total cost"
+msgstr "Umumiy xarajat"
+
+msgctxt "Languages::product_bundles.add_new_bundle"
+msgid "Add new bundle"
+msgstr "Yangi to'plam qo'shing"
+
+msgctxt "Languages::product_bundles.delete_product_in_bundle"
+msgid "The <b>[bundle_name]</b> bundle was disabled, because of the products from this bundle was deleted.|The <b>[bundle_name]</b> bundle were disabled, because one of the products from these bundles was deleted."
+msgstr "<b>[bundle_name]</b> to‘plami o‘chirib qo‘yildi, chunki bu to‘plamdagi mahsulotlar o‘chirib tashlangan.|<b>[bundle_name]</b> to‘plami o‘chirilgan, chunki bu to‘plamdagi mahsulotlardan biri o'chirildi."
+
+msgctxt "Languages::product_bundles.new_bundle"
+msgid "New bundle"
+msgstr "Yangi to'plam"
+
+msgctxt "Languages::product_bundles.active_bundles"
+msgid "Active bundles"
+msgstr "Faol to'plamlar"
+
+msgctxt "Languages::product_bundles.specify_features"
+msgid "Specify features"
+msgstr "Xususiyatlarni belgilang"
+
+msgctxt "Languages::product_bundles.any_variation"
+msgid "Any variation"
+msgstr "Har qanday o'zgarish"
+
+msgctxt "Languages::product_bundles.specify_options"
+msgid "Specify options"
+msgstr "Variantlarni belgilang"
+
+msgctxt "Languages::product_bundles.total_list_price"
+msgid "Total list price"
+msgstr "Umumiy ro'yxat narxi"
+
+msgctxt "Languages::product_bundles.order_discount"
+msgid "Order discount"
+msgstr "Buyurtma uchun chegirma"
+
+msgctxt "Languages::product_bundles.add_all_to_cart"
+msgid "Add all to cart"
+msgstr "Hammasini savatga qo'shing"
+
+msgctxt "Languages::product_bundles.sign_in_to_view_price"
+msgid "Sign in to view price"
+msgstr "Narxni ko'rish uchun tizimga kiring"
+
+msgctxt "Languages::product_bundles.bundle_details"
+msgid "Bundle details"
+msgstr "To'plam tafsilotlari"
+
+msgctxt "Languages::product_bundles.search_in_products"
+msgid "Bundles with product"
+msgstr "Mahsulot bilan to'plamlar"
+
+msgctxt "Languages::product_bundles.internal_feature_name_tooltip"
+msgid "This name is shown only in the Administration panel to help you distinguish between multiple product bundles that have the same displayed name."
+msgstr "Bu nom bir xil nomga ega bo'lgan bir nechta mahsulot to'plamlarini farqlashga yordam berish uchun faqat Administrator panelida ko'rsatiladi."
+
+msgctxt "Languages::product_bundles.show_on_product_page"
+msgid "Show on products page"
+msgstr "Mahsulotlar sahifasida ko'rsatish"
+
+msgctxt "Languages::product_bundles.confirm_text_on_empty_bundle"
+msgid "Are you sure you want to create a bundle without products?"
+msgstr "Haqiqatan ham mahsulotsiz toʻplam yaratmoqchimisiz?"
+
+msgctxt "Languages::product_bundles.confirm_text_with_one_product_bundle"
+msgid "Are you sure you want to create a bundle with 1 product?"
+msgstr "Haqiqatan ham 1 ta mahsulotdan iborat toʻplam yaratmoqchimisiz?"
+
+msgctxt "Languages::product_bundles.specify_options_first"
+msgid "Product options should be specified"
+msgstr "Mahsulot variantlari ko'rsatilishi kerak"
+
+msgctxt "Languages::privileges.view_product_bundles"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::privileges.manage_product_bundles"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.product_bundles"
+msgid "Product bundles"
+msgstr "Mahsulot to'plamlari"
+
+msgctxt "Languages::block_product_bundles"
+msgid "Product bundles"
+msgstr "Mahsulot to'plamlari"
+
+msgctxt "Languages::block_product_bundles_description"
+msgid "Product bundles form"
+msgstr "Mahsulot to'plamlari shakli"
+
+msgctxt "Languages::product_bundles.template_product_bundles"
+msgid "Product bundles"
+msgstr "Mahsulot to'plamlari"
+

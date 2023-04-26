@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /release-4.16.2/addons/paypal_checkout.po\n"
+"X-Crowdin-File-ID: 7467\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "PayPal-Kasse"
+
+msgctxt "Addons::description::paypal_checkout"
+msgid "Allows you to accept payments through PayPal. Customers can pay with a card or with their PayPal account."
+msgstr "Ermöglicht Ihnen, Zahlungen über PayPal zu akzeptieren. Kunden können mit Karte oder mit ihrem PayPal-Konto bezahlen."
+
+msgctxt "SettingsSections::paypal_checkout::general"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "Languages::paypal_checkout.paypal_checkout"
+msgid "PayPal Checkout"
+msgstr "PayPal-Kasse"
+
+msgctxt "Languages::paypal_checkout.paypal"
+msgid "PayPal"
+msgstr "PayPal"
+
+msgctxt "Languages::paypal_checkout.client_id"
+msgid "App Client ID"
+msgstr "App-Client-ID"
+
+msgctxt "Languages::paypal_checkout.secret"
+msgid "App Secret"
+msgstr "App-Geheimnis"
+
+msgctxt "Languages::paypal_checkout.order_id"
+msgid "Order ID in PayPal"
+msgstr "Bestell-ID in PayPal"
+
+msgctxt "Languages::paypal_checkout.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "Erfassen Sie die ID in PayPal"
+
+msgctxt "Languages::paypal_checkout.webhook_help_message"
+msgid "Specify the following URL when configuring a webhook for your REST application:"
+msgstr "Geben Sie die folgende URL an, wenn Sie einen Webhook für Ihre REST-Anwendung konfigurieren:"
+
+msgctxt "Languages::paypal_checkout.webhook"
+msgid "PayPal Checkout webhook: [payload]"
+msgstr "PayPal Checkout-Webhook: [payload]"
+
+msgctxt "Languages::paypal_checkout.settings.account"
+msgid "Account settings"
+msgstr "Account Einstellungen"
+
+msgctxt "Languages::paypal_checkout.settings.enable_funding"
+msgid "Funding sources to show on checkout"
+msgstr "Zahlungsquellen, die an der Kasse angezeigt werden sollen"
+
+msgctxt "Languages::paypal_checkout.funding.card"
+msgid "Credit or debit cards"
+msgstr "Kredit-oder Debitkarten"
+
+msgctxt "Languages::paypal_checkout.funding.credit"
+msgid "PayPal Credit"
+msgstr "PayPal-Guthaben"
+
+msgctxt "Languages::paypal_checkout.funding.venmo"
+msgid "Venmo"
+msgstr "Venmo"
+
+msgctxt "Languages::paypal_checkout.funding.sepa"
+msgid "SEPA-Lastschrift"
+msgstr "SEPA-Lastschrift"
+
+msgctxt "Languages::paypal_checkout.funding.bancontact"
+msgid "Bancontact"
+msgstr "Bankontakt"
+
+msgctxt "Languages::paypal_checkout.funding.eps"
+msgid "eps"
+msgstr "Folge"
+
+msgctxt "Languages::paypal_checkout.funding.giropay"
+msgid "giropay"
+msgstr "giropay"
+
+msgctxt "Languages::paypal_checkout.funding.ideal"
+msgid "iDEAL"
+msgstr "Ideal"
+
+msgctxt "Languages::paypal_checkout.funding.mybank"
+msgid "MyBank"
+msgstr "Meine Bank"
+
+msgctxt "Languages::paypal_checkout.funding.p24"
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+msgctxt "Languages::paypal_checkout.funding.sofort"
+msgid "Sofort"
+msgstr "Sofort"
+
+msgctxt "Languages::paypal_checkout.settings.enable_cards"
+msgid "Cards to show on checkout"
+msgstr "Karten zum Vorzeigen an der Kasse"
+
+msgctxt "Languages::paypal_checkout.card.visa"
+msgid "Visa"
+msgstr "Visa"
+
+msgctxt "Languages::paypal_checkout.card.mastercard"
+msgid "Mastercard"
+msgstr "MasterCard"
+
+msgctxt "Languages::paypal_checkout.card.amex"
+msgid "American Express"
+msgstr "American Express"
+
+msgctxt "Languages::paypal_checkout.card.discover"
+msgid "Discover"
+msgstr "Entdecken"
+
+msgctxt "Languages::paypal_checkout.card.jcb"
+msgid "JCB"
+msgstr "JCB"
+
+msgctxt "Languages::paypal_checkout.card.elo"
+msgid "Elo"
+msgstr "Elo"
+
+msgctxt "Languages::paypal_checkout.card.hiper"
+msgid "Hiper"
+msgstr "Hipper"
+
+msgctxt "Languages::paypal_checkout.debug_id"
+msgid "PayPal Debug ID"
+msgstr "PayPal-Debug-ID"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_title"
+msgid "PayPal"
+msgstr "PayPal"
+
+msgctxt "Languages::paypal_checkout.paypal_cookie_description"
+msgid "PayPal is a payment provider. It allows us to accept payments, if you choose a payment method powered by PayPal. Here is <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal privacy statement</a>."
+msgstr "PayPal ist ein Zahlungsanbieter. Es ermöglicht uns, Zahlungen zu akzeptieren, wenn Sie eine von PayPal unterstützte Zahlungsmethode wählen. Hier ist <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full\" target=\"_blank\">PayPal-Datenschutzerklärung</a>."
+

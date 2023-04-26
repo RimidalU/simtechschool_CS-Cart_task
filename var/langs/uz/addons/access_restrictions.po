@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/access_restrictions.po\n"
+"X-Crowdin-File-ID: 7359\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::access_restrictions"
+msgid "Access restrictions"
+msgstr "Kirish cheklovlari"
+
+msgctxt "Addons::description::access_restrictions"
+msgid "Lets you limit storefront and administrator area access to certain IP-addresses with different options"
+msgstr "Turli xil variantlar bilan ma'lum IP-manzillarga do'kon va administrator hududiga kirishni cheklash imkonini beradi"
+
+msgctxt "Languages::access_restrictions"
+msgid "Access restrictions"
+msgstr "Kirish cheklovlari"
+
+msgctxt "Languages::add_ips"
+msgid "Add IPs"
+msgstr "Yangi IP manzillarni qo'shing"
+
+msgctxt "Languages::new_ips"
+msgid "New IPs"
+msgstr "Yangi IP adreslar"
+
+msgctxt "Languages::add_domains"
+msgid "Add domains"
+msgstr "Yangi domenlar qo'shing"
+
+msgctxt "Languages::new_domains"
+msgid "New domains"
+msgstr "Yangi domenlar"
+
+msgctxt "Languages::add_emails"
+msgid "Add e-mail addresses"
+msgstr "Elektron pochta manzillarini qo'shing"
+
+msgctxt "Languages::new_emails"
+msgid "New e-mail addresses"
+msgstr "Yangi elektron pochta manzillari"
+
+msgctxt "Languages::new_credit_card"
+msgid "New credit card"
+msgstr "Yangi kredit karta"
+
+msgctxt "Languages::add_credit_card"
+msgid "Add credit card"
+msgstr "Kredit karta qo'shing"
+
+msgctxt "Languages::privileges.manage_access_restrictions"
+msgid "Can edit"
+msgstr "Tahrirlash"
+
+msgctxt "Languages::privilege_groups.access_restrictions"
+msgid "Access restrictions"
+msgstr "Kirish cheklovlari"
+
+msgctxt "Languages::domain"
+msgid "Domain"
+msgstr "Domen"
+
+msgctxt "Languages::warning_of_ip_adding"
+msgid "The entered IP address <b>[entered_ip]</b> forbids access to the administration panel from your computer (your IP is <b>[your_ip]</b>)."
+msgstr "Kiritilgan IP manzil <b>[entered_ip]</b> kompyuteringizdan ma'muriy panelga kirishni taqiqlaydi (sizning IP manzilingiz <b>[your_ip]</b>)."
+
+msgctxt "Languages::text_cc_number_is_blocked"
+msgid "The credit card number <b>[cc_number]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "Kredit karta raqami <b>[cc_number]</b> administrator tomonidan bloklangan. Doʻkon administratoriga murojaat qiling yoki boshqasini sinab koʻring."
+
+msgctxt "Languages::text_not_valid_ip"
+msgid "<b>[ip]</b> is not a valid ip address."
+msgstr "<b>[ip]</b> haqiqiy IP manzil emas."
+
+msgctxt "Languages::text_not_valid_domain"
+msgid "<b>[domain]</b> is not a valid domain name."
+msgstr "<b>[domen]</b> haqiqiy domen nomi emas."
+
+msgctxt "Languages::text_not_valid_cc_number"
+msgid "<b>[cc_number]</b> is not a valid credit card number."
+msgstr "<b>[cc_number]</b> kredit karta raqami haqiqiy emas."
+
+msgctxt "Languages::text_email_is_blocked"
+msgid "The e-mail address <b>[email]</b> is blocked by the administrator. Please contact the store administrator or try another one."
+msgstr "<b>[email]</b> elektron pochta manzili administrator tomonidan bloklangan. Doʻkon administratoriga murojaat qiling yoki boshqasini sinab koʻring."
+
+msgctxt "Languages::text_ips_denied"
+msgid "You are not allowed to access this area"
+msgstr "Bu hududga kirishga ruxsat berilmagan"
+
+msgctxt "Languages::text_ip_blocked_failed_login"
+msgid "The IP was blocked after [number] unsuccessful logins"
+msgstr "Muvaffaqiyatsiz [number] kirishlardan so'ng IP bloklandi"
+
+msgctxt "Languages::text_ip_is_blocked"
+msgid "Your IP address is blocked."
+msgstr "Sizning IP manzilingiz bloklangan."
+
+msgctxt "Languages::store_admin"
+msgid "Store administrator"
+msgstr "Do'kon administratori"
+
+msgctxt "Languages::your_ip_added"
+msgid "Your IP address <b>[ip]</b> has been added to the access restrictions table."
+msgstr "Sizning IP manzilingiz <b>[ip]</b> kirish cheklovlari jadvaliga qo'shildi."
+
+msgctxt "Languages::your_ip_enabled"
+msgid "Your IP address <b>[ip]</b> has been enabled in the access restrictions table."
+msgstr "Sizning IP manzilingiz <b>[ip]</b> kirish cheklovlari jadvalida yoqilgan."
+
+msgctxt "Languages::your_ip_removed"
+msgid "Your IP address <b>[ip]</b> has been removed from the access restrictions table."
+msgstr "Sizning IP manzilingiz <b>[ip]</b> kirish cheklovlari jadvalidan olib tashlandi."
+
+msgctxt "Languages::ip_from"
+msgid "IP from"
+msgstr "IP dan"
+
+msgctxt "Languages::ip_to"
+msgid "IP to"
+msgstr "IP gacha"
+
+msgctxt "Languages::text_access_notice"
+msgid "You can use the wildcards for the \"Domain\", \"E-mail\" and \"Credit Card\" tabs: <br /><b>*</b> - can represent any number of characters, including zero<br /><b>?</b> - can represent any single character."
+msgstr "Siz \"Domen\", \"E-mail\" va \"Kredit karta\" yorliqlari uchun joker belgilardan foydalanishingiz mumkin: <br /><b>*</b> - har qanday belgilar sonini, shu jumladan nolni ham ifodalashi mumkin<br />< b>?</b> - har qanday bitta belgini ifodalashi mumkin."
+
+msgctxt "Languages::ips"
+msgid "IPs"
+msgstr "IP-lar"
+
+msgctxt "Languages::make_permanent"
+msgid "Make permanent"
+msgstr "Doimiy qiling"
+
+msgctxt "Languages::credit_card_number"
+msgid "Credit card number"
+msgstr "Kredit karta raqami"
+
+msgctxt "SettingsSections::access_restrictions::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::access_restrictions::elm_administrator_area_settings"
+msgid "Administrator area settings"
+msgstr "Administrator hududi sozlamalari"
+
+msgctxt "SettingsOptions::access_restrictions::admin_reverse_ip_access"
+msgid "Allow login to the admin area from specified IPs only"
+msgstr "Administrator maydoniga faqat belgilangan IP-lardan kirishga ruxsat bering"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Bir qator muvaffaqiyatsiz urinishlardan keyin IP-ni bloklash"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts"
+msgid "Number of unsuccessful attempts"
+msgstr "Muvaffaqiyatsiz urinishlar soni"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Muvaffaqiyatsiz kirish urinishlari orasidagi vaqt (soniyalar)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "IP bloklanishi kerak bo'lgan vaqt (soat)"
+
+msgctxt "SettingsOptions::access_restrictions::elm_customer_and_affiliate_area_settings"
+msgid "Customer area settings"
+msgstr "Mijoz hududi sozlamalari"
+
+msgctxt "SettingsOptions::access_restrictions::unsuccessful_attempts_login_customer"
+msgid "Block IP after a number of unsuccessful attempts"
+msgstr "Bir qator muvaffaqiyatsiz urinishlardan keyin IP-ni bloklash"
+
+msgctxt "SettingsOptions::access_restrictions::number_unsuccessful_attempts_customer"
+msgid "Number of unsuccessful attempts"
+msgstr "Muvaffaqiyatsiz urinishlar soni"
+
+msgctxt "SettingsOptions::access_restrictions::login_intervals_customer"
+msgid "Time between unsuccessful login attempts (seconds)"
+msgstr "Muvaffaqiyatsiz kirish urinishlari orasidagi vaqt (soniyalar)"
+
+msgctxt "SettingsOptions::access_restrictions::time_block_customer"
+msgid "Time for which the IP should be blocked (hours)"
+msgstr "IP bloklanishi kerak bo'lgan vaqt (soat)"
+

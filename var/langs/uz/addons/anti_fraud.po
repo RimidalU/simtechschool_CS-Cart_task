@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/anti_fraud.po\n"
+"X-Crowdin-File-ID: 7367\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::anti_fraud"
+msgid "Anti fraud"
+msgstr "Firibgarlikka qarshi"
+
+msgctxt "Addons::description::anti_fraud"
+msgid "Adds configurable security order verification using the Maxmind service to prevent fraud"
+msgstr "Firibgarlikning oldini olish uchun Maxmind xizmatidan foydalangan holda sozlanishi mumkin bo'lgan xavfsizlik buyurtmasini tekshirishni qo'shadi"
+
+msgctxt "Languages::af_big_order_total"
+msgid "Order total exceeds the allowed maximum"
+msgstr "Buyurtma jami ruxsat etilgan maksimaldan oshib ketdi"
+
+msgctxt "Languages::af_country_doesnt_match"
+msgid "The country does not match the IP address"
+msgstr "Mamlakat IP manziliga mos kelmaydi"
+
+msgctxt "Languages::af_has_failed_orders"
+msgid "Customer has FAILED orders"
+msgstr "Xaridor MUVAFFAQIYATSIZ buyurtmalarga ega"
+
+msgctxt "Languages::af_has_successfull_orders"
+msgid "Customer has SUCCESSFUL orders"
+msgstr "Xaridor MUVAFFAQIYATLI buyurtmalarga ega"
+
+msgctxt "Languages::af_high_risk_country"
+msgid "High risk country"
+msgstr "Yuqori xavfli mamlakat"
+
+msgctxt "Languages::af_high_risk_email"
+msgid "High risk email"
+msgstr "Yuqori xavfli elektron pochta"
+
+msgctxt "Languages::af_high_risk_factor"
+msgid "Risk factor exceeds the defined value"
+msgstr "Xavf omili belgilangan qiymatdan oshib ketadi"
+
+msgctxt "Languages::af_ip_not_found"
+msgid "Failed to identify customer's IP address"
+msgstr "Mijozning IP manzilini aniqlab bo‘lmadi"
+
+msgctxt "Languages::af_long_distance"
+msgid "Customer is outside the safe distance"
+msgstr "Mijoz xavfsiz masofadan tashqarida"
+
+msgctxt "Languages::af_low_risk_factor"
+msgid "Risk factor is admissible"
+msgstr "Xavf omiliga ruxsat beriladi"
+
+msgctxt "Languages::antifraud_failed_order"
+msgid "Your order was placed in the store. It is undergoing an additional check now. We will contact you as soon as the administrator finishes it"
+msgstr "Sizning buyurtmangiz do'konga joylashtirildi. Hozir qo'shimcha tekshiruvdan o'tmoqda. Administrator buni tugatgandan so'ng siz bilan bog'lanamiz"
+
+msgctxt "Languages::risk_factor"
+msgid "Risk factor"
+msgstr "Xavf omili"
+
+msgctxt "Languages::not_available"
+msgid "n/a"
+msgstr "mavjud emas"
+
+msgctxt "Languages::decision"
+msgid "Decision"
+msgstr "Qaror"
+
+msgctxt "Languages::anti_fraud_order_not_approved"
+msgid "Order has not been approved because risk factor exceeds Maximum risk factor"
+msgstr "Buyurtma tasdiqlanmagan, chunki xavf omili Maksimal xavf omilidan oshib ketgan"
+
+msgctxt "Languages::anti_fraud_order_approved"
+msgid "Order has been approved"
+msgstr "Buyurtma tasdiqlangan"
+
+msgctxt "Languages::fraud_risk"
+msgid "Fraud risk"
+msgstr "Firibgarlik xavfi"
+
+msgctxt "Languages::fraud_checking"
+msgid "Fraud checking"
+msgstr "Firibgarlikni tekshirish"
+
+msgctxt "SettingsSections::anti_fraud::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_key"
+msgid "Maxmind license key"
+msgstr "Maxmind litsenziya kaliti"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_user_id"
+msgid "Maxmind user ID"
+msgstr "Maxmind foydalanuvchi identifikatori"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_safe_distance"
+msgid "Safe distance (km)"
+msgstr "Xavfsiz masofa (km)"
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_max_order_total"
+msgid "Max order total"
+msgstr "Ushbu plaginni sozlaganingizdan so'ng, faqat Gmail elektron pochta manziliga ega ma'murlar boshqaruv paneliga kirishlari mumkin bo'ladi. Agar administratorlaringiz Google’dan tashqari elektron pochta manzillarini ko‘rsatgan bo‘lsa, plaginni sozlamang, aks holda bu administratorlar tizimga kira olmaydi."
+
+msgctxt "SettingsOptions::anti_fraud::anti_fraud_risk_factor"
+msgid "Maximum risk factor (1..100)"
+msgstr "Maksimal xavf omili (1..100)"
+
+msgctxt "SettingsOptions::anti_fraud::antifraud_order_status"
+msgid "Order status"
+msgstr "Order status"
+

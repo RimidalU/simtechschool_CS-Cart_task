@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/myob.po\n"
+"X-Crowdin-File-ID: 7445\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::myob"
+msgid "MYOB"
+msgstr "MYOB"
+
+msgctxt "Addons::description::myob"
+msgid "Adds the MYOB integration"
+msgstr "MYOB integratsiyasini qo'shadi"
+
+msgctxt "Languages::export_to_myob"
+msgid "Export to MYOB"
+msgstr "MYOBga eksport qilish"
+
+msgctxt "SettingsSections::myob::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::myob::sales_account"
+msgid "Default Sales Account"
+msgstr "Standart savdo hisobi"
+
+msgctxt "SettingsOptions::myob::currency"
+msgid "Currency"
+msgstr "Valyuta"
+
+msgctxt "SettingsOptions::myob::tax_gst_code"
+msgid "Tax Code / GST Code"
+msgstr "Soliq kodi / GST kodi"
+
+msgctxt "SettingsOptions::myob::freight_tax_gst_code"
+msgid "Freight Tax Code / Freight GST Code"
+msgstr "Yuk tashish Soliq kodi / Yuk tashish GST kodi"
+

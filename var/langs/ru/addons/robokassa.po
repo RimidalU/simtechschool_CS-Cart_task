@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Project-ID: 54044\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.16.2/addons/robokassa.po\n"
+"X-Crowdin-File-ID: 7573\n"
+"PO-Revision-Date: 2023-03-21 11:19\n"
+
+msgctxt "Addons::name::robokassa"
+msgid "Robokassa"
+msgstr "Robokassa"
+
+msgctxt "Addons::description::robokassa"
+msgid "Allows you to accept payments via Robokassa"
+msgstr "Позволяет вам принимать платежи через Робокассу"
+
+msgctxt "Languages::robokassa.robokassa"
+msgid "Robokassa"
+msgstr "Robokassa"
+
+msgctxt "Languages::robokassa.store_id"
+msgid "Store ID"
+msgstr "ID магазина"
+
+msgctxt "Languages::robokassa.account_number"
+msgid "Account number"
+msgstr "Номер счета"
+
+msgctxt "Languages::robokassa.master_store_id"
+msgid "Master store ID"
+msgstr "Master store ID"
+
+msgctxt "Languages::robokassa.get_payment_methods"
+msgid "Get payment methods"
+msgstr "Получить способы оплаты"
+
+msgctxt "Languages::robokassa.text_status_map"
+msgid "Map of order statuses"
+msgstr "Карта статусов заказа"
+
+msgctxt "Languages::robokassa.paid"
+msgid "Paid"
+msgstr "Оплачен"
+
+msgctxt "Languages::robokassa.final_status"
+msgid "Forming full payment receipt"
+msgstr "Формирование итогового чека"
+
+msgctxt "Languages::robokassa.prepayment_receipt_created"
+msgid "Prepayment receipt created"
+msgstr "Чек предоплаты создан"
+
+msgctxt "Languages::robokassa.payment_receipt_created"
+msgid "Full payment receipt created"
+msgstr "Итоговый чек создан"
+
+msgctxt "Languages::robokassa.notification_url_method"
+msgid "Method of sending data to [url_type]"
+msgstr "Способ отправки данных в [url_type]"
+
+msgctxt "Languages::robokassa.technical_preferences"
+msgid "Technical preferences for your Robokassa e-shop"
+msgstr "Технические настройки для вашего магазина в Робокассе"
+
+msgctxt "Languages::robokassa.password1"
+msgid "Password1"
+msgstr "Пароль1"
+
+msgctxt "Languages::robokassa.password2"
+msgid "Password2"
+msgstr "Пароль2"
+
+msgctxt "Languages::robokassa.control_summ_wrong"
+msgid "Wrong control summ"
+msgstr "Неверная контрольная сумма"
+
+msgctxt "Languages::robokassa.approved"
+msgid "Approved"
+msgstr "Принятый"
+
+msgctxt "Languages::robokassa.merchant_response_was_not_received"
+msgid "No response from the merchant received. Please check this transaction manually."
+msgstr "Ответ на запрос от продавца не был получен. Пожалуйста, проверьте эту транзакцию вручную."
+
+msgctxt "Languages::robokassa.text_transaction_cancelled"
+msgid "Transaction was canceled by the customer"
+msgstr "Транзакция была отменена покупателем"
+
+msgctxt "Languages::robokassa.result_url"
+msgid "Result Url"
+msgstr "Result URL"
+
+msgctxt "Languages::robokassa.notification_result_url_method"
+msgid "Method of sending data to Result Url"
+msgstr "Способ отправки данных на Result URL"
+
+msgctxt "Languages::robokassa.success_url"
+msgid "Success Url"
+msgstr "Success URL"
+
+msgctxt "Languages::robokassa.notification_success_url_method"
+msgid "Method of sending data to Success Url"
+msgstr "Способ отправки данных на Success URL"
+
+msgctxt "Languages::robokassa.fail_url"
+msgid "Fail Url"
+msgstr "Fail URL"
+
+msgctxt "Languages::robokassa.notification_fail_url_method"
+msgid "Method of sending data to Fail Url"
+msgstr "Способ отправки данных на Fail URL"
+
+msgctxt "Languages::robokassa.merchantid"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::robokassa.description"
+msgid "Description"
+msgstr "Описание"
+
+msgctxt "Languages::robokassa.test_live_mode"
+msgid "Test/Live mode"
+msgstr "Тестовый/рабочий режим"
+
+msgctxt "Languages::robokassa.commission"
+msgid "Commission"
+msgstr "Комиссия"
+
+msgctxt "Languages::robokassa.payment_method"
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+msgctxt "Languages::robokassa.final_status"
+msgid "Formation of the final receipt"
+msgstr "Формирование финального чека"
+
+msgctxt "Languages::robokassa.test"
+msgid "Test"
+msgstr "Тестовый"
+
+msgctxt "Languages::robokassa.live"
+msgid "Live"
+msgstr "Рабочий"
+
+msgctxt "Languages::robokassa.customer"
+msgid "Customer"
+msgstr "Покупатель"
+
+msgctxt "Languages::robokassa.administrator"
+msgid "Administrator"
+msgstr "Администратор"
+
+msgctxt "Languages::robokassa.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Выплата за заказ #[order_id]"
+

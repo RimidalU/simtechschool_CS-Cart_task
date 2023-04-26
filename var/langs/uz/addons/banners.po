@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/banners.po\n"
+"X-Crowdin-File-ID: 7373\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::banners"
+msgid "Banners management"
+msgstr "Bannerlarni boshqarish"
+
+msgctxt "Addons::description::banners"
+msgid "Allows you to create text and visual banners"
+msgstr "Matn va vizual bannerlar yaratish imkonini beradi"
+
+msgctxt "Languages::banners.new_banner"
+msgid "New banner"
+msgstr "Yangi banner"
+
+msgctxt "Languages::banners.editing_banner"
+msgid "Editing banner"
+msgstr "Bannerni tahrirlash"
+
+msgctxt "Languages::add_banner"
+msgid "Add banner"
+msgstr "Banner qo'shing"
+
+msgctxt "Languages::banner"
+msgid "Banner"
+msgstr "Banner"
+
+msgctxt "Languages::banners"
+msgid "Banners"
+msgstr "Bannerlar"
+
+msgctxt "Languages::banners_menu_description"
+msgid "Create graphic and text banners that can then be placed on the storefront."
+msgstr "Grafik va matnli bannerlarni yarating, ular keyinchalik do'kon peshtaxtasiga joylashtirilishi mumkin."
+
+msgctxt "Languages::banner_code"
+msgid "Banner code"
+msgstr "Banner kodi"
+
+msgctxt "Languages::banner_code_for_some_products"
+msgid "Banner code for some products"
+msgstr "Ba'zi mahsulotlar uchun banner kodi"
+
+msgctxt "Languages::manage_banners"
+msgid "Manage banners"
+msgstr "Manage banners"
+
+msgctxt "Languages::block_banners"
+msgid "Banners"
+msgstr "Bannerlar"
+
+msgctxt "Languages::block_banners_description"
+msgid "Visual and text banners"
+msgstr "Vizual va matnli bannerlar"
+
+msgctxt "Languages::privileges.view_banners"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::privileges.manage_banners"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.banners"
+msgid "Banners"
+msgstr "Bannerlar"
+
+msgctxt "Languages::add_banners"
+msgid "Add banners"
+msgstr "Bannerlar qo'shing"
+
+msgctxt "Languages::add_banners_and_close"
+msgid "Add banners and close"
+msgstr "Bannerlar qo'shing va yoping"
+
+msgctxt "Languages::graphic_banner"
+msgid "Graphic banner"
+msgstr "Grafik banner"
+
+msgctxt "Languages::text_banner"
+msgid "Text banner"
+msgstr "Matn banneri"
+
+msgctxt "Languages::views"
+msgid "Views"
+msgstr "Ko'rinishlar"
+
+msgctxt "Languages::conversion"
+msgid "Conversion"
+msgstr "Konvertatsiya"
+
+msgctxt "Languages::banner_details_notes"
+msgid "After you create a banner here, you should use the <strong>Layout editor</strong> to add it to the storefront.<br /><br />Go to <a href=\"[layouts_href]\" target=\"_blank\">Design → Layouts</a>, switch to the location where you want the banner to appear, and add a new block with type <strong>Banners</strong>.<br /><br />In this block settings, go to the <strong>Content</strong> tab, pick the <strong>Manual</strong> filling, and click on the <strong>Add banners</strong> button.<br /><br />You will see the list of all the banners in your store. Pick the one(s) you need and click on the <strong>Add banners and close</strong> button.<br /><br />Finally, click on the <strong>Create</strong> button to save your changes."
+msgstr "Bu yerda banner yaratganingizdan so‘ng, uni vitriga qo‘shish uchun <strong>Tarzim muharriri</strong>dan foydalaning.<br /><br /><a href=\"[layouts_href]\" target=\"_blank\" sahifasiga o‘ting. \">Dizayn → Layouts</a>, banner ko'rinishini xohlagan joyga o'ting va <strong>Bannerlar</strong> turiga ega yangi blok qo'shing.<br /><br />Ushbu blok sozlamalarida , <strong>Kontent</strong> yorlig'iga o'ting, <strong>Qo'lda</strong> to'ldirishni tanlang va <strong>Banner qo'shish</strong> tugmasini bosing.<br /><br />Siz do'koningizdagi barcha bannerlar ro'yxatini ko'rasiz. Sizga kerak bo'lgan birini tanlang va <strong>Bannerlar qo'shish va yopish</strong> tugmasini bosing.<br /><br />Nihoyat, o'zingizni saqlash uchun <strong>Yaratish</strong> tugmasini bosing. o'zgarishlar."
+
+msgctxt "SettingsSections::banners::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::banners::banner_multilang"
+msgid "Enable multi-language Images/URLs"
+msgstr "Ko'p tilli tasvirlar/URLlarni yoqing"
+
+msgctxt "Languages::n_banners"
+msgid "[n] banner|[n] banners"
+msgstr "[n] banner|[n] bannerlar"
+

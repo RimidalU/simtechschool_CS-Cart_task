@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/store_locator.po\n"
+"X-Crowdin-File-ID: 7511\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::store_locator"
+msgid "Stores and pickup points"
+msgstr "Do'konlar va qabul qilish punktlari"
+
+msgctxt "Addons::description::store_locator"
+msgid "Allows you to mark your physical stores on the map and offer your customers to collect orders from there, if a corresponding shipping method is configured."
+msgstr "Agar tegishli yetkazib berish usuli sozlangan boʻlsa, xaritada jismoniy doʻkonlaringizni belgilash va mijozlaringizga u yerdan buyurtmalarni yigʻishni taklif qilish imkonini beradi."
+
+msgctxt "Languages::view_on_map"
+msgid "View on map"
+msgstr "Xaritada ko'rish"
+
+msgctxt "Languages::get_api_key"
+msgid "Obtaining an API Key"
+msgstr "API kalitini olish"
+
+msgctxt "Languages::block_store_locator"
+msgid "Store locator"
+msgstr "Do'konni aniqlash"
+
+msgctxt "Languages::store_locator"
+msgid "Stores & pickup points"
+msgstr "Do'konlar va qabul qilish punktlari"
+
+msgctxt "Languages::block_store_locator_description"
+msgid "Store locator block"
+msgstr "Do'konni aniqlash bloki"
+
+msgctxt "Languages::text_address_not_found"
+msgid "Address not found"
+msgstr "Manzil topilmadi"
+
+msgctxt "Languages::select_coordinates"
+msgid "Select coordinates"
+msgstr "Koordinatalarni tanlang"
+
+msgctxt "Languages::set"
+msgid "Set"
+msgstr "Oʻrnatish"
+
+msgctxt "Languages::editing_store_location"
+msgid "Editing store location"
+msgstr "Do‘kon manzilini tahrirlash"
+
+msgctxt "Languages::new_store_location"
+msgid "New store location"
+msgstr "Yangi do'kon manzili"
+
+msgctxt "Languages::add_store_location"
+msgid "Add store location"
+msgstr "Do'kon manzilini qo'shing"
+
+msgctxt "Languages::coordinates"
+msgid "Coordinates"
+msgstr "Koordinatalar"
+
+msgctxt "Languages::latitude_short"
+msgid "lat"
+msgstr "kenglik"
+
+msgctxt "Languages::longitude_short"
+msgid "long"
+msgstr "uzunlik"
+
+msgctxt "Languages::all_stores"
+msgid "All stores"
+msgstr "Barcha do'konlar"
+
+msgctxt "SettingsSections::store_locator::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::store_locator::print_map"
+msgid "Show map in order-related documents"
+msgstr "Buyurtma bilan bog'liq hujjatlarda xaritani ko'rsatish"
+
+msgctxt "SettingsTooltips::store_locator::print_map"
+msgid "Print the map on the packing slip and invoice"
+msgstr "Xaritani qadoqlash varaqasi va fakturada chop eting"
+
+msgctxt "SettingsOptions::store_locator::show_locations_at_geolocator"
+msgid "Use list of cities instead of a map"
+msgstr "Xarita oʻrniga shaharlar roʻyxatidan foydalaning"
+
+msgctxt "SettingsTooltips::store_locator::show_locations_at_geolocator"
+msgid "Affects the Customer Geolocation block. The list will be generated from cities that have stores and pickup points."
+msgstr "Mijozning geolokatsiyasi blokiga ta'sir qiladi. Ro'yxat do'konlari va qabul qilish punktlari bo'lgan shaharlardan tuziladi."
+
+msgctxt "Languages::privileges.manage_store_locator"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.store_locator"
+msgid "Store locator"
+msgstr "Do'konni aniqlash"
+
+msgctxt "Languages::privileges.view_store_locator"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::store_locator.text_pickup_instruction"
+msgid "The \"Customer pick-up\" shipping method offers a customer to choose a store to pick up a product from. The stores can be created in the \"Store location\" add-on<br /><b>Store creation:</b> <a href=\"[store_locator]\">Store location</a>"
+msgstr "\"Mijozni olib ketish\" jo'natish usuli mijozga mahsulotni olish uchun do'kon tanlashni taklif qiladi. Doʻkonlarni “Doʻkon joylashuvi” plaginida yaratish mumkin<br /><b>Doʻkon yaratish:</b> <a href=\"[store_locator]\">Doʻkon joylashuvi</a>"
+
+msgctxt "Languages::store_locator.select_stores"
+msgid "Select stores"
+msgstr "Do'konlarni tanlang"
+
+msgctxt "Languages::store_locator.pick_up_points"
+msgid "Pick-up points"
+msgstr "Qabul qilish punktlari"
+
+msgctxt "Languages::store_locator.stores_position"
+msgid "The \"Position\" field in the store settings"
+msgstr "Do'kon sozlamalarida \"Position\" maydoni"
+
+msgctxt "Languages::store_locator.shipping_position"
+msgid "Order selected in the shipping method settings"
+msgstr "Buyurtma yetkazib berish usuli sozlamalarida tanlangan"
+
+msgctxt "Languages::store_locator.selected_fields"
+msgid "Selected stores"
+msgstr "Do'konlarni tanlang"
+
+msgctxt "Languages::store_locator.available_fields"
+msgid "Available stores"
+msgstr "Mavjud do'konlar"
+
+msgctxt "Languages::store_locator.display_ml"
+msgid "Map and list"
+msgstr "Xarita va ro'yxat"
+
+msgctxt "Languages::store_locator.display_l"
+msgid "List"
+msgstr "Roʻyxat"
+
+msgctxt "Languages::store_locator.display_m"
+msgid "Map"
+msgstr "Xarita"
+
+msgctxt "Languages::store_locator.display"
+msgid "Locations list view on the checkout page"
+msgstr "To'lov sahifasida joylar ro'yxati ko'rinishi"
+
+msgctxt "Languages::store_locator.pickup"
+msgid "Pickup"
+msgstr "Olib ketish"
+
+msgctxt "Languages::store_locator.pickup_avail"
+msgid "Available for pick-up"
+msgstr "Olib ketish uchun mavjud"
+
+msgctxt "Languages::store_locator.work_time"
+msgid "Working hours"
+msgstr "ish vaqti"
+
+msgctxt "Languages::carrier_store_locator"
+msgid "Pickup"
+msgstr "Olib ketish"
+
+msgctxt "Languages::destination_nothing_found"
+msgid "No suitable destination has been found"
+msgstr "Tegishli manzil topilmadi"
+
+msgctxt "Languages::stores_nothing_found"
+msgid "No stores have been found"
+msgstr "Hech qanday do'kon topilmadi"
+
+msgctxt "Languages::pickup"
+msgid "Pickup"
+msgstr "Olib ketish"
+
+msgctxt "Languages::pickup_id"
+msgid "Pickup ID"
+msgstr "Olib ketish identifikatori"
+
+msgctxt "Languages::pickup_avail"
+msgid "Pickup avail"
+msgstr "Olib ketish imkoniyati mavjud"
+
+msgctxt "Languages::pickup_surcharge"
+msgid "Pickup surcharge"
+msgstr "Olib ketish qo'shimcha to'lovi"
+
+msgctxt "Languages::pickup_address"
+msgid "Pickup address"
+msgstr "Olib ketish manzili"
+
+msgctxt "Languages::pickup_phone"
+msgid "Pickup phone"
+msgstr "Olib ketish telefoni"
+
+msgctxt "Languages::pickup_time"
+msgid "Pickup time"
+msgstr "Qabul qilish vaqti"
+
+msgctxt "Languages::pickup_destinations_ids"
+msgid "Pickup destinations ids"
+msgstr "Olib ketish manzillari identifikatorlari"
+
+msgctxt "Languages::store_locator.show_pickup_points_only"
+msgid "Hide places where I can't pick up my order"
+msgstr "Buyurtmani olib bo'lmaydigan joylarni yashiring"
+
+msgctxt "Languages::store_locator.stores_and_pickup_points"
+msgid "Stores and pickup points"
+msgstr "Do'konlar va qabul qilish punktlari"
+
+msgctxt "Languages::store_locator.surcharge_changes_hint"
+msgid "In previous versions, the surcharge was added to the standard rates that were specified for a shipping method. Now this surcharge isn't taken into account during shipping rate calculation. We left it here for your convenience, so that you could see it and adjust the rates on the shipping method editing page accordingly."
+msgstr "Oldingi versiyalarda qo'shimcha to'lov yuk tashish usuli uchun belgilangan standart tariflarga qo'shilgan. Endi bu qo'shimcha to'lov yuk tashish tarifini hisoblashda hisobga olinmaydi. Sizga qulay bo'lishi uchun uni shu yerda qoldirdik, shunda siz uni ko'rishingiz va etkazib berish usulini tahrirlash sahifasida tariflarni mos ravishda o'zgartirishingiz mumkin."
+
+msgctxt "Languages::store_locator.main_destination"
+msgid "Located in rate area"
+msgstr "Narx zonasida joylashgan"
+
+msgctxt "Languages::tt_addons_store_locator_views_store_locator_update_store_locator.main_destination"
+msgid "Determines the shipping rates for this pickup point. The rates are specified on the shipping method editing page. If you don't select a rate area for a pickup point, then the pickup point won't appear at checkout."
+msgstr "Ushbu qabul qilish punkti uchun jo'natish tariflarini belgilaydi. Tariflar yuk tashish usulini tahrirlash sahifasida ko'rsatilgan. Agar qabul qilish punkti uchun tarif maydonini tanlamasangiz, qabul qilish punkti kassada ko'rinmaydi."
+
+msgctxt "Languages::store_locator.show_to"
+msgid "Show to"
+msgstr "Ko'rsatish"
+
+msgctxt "Languages::show_to"
+msgid "Show to"
+msgstr "Ko'rsatish"
+
+msgctxt "Languages::tt_addons_store_locator_views_store_locator_update_store_locator.show_to"
+msgid "Allows you to offer this pickup point to the residents of other rate areas at checkout."
+msgstr "Ushbu qabul qilish punktini boshqa tarif hududlari aholisiga to'lov vaqtida taklif qilish imkonini beradi."
+
+msgctxt "Languages::store_locator.shipping_price_from"
+msgid "from [price]"
+msgstr "[price] dan"
+
+msgctxt "Languages::store_locator.use_two_fingers_for_move_map"
+msgid "Use two fingers to move the map"
+msgstr "Xaritani siljitish uchun ikki barmoqdan foydalaning"
+
+msgctxt "Languages::store_locator.scroll_to_top"
+msgid "Scroll to top"
+msgstr "Yuqoriga aylantiring"
+
+msgctxt "Languages::store_locator.no_rate_area"
+msgid "No rate area"
+msgstr "Tarif maydoni yo'q"
+
+msgctxt "Languages::store_locator.name"
+msgid "Name"
+msgstr "Ism"
+
+msgctxt "Languages::store_locator.pickup_locations"
+msgid "Pickup Locations"
+msgstr "Olib ketish joylari"
+
+msgctxt "Languages::store_locator.any_rate_area"
+msgid "Any rate area"
+msgstr "Har qanday tarif maydoni"
+
+msgctxt "Languages::store_locator.pickup_from_store"
+msgid "Pickup from store"
+msgstr "Do'kondan olib ketish"
+
+msgctxt "Languages::store_locator.any_vendor"
+msgid "Any vendor"
+msgstr "Har qanday sotuvchi"
+
+msgctxt "Languages::store_locator.any"
+msgid "Any"
+msgstr "Har qanday"
+
+msgctxt "Languages::store_locator.shipping_price_from_to"
+msgid "from [from_price] to [to_price]"
+msgstr "[from_price] dan [from_price] gacha"
+

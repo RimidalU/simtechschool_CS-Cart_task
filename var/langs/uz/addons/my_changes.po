@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/my_changes.po\n"
+"X-Crowdin-File-ID: 7443\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::my_changes"
+msgid "My Changes (example add-on)"
+msgstr "Faqat Multi-Vendor Plus nashrida mavjud funksiyani yoqadi."
+
+msgctxt "Addons::description::my_changes"
+msgid "A dummy add-on to let devs see how add-ons work. You can also use it to introduce small changes not worthy of a separate add-on"
+msgstr "Ishlab chiquvchilarga qo'shimchalar qanday ishlashini ko'rish imkonini beruvchi qo'g'irchoq qo'shimcha. Bundan tashqari, alohida qo'shimchaga loyiq bo'lmagan kichik o'zgarishlarni kiritish uchun ham foydalanishingiz mumkin"
+

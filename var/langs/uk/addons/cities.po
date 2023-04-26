@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Міста"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Доповнення надає новий функціонал – міста автоматично додаються на сторінку замовлення."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Щоб створити нове місто, необхідно вибрати країну та регіон, натиснути кнопку «Пошук» і створити місто за допомогою кнопки «+». Якщо для країни немає регіонів, їх потрібно створювати."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Додати нове місто"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Нове місто"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Виберіть місто"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Держави не створені"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Не вибрано штат"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "інше місто"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Створити нову державу"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Можна переглядати"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Може редагувати"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Може редагувати"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Міста"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Код міста sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Оновити міста"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "оновлення"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Оновлено таблицю міст"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "місто., місто"
+

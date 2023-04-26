@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "şehirler"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Eklenti, sipariş verme sayfasına otomatik olarak eklenecek şehirler gibi yeni işlevler sağlar."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Yeni bir şehir oluşturmak için ülke ve bölge seçip “Ara” butonunu tıklamalı ve “+” butonunu kullanarak bir şehir oluşturmalısınız. Ülke için bölge yoksa oluşturulmalıdır."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "yeni şehir ekle"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Yeni şehir"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Şehir seç"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Devlet oluşturulmadı"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Eyalet seçilmedi"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "başka şehir"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Yeni durum oluştur"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Görüntüleyebilir"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Düzenleyebilir"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Düzenleyebilir"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "şehirler"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "kod şehir sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Şehirleri güncelle"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Güncelleme"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Tablo şehirleri güncellendi"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "şehir., şehir"
+

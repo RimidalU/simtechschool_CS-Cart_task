@@ -1,0 +1,81 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Cities"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "The add-on provides new functionality – cities to be added automatically to the order placing page."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Add new city"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "New city"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Select city"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "No states created"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "No state selected"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "another city"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Create new state"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Can view"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Can edit"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Can edit"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Cities"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Code city sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Update cities"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Update"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Table cities was updated"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "city., city"

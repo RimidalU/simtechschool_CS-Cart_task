@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/vendor_communication.po\n"
+"X-Crowdin-File-ID: 7529\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::vendor_communication"
+msgid "Message center"
+msgstr "Xabarlar markazi"
+
+msgctxt "Addons::description::vendor_communication"
+msgid "Allows customers, vendors, and administrators to contact each other via the built-in chat."
+msgstr "Mijozlarga, sotuvchilarga va ma'murlarga o'rnatilgan chat orqali bir-birlari bilan bog'lanish imkonini beradi."
+
+msgctxt "SettingsSections::vendor_communication::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsSections::vendor_communication::vendor_to_customer"
+msgid "For customers"
+msgstr "Mijozlar uchun"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_product"
+msgid "Contact button on product pages"
+msgstr "Mahsulot sahifalarida aloqa tugmasi"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_vendor"
+msgid "Contact button in vendor microstore"
+msgstr "Sotuvchi mikrodo'konidagi aloqa tugmasi"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_messages"
+msgid "Contact button at \"Messages\" menu"
+msgstr "\"Xabarlar\" menyusidagi aloqa tugmasi"
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_product"
+msgid "Show the \"Ask a question\" button on product pages."
+msgstr "Mahsulot sahifalarida \"Savol so'rang\" tugmasini ko'rsating."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_vendor"
+msgid "Show the \"Ask a question\" button in vendors' microstores."
+msgstr "Sotuvchilarning mikrodo'konlarida \"Savol so'rang\" tugmasini ko'rsating."
+
+msgctxt "SettingsOptions::vendor_communication::vendor_to_customer_communication"
+msgid "Customer-to-seller communication"
+msgstr "Xaridor va sotuvchi aloqasi"
+
+msgctxt "SettingsOptions::vendor_communication::vendor_to_admin_communication"
+msgid "Vendor-to-admin communication"
+msgstr "Sotuvchidan administratorga aloqa"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_order"
+msgid "Contact button on detailed order page"
+msgstr "Batafsil buyurtma sahifasidagi aloqa tugmasi"
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_order"
+msgid "Show the \"Start communication\" button on detailed order page."
+msgstr "Batafsil buyurtma sahifasida \"Muloqotni boshlash\" tugmasini ko'rsating."
+
+msgctxt "Languages::vendor_communication.messages"
+msgid "Messages"
+msgstr "Xabarlar"
+
+msgctxt "Languages::vendor_communication.message_center"
+msgid "Message center"
+msgstr "Xabarlar markazi"
+
+msgctxt "Languages::vendor_communication.message_center_name"
+msgid "Message center"
+msgstr "Xabarlar markazi"
+
+msgctxt "Languages::vendor_communication.message_center_name_menu_description"
+msgid "Messages from customers"
+msgstr "Mijozlardan kelgan xabarlar"
+
+msgctxt "Languages::vendor_communication.message_center_menu_description"
+msgid "Customer-to-vendor messages"
+msgstr "Xaridordan sotuvchiga xabarlar"
+
+msgctxt "Languages::vendor_communication.author"
+msgid "Author"
+msgstr "Muallif"
+
+msgctxt "Languages::vendor_communication.date"
+msgid "Date"
+msgstr "Sana"
+
+msgctxt "Languages::vendor_communication.message"
+msgid "Message"
+msgstr "Xabar"
+
+msgctxt "Languages::vendor_communication.contact_vendor"
+msgid "Contact vendor"
+msgstr "Sotuvchiga murojaat qiling"
+
+msgctxt "Languages::vendor_communication.ask_a_question"
+msgid "Ask a question"
+msgstr "Bizga savol bering"
+
+msgctxt "Languages::vendor_communication.contact_vendor_name"
+msgid "Contact [vendor_name]"
+msgstr "[vendor_name] bilan bog'laning"
+
+msgctxt "Languages::vendor_communication.created_at"
+msgid "Created on"
+msgstr "Yaratilgan sanasi"
+
+msgctxt "Languages::vendor_communication.new_thread_created"
+msgid "Your message has been sent to <b>[vendor_name]</b>.<br/><br/>The vendor's reply will be sent to the email address of your account. To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Messages\" section of the \"My account\" menu."
+msgstr "Xabaringiz <b>[vendor_name]</b> manziliga yuborildi.<br/><br/>Verdorning javobi hisobingiz elektron pochta manziliga yuboriladi. Xabarlar tarixini koʻrish uchun “Mening hisobim” menyusining “Xabarlar” boʻlimida joylashgan <a href=\"[thread_url]\">Xabarlar markaziga</a> oʻting."
+
+msgctxt "Languages::vendor_communication.message_sent"
+msgid "Your message has been sent to <b>[vendor_name]</b>.<br/><br/>We'll notify you about a reply. To view your message history, please <a href=\"[thread_url]\" target=\"_blank\">go to the Message Center</a> located in the \"Messages\" section of the \"My account\" menu."
+msgstr "Xabaringiz <b>[vendor_name]</b> manziliga yuborildi.<br/><br/>Javob haqida sizga xabar beramiz. Xabarlar tarixini ko‘rish uchun “Mening hisobim” menyusining “Xabarlar” bo‘limida joylashgan <a href=\"[thread_url]\" target=\"_blank\">Xabarlar markaziga</a> o‘ting."
+
+msgctxt "Languages::vendor_communication.cannot_update_thread"
+msgid "Cannot update thread"
+msgstr "Mavzuni yangilab bo‘lmadi"
+
+msgctxt "Languages::vendor_communication.cannot_create_thread"
+msgid "Cannot create thread"
+msgstr "Tarmoq yaratib bo‘lmadi"
+
+msgctxt "Languages::email_template.vendor_communication.notify_admin"
+msgid "Ask seller a question: Admin Notification"
+msgstr "Sotuvchiga savol bering: Administrator bildirishnomasi"
+
+msgctxt "Languages::email_template.vendor_communication.notify_customer"
+msgid "Ask seller a question: Customer Notification"
+msgstr "Sotuvchiga savol bering: Xaridor bildirishnomasi"
+
+msgctxt "Languages::vendor_communication.you_have_new_message"
+msgid "You have a new <a href=\"[thread_url]\">message</a> from [message_from]."
+msgstr "Sizda [message_from] dan yangi <a href=\"[thread_url]\">xabar</a> bor."
+
+msgctxt "Languages::vendor_communication.subject_email"
+msgid "You have a new message from [message_from]"
+msgstr "Sizga [message_from]dan yangi xabar keldi"
+
+msgctxt "Languages::vendor_communication.thread"
+msgid "Thread #[thread_id]"
+msgstr "Mavzu #[thread_id]"
+
+msgctxt "Languages::vendor_communication.contact_with"
+msgid "#[thread_id]. Communication with [thread_company]"
+msgstr "#[thread_id]. [thread_company] bilan aloqa"
+
+msgctxt "Languages::vendor_communication.ticket"
+msgid "Thread"
+msgstr "Mavzu"
+
+msgctxt "Languages::vendor_communication.no_messages_found"
+msgid "No messages found"
+msgstr "Hech qanday xabar topilmadi"
+
+msgctxt "Languages::vendor_communication.customer_name"
+msgid "Customer name"
+msgstr "mijoz nomi"
+
+msgctxt "Languages::vendor_communication.error_message"
+msgid "Please enter your message"
+msgstr "Iltimos, xabaringizni kiriting"
+
+msgctxt "Languages::vendor_communication.type_message"
+msgid "Type a message..."
+msgstr "Xabar yozing..."
+
+msgctxt "Languages::vendor_communication.you"
+msgid "You"
+msgstr "Siz"
+
+msgctxt "Languages::vendor_communication.order_details"
+msgid "Order details"
+msgstr "Buyurtma tafsilotlari"
+
+msgctxt "Languages::vendor_communication.import_details"
+msgid "Import details"
+msgstr "Import tafsilotlari"
+
+msgctxt "Languages::vendor_communication.thread_deleted"
+msgid "Thread has been deleted"
+msgstr "Mavzu o'chirildi"
+
+msgctxt "Languages::vendor_communication.threads_deleted"
+msgid "Threads have been deleted"
+msgstr "Mavzular o'chirildi"
+
+msgctxt "Languages::vendor_communication.cannot_delete_thread"
+msgid "Cannot delete thread"
+msgstr "Mavzuni oʻchirib boʻlmadi"
+
+msgctxt "Languages::vendor_communication.cannot_delete_threads"
+msgid "Cannot delete threads"
+msgstr "Mavzularni oʻchirib boʻlmadi"
+
+msgctxt "Languages::vendor_communication.cannot_post_message"
+msgid "Cannot post message"
+msgstr "Xabarni joylash imkonsiz"
+
+msgctxt "Languages::vendor_communication.no_threads_found"
+msgid "No threads found"
+msgstr "Hech qanday mavzu topilmadi"
+
+msgctxt "Languages::vendor_communication.required_field_is_missing"
+msgid "The [field_name] field is required"
+msgstr "[field_name] maydoni talab qilinadi"
+
+msgctxt "Languages::vendor_communication.invalid_thread_object_type"
+msgid "Provided thread object type is invalid"
+msgstr "Taqdim etilgan mavzu turi yaroqsiz"
+
+msgctxt "Languages::vendor_communication.please_log_in_to_contact_vendor"
+msgid "Please sign in to contact the vendor"
+msgstr "Sotuvchi bilan bog'lanish uchun tizimga kiring"
+
+msgctxt "Languages::privileges.manage_vendor_communication"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privileges.view_vendor_communication"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::privilege_groups.vendor_communication"
+msgid "Message center: customer-to-vendor communication"
+msgstr "Xabarlar markazi: xaridorlar va sotuvchilar o'rtasidagi aloqa"
+
+msgctxt "Languages::vendor_communication.your_message_to_vendor_name"
+msgid "Your message to [vendor_name]"
+msgstr "[vendor_name] ga xabaringiz"
+
+msgctxt "Languages::vendor_communication.please_log_in_to_be_notified"
+msgid "Please sign in so that we can notify you about a reply"
+msgstr "Javob haqida sizni xabardor qilishimiz uchun tizimga kiring"
+
+msgctxt "Languages::vendor_communication"
+msgid "Message center"
+msgstr "Xabarlar markazi"
+
+msgctxt "Languages::vendor_communication.event.message_received.name"
+msgid "Customer-to-vendor: New message received"
+msgstr "Xaridordan sotuvchiga: yangi xabar qabul qilindi"
+
+msgctxt "Languages::vendor_communication.event.vendor_to_admin_message_received.name"
+msgid "Vendor-to-admin: New message received"
+msgstr "Sotuvchidan administratorga: Yangi xabar qabul qilindi"
+
+msgctxt "Languages::internal_template.vendor_communication_message_received"
+msgid "New message received"
+msgstr "Yangi xabar qabul qilindi"
+
+msgctxt "Languages::vendor_communication.new_message.title"
+msgid "[company_name] has a new message from [customer]"
+msgstr "[company_name]ga [customer]dan yangi xabar bor"
+
+msgctxt "Languages::vendor_communication.new_message.message"
+msgid "Click this notification to see the message"
+msgstr "Xabarni ko'rish uchun ushbu bildirishnomani bosing"
+
+msgctxt "Languages::vendor_communication.contact_admin"
+msgid "Contact administrator"
+msgstr "Administrator bilan bog'laning"
+
+msgctxt "Languages::vendor_communication.contact_vendor"
+msgid "Contact vendor"
+msgstr "Sotuvchiga murojaat qiling"
+
+msgctxt "Languages::vendor_communication.communication"
+msgid "Communication"
+msgstr "Aloqa"
+
+msgctxt "Languages::vendor_communication.message_center_vendor_name"
+msgid "Message center"
+msgstr "Xabarlar markazi"
+
+msgctxt "Languages::vendor_communication.message_center_vendor_name_menu_description"
+msgid "Messages from vendor to administrator"
+msgstr "Sotuvchidan administratorga xabarlar"
+
+msgctxt "Languages::vendor_communication.tab_vendor_to_admin"
+msgid "Vendor communication"
+msgstr "Sotuvchi bilan aloqa"
+
+msgctxt "Languages::vendor_communication.tab_vendor_to_customer"
+msgid "Customer communication"
+msgstr "Mijoz bilan muloqot"
+
+msgctxt "Languages::vendor_communication.tab_vendor_to_admin_for_vendor_panel"
+msgid "Admin communication"
+msgstr "Administrator aloqasi"
+
+msgctxt "Languages::vendor_communication.your_message_to_admin"
+msgid "Your message to administrator"
+msgstr "Sizning xabaringiz administratorga"
+
+msgctxt "Languages::vendor_communication.some_threads_have_not_been_created"
+msgid "Some threads have not been created: [count]"
+msgstr "Ayrim mavzular yaratilmagan: [count]"
+
+msgctxt "Languages::vendor_communication.vendor_to_admin.message_sent"
+msgid "Your message has been sent to <b>[name]</b>.<br/><br/>To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Vendors\" menu."
+msgstr "Xabaringiz <b>[name]</b> manziliga yuborildi.<br/><br/>Xabarlar tarixini ko‘rish uchun <a href=\"[thread_url]\">Xabarlar markaziga</a o‘ting. > \"Vendors\" menyusida joylashgan."
+
+msgctxt "Languages::vendor_communication.vendor_to_customer.message_sent"
+msgid "Your message has been sent to <b>[name]</b>.<br/><br/>To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Customers\" menu."
+msgstr "Xabaringiz <b>[name]</b> manziliga yuborildi.<br/><br/>Xabarlar tarixini ko‘rish uchun <a href=\"[thread_url]\">Xabarlar markaziga</a o‘ting. > \"Mijozlar\" menyusida joylashgan."
+
+msgctxt "Languages::vendor_communication.vendor_to_admin.message_list_sent"
+msgid "Your messages have been sent.<br/><br/>To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Vendors\" menu."
+msgstr "Xabarlaringiz yuborildi.<br/><br/>Xabarlar tarixini koʻrish uchun “Vendors” menyusida joylashgan <a href=\"[thread_url]\">Xabarlar markaziga</a> oʻting."
+
+msgctxt "Languages::privilege_groups.admin_communication"
+msgid "Message center: vendor-to-admin communication"
+msgstr "Xabarlar markazi: sotuvchidan administratorga aloqa"
+
+msgctxt "Languages::customer_to_admin_communication.event.message_received.name"
+msgid "Customer-to-Admin: New message received"
+msgstr "Mijozdan administratorga: Yangi xabar qabul qilindi"
+
+msgctxt "Languages::vendor_communication.start_communication"
+msgid "Start communication"
+msgstr "Muloqotni boshlang"
+
+msgctxt "Languages::privilege_groups.order_communication"
+msgid "Message center: communication with customer"
+msgstr "Xabar markazi: mijoz bilan aloqa"
+
+msgctxt "Languages::vendor_communication.communication_vendor_to_admin"
+msgid "Communication with vendor"
+msgstr "Sotuvchi bilan aloqa"
+
+msgctxt "Languages::vendor_communication.communication_vendor_to_customer"
+msgid "Communication with customer"
+msgstr "Mijoz bilan aloqa"
+
+msgctxt "Languages::vendor_communication.communication_vendor_to_admin_with_admin"
+msgid "Communication with administrator"
+msgstr "Administrator bilan aloqa"
+
+msgctxt "Languages::vendor_communication.contact_customer"
+msgid "Contact customer"
+msgstr "Mijoz bilan bog'laning"
+
+msgctxt "Languages::vendor_communication.subject"
+msgid "Subject"
+msgstr "Mavzu"
+
+msgctxt "Languages::vendor_communication.admin"
+msgid "Admin"
+msgstr "Admin"
+
+msgctxt "Languages::vendor_communication.your_message_to_customer"
+msgid "Your message to customer"
+msgstr "Sizning mijozga xabaringiz"
+
+msgctxt "Languages::vendor_communication.event.order_message_received.name"
+msgid "Order communication: New message received"
+msgstr "Buyurtma aloqasi: Yangi xabar qabul qilindi"
+
+msgctxt "Languages::vendor_communication.scroll_to_top"
+msgid "Scroll to top"
+msgstr "Yuqoriga aylantiring"
+
+msgctxt "Languages::vendor_communication.send_message"
+msgid "Send message"
+msgstr "Xabar yuborish"
+
+msgctxt "Languages::vendor_communication.dashboard.todo.messages_from_customers"
+msgid "<strong>[n] message</strong> from customer.|<strong>[n] messages</strong> from customers."
+msgstr "Mijozdan <strong>[n] xabar</strong>.|Mijozlardan<strong>[n] xabar</strong>."
+
+msgctxt "Languages::vendor_communication.dashboard.todo.messages_from_administrator"
+msgid "<strong>[n] message</strong> from marketplace administration.|<strong>[n] messages</strong> from marketplace administration."
+msgstr "Bozor ma'muriyatidan <strong>[n] xabar</strong>.|Bozor ma'muriyatidan<strong>[n]] xabarlar</strong>."
+
+msgctxt "Languages::vendor_communication.dashboard.todo.messages_from_vendors"
+msgid "<strong>[n] message</strong> from vendor.|<strong>[n] messages</strong> from vendors."
+msgstr "<strong>[n] xabar</strong> sotuvchidan.|<strong>[n] xabar</strong> sotuvchilardan."
+

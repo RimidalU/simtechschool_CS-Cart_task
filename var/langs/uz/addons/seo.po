@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/seo.po\n"
+"X-Crowdin-File-ID: 7501\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::seo"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "Addons::description::seo"
+msgid "Adds Search engine-friendly URLs support"
+msgstr "Qidiruv tizimiga mos URL manzillarini qo'llab-quvvatlaydi"
+
+msgctxt "Languages::seo_rules_menu_description"
+msgid "Use this section to define global rules for the URLs rewritten in your store."
+msgstr "Do'koningizda qayta yozilgan URL manzillari uchun global qoidalarni aniqlash uchun ushbu bo'limdan foydalaning."
+
+msgctxt "Languages::seo.redirects_manager_menu_description"
+msgid "Manages redirect rules from old URLs"
+msgstr "Eski URL manzillaridan qayta yoʻnaltirish qoidalarini boshqaradi"
+
+msgctxt "Languages::controller_description"
+msgid "If you want to specify a SEO-name for the URL, e.g. http://example.com/index.php?dispatch=<b>categories.catalog</b>, you need to enter the \"<b>categories.catalog</b>\" value into the \"<b>The value of the \"dispatch\" parameter from the URL</b>\" field and specify the SEO name in the \"<b>SEO name</b>\" field."
+msgstr "Agar siz URL uchun SEO nomini belgilashni istasangiz, masalan. http://example.com/index.php?dispatch=<b>categories.catalog</b>, siz \"<b>categories.catalog</b>\" qiymatini kiritishingiz kerak URL</b>dan \"dispatch\" parametrining qiymati va \"<b>SEO name</b>\" maydonida SEO nomini belgilang."
+
+msgctxt "Languages::seo_name"
+msgid "SEO name"
+msgstr "SEO nomi"
+
+msgctxt "Languages::warning_seo_urls_disabled"
+msgid "SEO-friendly URLs are disabled. Check your web server and URL manipulation engine settings."
+msgstr "SEOga mos URL manzillar o'chirilgan. Veb-server va URL-manipulyatsiya mexanizmi sozlamalarini tekshiring."
+
+msgctxt "Languages::dispatch_value"
+msgid "Dispatch value"
+msgstr "Etkazib berish qiymati"
+
+msgctxt "Languages::url_dispatch_part"
+msgid "The value of the \"dispatch\" parameter from the URL"
+msgstr "URL manzilidan \"dispatch\" parametrining qiymati"
+
+msgctxt "Languages::new_rule"
+msgid "New rule"
+msgstr "Yangi fayl"
+
+msgctxt "Languages::seo_rules"
+msgid "SEO rules"
+msgstr "SEO qoidalari"
+
+msgctxt "Languages::seo_page_title"
+msgid "page [n]"
+msgstr "sahifa [n]"
+
+msgctxt "Languages::privileges.manage_seo_rules"
+msgid "Can edit"
+msgstr "Tahrirlash mumkin"
+
+msgctxt "Languages::privilege_groups.seo"
+msgid "SEO"
+msgstr "SEO"
+
+msgctxt "Languages::privileges.view_seo_rules"
+msgid "Can view"
+msgstr "Ko'rish mumkin"
+
+msgctxt "Languages::seo.redirects_manager"
+msgid "301 redirects"
+msgstr "301 yo'naltirish"
+
+msgctxt "Languages::seo.old_url"
+msgid "Old URL"
+msgstr "Eski URL"
+
+msgctxt "Languages::seo.new_url"
+msgid "New URL"
+msgstr "Yangi URL"
+
+msgctxt "Languages::seo.new_redirect"
+msgid "New Redirect"
+msgstr "Yangi yo'naltirish"
+
+msgctxt "Languages::seo.error_old_url_exists"
+msgid "The URL you're redirecting from is already exist"
+msgstr "Siz yoʻnaltirayotgan URL allaqachon mavjud"
+
+msgctxt "Languages::seo.rich_snippets"
+msgid "Google rich snippets preview"
+msgstr "Google-ning boy parchalarini oldindan ko'rish"
+
+msgctxt "Languages::seo.rich_snippets_rating"
+msgid "Rating"
+msgstr "Reyting"
+
+msgctxt "Languages::seo.rich_snippets_reviews"
+msgid "[n] review|[n] reviews"
+msgstr "[n] sharh|[n] sharh"
+
+msgctxt "Languages::seo.create_redirect"
+msgid "Create redirect from old URL"
+msgstr "Eski URL manzilidan qayta yo'naltirishni yarating"
+
+msgctxt "Languages::seo.error_incorrect_url"
+msgid "Incorrect format for <b>[url]</b> URL. For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "<b>[url]</b> URL uchun noto‘g‘ri format. Misol uchun, agar sizning URL manzilingiz <b>http://example.com/path/to/object</b> bo'lsa, siz <b>/path/to/object</b>ni kiritishingiz kerak."
+
+msgctxt "Languages::tt_addons_seo_views_seo_redirects_manage_seo.old_url"
+msgid "For example, if your URL is <b>http://example.com/path/to/object</b>, you need to enter <b>/path/to/object</b>"
+msgstr "Misol uchun, agar sizning URL manzilingiz <b>http://example.com/path/to/object</b> bo'lsa, siz <b>/path/to/object</b>ni kiritishingiz kerak."
+
+msgctxt "SettingsSections::seo::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::seo::seo_product_type"
+msgid "Product SEO URL format"
+msgstr "Mahsulot SEO URL formati"
+
+msgctxt "SettingsOptions::seo::seo_category_type"
+msgid "Category SEO URL format"
+msgstr "Turkum SEO URL formati"
+
+msgctxt "SettingsOptions::seo::seo_page_type"
+msgid "Page SEO URL format"
+msgstr "Sahifa SEO URL formati"
+
+msgctxt "SettingsOptions::seo::seo_other_type"
+msgid "Other SEO URL format"
+msgstr "Boshqa SEO URL formati"
+
+msgctxt "SettingsOptions::seo::seo_language"
+msgid "Show additional language in the URL"
+msgstr "URLda qoʻshimcha tilni koʻrsating"
+
+msgctxt "SettingsOptions::seo::single_url"
+msgid "Use single URL for all languages"
+msgstr "Barcha tillar uchun bitta URL manzilidan foydalaning"
+
+msgctxt "SettingsOptions::seo::non_latin_symbols"
+msgid "Allow non-latin symbols in URL"
+msgstr "URLda lotin bo'lmagan belgilarga ruxsat bering"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file_nohtml"
+msgid "/product-name/"
+msgstr "/mahsulot nomi/"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_file"
+msgid "/product-name.html"
+msgstr "/mahsulot-nomi.html"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category_nohtml"
+msgid "/category-name/[subcategory-name/]product-name/"
+msgstr "/toifa nomi/[subcategory-name/]mahsulot nomi/"
+
+msgctxt "SettingsVariants::seo::seo_product_type::product_category"
+msgid "/category-name/[subcategory-name/]product-name.html"
+msgstr "/toifa-nomi/[subcategory-nomi/]mahsulot-nomi.html"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category_nohtml"
+msgid "/parent-category/category/[page-2/]"
+msgstr "/ota-ona-toifasi/toifa/[2-sahifa/]"
+
+msgctxt "SettingsVariants::seo::seo_category_type::category"
+msgid "/parent-category/category-[page-2].html"
+msgstr "/ota-ona-toifasi/toifa/[2-sahifa/]"
+
+msgctxt "SettingsVariants::seo::seo_category_type::root_category"
+msgid "/category/[page-2/]"
+msgstr "/category/[page-2/]"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page"
+msgid "/parent-page/page.html"
+msgstr "/parent-page/page.html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::page_nohtml"
+msgid "/parent-page/page/"
+msgstr "/parent-page/page/"
+
+msgctxt "SettingsVariants::seo::seo_page_type::root_page"
+msgid "/page/"
+msgstr "/sahifa/"
+
+msgctxt "SettingsVariants::seo::seo_other_type::directory"
+msgid "/item/"
+msgstr "/element/"
+
+msgctxt "SettingsVariants::seo::seo_category_type::file"
+msgid "/category[-page-2].html"
+msgstr "/category[-page-2].html"
+
+msgctxt "SettingsVariants::seo::seo_page_type::file"
+msgid "/page.html"
+msgstr "/page.html"
+
+msgctxt "SettingsVariants::seo::seo_other_type::file"
+msgid "/item.html"
+msgstr "/item.html"
+
+msgctxt "Languages::seo.important_language_text"
+msgid "<b>Warning!</b> The <b>SEO</b> add-on is currently configured to use a single URL for all languages. If you hide, disable, or delete a default language of one of the storefronts, the SEO URLs will be changed."
+msgstr "<b>Diqqat!</b> <b>SEO</b> qoʻshimchasi hozirda barcha tillar uchun bitta URL manzilidan foydalanishga sozlangan. Agar siz do'konlardan birining standart tilini yashirsangiz, o'chirib qo'ysangiz yoki o'chirsangiz, SEO URL manzillari o'zgartiriladi."
+
+msgctxt "Languages::seo.product_feature.feature_code.notice"
+msgid "A suitable code can help this feature appear with the product in search engines. Supported codes:"
+msgstr "Tegishli kod ushbu xususiyatni qidiruv tizimlarida mahsulotda paydo bo'lishiga yordam beradi. Qo'llab-quvvatlanadigan kodlar:"
+
+msgctxt "Languages::seo.brand"
+msgid "Brand"
+msgstr "Brand"
+
+msgctxt "Languages::seo.feature_code.brand.description"
+msgid "Name used by an organization or business person for labeling a product"
+msgstr "Tashkilot yoki tadbirkor tomonidan mahsulotni markalash uchun foydalaniladigan nom"
+
+msgctxt "Languages::seo.isbn"
+msgid "ISBN"
+msgstr "ISBN"
+
+msgctxt "Languages::seo.feature_code.isbn.description"
+msgid "International Standard Book Number"
+msgstr "Xalqaro standart kitob raqami"
+
+msgctxt "Languages::seo.gtin"
+msgid "GTIN"
+msgstr "GTIN"
+
+msgctxt "Languages::seo.feature_code.gtin.description"
+msgid "Global Trade Item Number"
+msgstr "Global savdo elementi raqami"
+
+msgctxt "Languages::seo.MPN"
+msgid "MPN"
+msgstr "MPN"
+
+msgctxt "Languages::seo.feature_code.mpn.description"
+msgid "Manufacturer Part Number"
+msgstr "Ishlab chiqaruvchi qism raqami"
+
+msgctxt "Languages::seo.storefront_frontend_default_language_warning"
+msgid "The <a href=\"[link]\">SEO</a> add-on is currently configured to use a single URL for all languages. If you change a default language of this storefront, the SEO URLs will be changed."
+msgstr "<a href=\"[link]\">SEO</a> qo‘shimchasi hozirda barcha tillar uchun bitta URL manzilidan foydalanishga sozlangan. Agar siz ushbu vitrining standart tilini o'zgartirsangiz, SEO URL manzillari o'zgaradi."
+
+msgctxt "Languages::seo.secondary_storefront_frontend_default_language_warning"
+msgid "The <a href=\"[link]\">SEO</a> add-on is currently configured to use a single URL for all languages using the default language of the default storefront. If you change the default language of the selected storefront, the SEO URLs will not be changed."
+msgstr ""
+
+msgctxt "Languages::seo.default_storefront_frontend_default_language_warning"
+msgid "The <a href=\"[link]\">SEO</a> add-on is currently configured to use a single URL for all languages. If you change a default language of the default storefront, the SEO URLs will be changed for all storefronts."
+msgstr "<a href=\"[link]\">SEO</a> qo‘shimchasi hozirda barcha tillar uchun bitta URL manzilidan foydalanishga sozlangan. Agar siz standart vitrina tilini o'zgartirsangiz, SEO URL manzillari barcha vitrinalar uchun o'zgartiriladi."
+
+msgctxt "Languages::seo.error_at_creation_seo_name"
+msgid "The following SEO name already exists in your store: <b>[names]</b>. <p> The following SEO name was used instead: <b>[new_names]</b>.|The following SEO names already exist in your store: <b>[names]</b>. The following SEO names were used instead: <b>[new_names]</b>."
+msgstr "Sizning do'koningizda quyidagi SEO nomi allaqachon mavjud: <b>[names]</b>. <p> Buning oʻrniga quyidagi SEO nomi ishlatilgan: <b>[new_names]</b>.|Quyidagi SEO nomlari allaqachon doʻkoningizda mavjud: <b>[names]</b>. Buning oʻrniga quyidagi SEO nomlari ishlatilgan: <b>[new_names]</b>."
+
+msgctxt "Languages::seo.error_incorrect_seo_name"
+msgid "The following SEO name had incorrect format: <b>[names]</b>. <p> The following SEO name was used instead: <b>[new_names]</b>.|The following SEO names had incorrect format: <b>[names]</b>. The following SEO names were used instead: <b>[new_names]</b>."
+msgstr "Quyidagi SEO nomi noto‘g‘ri formatga ega edi: <b>[names]</b>. <p> Buning oʻrniga quyidagi SEO nomi ishlatilgan: <b>[new_names]</b>.|Quyidagi SEO nomlari notoʻgʻri formatga ega edi: <b>[names]</b>. Buning oʻrniga quyidagi SEO nomlari ishlatilgan: <b>[new_names]</b>."
+

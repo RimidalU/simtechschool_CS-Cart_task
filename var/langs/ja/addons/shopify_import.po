@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /release-4.16.2/addons/shopify_import.po\n"
+"X-Crowdin-File-ID: 7505\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::shopify_import"
+msgid "Import from Shopify"
+msgstr "Shopifyからインポート"
+
+msgctxt "Addons::description::shopify_import"
+msgid "Allows you to import products from Shopify."
+msgstr "Shopifyから商品をインポートできます。"
+
+msgctxt "Languages::shopify_import.shopify_products_import"
+msgid "Shopify products"
+msgstr "Shopifyの商品"
+
+msgctxt "Languages::shopify_import.sync_data_name"
+msgid "Import products from Shopify"
+msgstr "Shopifyから商品をインポートする"
+
+msgctxt "Languages::shopify_import.choose_import_mode"
+msgid "Choose import mode"
+msgstr "インポートモードを選択"
+
+msgctxt "Languages::shopify_import.import_for_all_vendors"
+msgid "I'm launching my marketplace and setting up products for all vendors to use"
+msgstr "マーケットプレイスを立ち上げ、すべての出品者が使用できるように商品をセットアップしています"
+
+msgctxt "Languages::shopify_import.import_for_specific_vendor"
+msgid "I'm importing these products for a specific vendor"
+msgstr "特定の出品者向けにこれらの商品をインポートしています"
+
+msgctxt "Languages::shopify_import.depends_on_common_products_addon"
+msgid "This option needs <a href=\"[link]\">Common products for vendors</a> add-on to be installed"
+msgstr "このオプションには、 <a href=\"[link]\">出品者向けの一般的な商品</a> アドオンをインストールする必要があります"
+
+msgctxt "Languages::shopify_import.invalid_csv_file_format"
+msgid "Uploaded CSV-file has invalid format or empty. Only files exported from Shopify supported."
+msgstr "アップロードされたCSVファイルの形式が無効であるか空です。Shopifyからエクスポートされたファイルのみがサポートされています。"
+
+msgctxt "Languages::shopify_import.products_without_sku"
+msgid "The SKU value is missing for some products. These products are always imported as new objects."
+msgstr "一部の商品でSKU値が欠落しています。これらの商品は常に新しい商品としてインポートされます。"
+
+msgctxt "Languages::shopify_import.last_status.S"
+msgid "Success"
+msgstr "成功"
+
+msgctxt "Languages::shopify_import.last_status.F"
+msgid "Failure"
+msgstr "失敗"
+

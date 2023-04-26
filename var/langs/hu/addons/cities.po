@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Városok"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "A kiegészítő új funkciókat biztosít – a városok automatikusan felkerülnek a rendelési oldalra."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Új város létrehozásához válassza ki az országot és a régiót, kattintson a „Keresés” gombra, és hozzon létre egy várost a „+” gombbal. Ha nincsenek régiók az ország számára, akkor azokat létre kell hozni."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Új város hozzáadása"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Új város"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Válasszon várost"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Nem jött létre állapot"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Nincs kiválasztva állapot"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "másik város"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Új állapot létrehozása"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Megtekinthető"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Szerkeszthető"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Szerkeszthető"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Városok"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Code city sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Városok frissítése"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Frissítés"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "A táblavárosok frissítve"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "város., város"
+

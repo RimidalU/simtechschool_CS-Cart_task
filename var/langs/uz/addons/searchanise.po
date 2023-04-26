@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/searchanise.po\n"
+"X-Crowdin-File-ID: 7503\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise orqali qidirish"
+
+msgctxt "Addons::description::searchanise"
+msgid "Turns on the <a target=\"_blank\" href=\"https://searchanise.io/\">Searchanise</a> fast search service"
+msgstr "<a target=\"_blank\" href=\"https://searchanise.io/\">Qidiruv</a> tezkor qidiruv xizmatini yoqadi"
+
+msgctxt "Languages::searchanise_menu_description"
+msgid "Manage search settings, customize view and merchandise products."
+msgstr "Qidiruv sozlamalarini boshqaring, mahsulotlarni koʻrish va sotishni sozlang."
+
+msgctxt "Languages::searchanise"
+msgid "Searchanise"
+msgstr "Searchanise orqali qidirish"
+
+msgctxt "Languages::text_se_import_status_queued"
+msgid "The product catalog is queued for syncing with Searchanise."
+msgstr "Mahsulot katalogi Searchanise bilan sinxronlash uchun navbatga qo'yilgan."
+
+msgctxt "Languages::text_se_re_indexation_required"
+msgid "Searchanise: Re-indexation required (click the <strong>Force re-indexation</strong> button in the <a href=\"[link]\">Searchanise admin panel</a>)."
+msgstr "Searchanise: Qayta indeksatsiya zarur (<a href=\"[link]\">Qidiruv boshqaruv paneli</a>dagi <strong>Qayta indeksatsiyani majburlash</strong> tugmasini bosing)."
+
+msgctxt "Languages::text_se_new_engine_store"
+msgid "Searchanise: New search engine for [store] created. Catalog import started."
+msgstr "Searchanise: [store] uchun yangi qidiruv tizimi yaratildi. Katalog importi boshlandi."
+
+msgctxt "Languages::text_se_seo_settings_notice"
+msgid "If you have modified any SEO add-on settings, please <a href=\"[link]\">Re-indexation</a> product catalog with Searchanise to update product URLs."
+msgstr "Agar siz SEO qoʻshimcha sozlamalarini oʻzgartirgan boʻlsangiz, mahsulot URL manzillarini yangilash uchun Searchanise bilan mahsulot katalogini <a href=\"[link]\">qayta indeksatsiya qiling</a>."
+
+msgctxt "Languages::text_se_connect_error"
+msgid "An error occurred during Searchanise registration. Please try later."
+msgstr "Searchanise roʻyxatdan oʻtish vaqtida xatolik yuz berdi. Keyinroq urinib koʻring."
+
+msgctxt "Languages::text_se_import_status_processing"
+msgid "The product catalog syncing is in progress."
+msgstr "Mahsulot katalogini sinxronlash davom etmoqda."
+
+msgctxt "Languages::text_se_import_status_done"
+msgid "The product catalog was synced successfully with Searchanise."
+msgstr "Mahsulotlar katalogi Searchanise bilan muvaffaqiyatli sinxronlashtirildi."
+
+msgctxt "Languages::text_se_import_status_none"
+msgid "The product catalog is not synced with Searchanise yet. Please press \"Sync\" button to start."
+msgstr "Mahsulotlar katalogi hali Searchanise bilan sinxronlanmagan. Iltimos, boshlash uchun \"Sinxronizatsiya\" tugmasini bosing."
+
+msgctxt "Languages::text_se_data_update"
+msgid "Please note that the data on Searchanise server is updated with a 2-3 minute delay after you make changes in your store."
+msgstr "E'tibor bering, Searchanise serveridagi ma'lumotlar do'koningizga o'zgartirish kiritganingizdan so'ng 2-3 daqiqa kechikish bilan yangilanadi."
+
+msgctxt "Languages::text_se_signup"
+msgid "Click the button below to connect to Searchanise."
+msgstr "Searchanise-ga ulanish uchun quyidagi tugmani bosing."
+
+msgctxt "Languages::text_se_just_connected"
+msgid "Congratulations, you've just connected to Searchanise."
+msgstr "Tabriklaymiz, siz hozirgina Searchanise-ga ulandingiz."
+
+msgctxt "Languages::text_se_connected"
+msgid "You've connected to Searchanise."
+msgstr "Siz Searchanise-ga ulandingiz."
+
+msgctxt "Languages::text_se_ajax_connecting"
+msgid "Product indexation has started in your store. It may take some time. Wait just a little, we've almost finished."
+msgstr "Do'koningizda mahsulotni indeksatsiya qilish boshlandi. Bu biroz vaqt talab qilishi mumkin. Bir oz kutib turing, biz deyarli tugatdik."
+
+msgctxt "Languages::text_se_database_restore_notice"
+msgid "You've just restored your data from the database dump file. If this dump contains product data, please <a href=\"[link]\">Re-indexation</a> it with Searchanise."
+msgstr "Siz hozirgina ma'lumotlar bazasi dump faylidan ma'lumotlaringizni tikladingiz. Agar bu chiqindida mahsulot maʼlumotlari boʻlsa, uni Searchanise bilan <a href=\"[link]\">qayta indekslang</a>."
+
+msgctxt "Languages::text_se_only_root_can_register"
+msgid "Only the root admin has the permission to connect to Searchanise"
+msgstr "Searchanise-ga ulanish uchun faqat ildiz administratori ruxsatga ega"
+
+msgctxt "Languages::se_did_you_mean"
+msgid "Did you mean"
+msgstr "Nazarda tutgan edingizmi"
+
+msgctxt "Languages::se_product_id"
+msgid "Product Id"
+msgstr "Mahsulot identifikatori"
+
+msgctxt "Languages::se_title"
+msgid "Title"
+msgstr "Sarlavha"
+
+msgctxt "Languages::se_summary"
+msgid "Description"
+msgstr "Tavsif"
+
+msgctxt "Languages::se_link"
+msgid "Product Url"
+msgstr "Mahsulot URL manzili"
+
+msgctxt "Languages::se_price"
+msgid "Price"
+msgstr "Narxi"
+
+msgctxt "Languages::se_list_price"
+msgid "List Price"
+msgstr "Ro'yxat narxi"
+
+msgctxt "Languages::se_quantity"
+msgid "Quantity"
+msgstr "Miqdori\n"
+
+msgctxt "Languages::se_product_code"
+msgid "Product Code"
+msgstr "Mahsulot kodi"
+
+msgctxt "Languages::se_image_link"
+msgid "Image Url"
+msgstr "Rasm URL"
+
+msgctxt "Languages::se_category_Id"
+msgid "Category Id"
+msgstr "Kategoriya"
+
+msgctxt "Languages::se_category_usergroup_ids"
+msgid "Category Usergroup Ids"
+msgstr "Kategoriya foydalanuvchilar guruhi identifikatorlari"
+
+msgctxt "Languages::se_usergroup_ids"
+msgid "Usergroup Ids"
+msgstr "Foydalanuvchilar guruhi identifikatorlari"
+
+msgctxt "Languages::se_company_id"
+msgid "Company Id"
+msgstr "Kompaniya identifikatori"
+
+msgctxt "Languages::se_empty_categories"
+msgid "Without Categories"
+msgstr "Kategoriyalarsiz"
+
+msgctxt "Languages::se_active_companies"
+msgid "Company is active"
+msgstr "Kompaniya faol"
+
+msgctxt "Languages::se_price_for_usergroup_id"
+msgid "Price for usergroup Id ([id])"
+msgstr "Foydalanuvchi guruhi identifikatori narxi ([id])"
+
+msgctxt "Languages::se_for_feature_id"
+msgid "Feature \"[id]\" Id"
+msgstr "Xususiyat \"[id]\" identifikatori"
+
+msgctxt "Languages::se_relevance"
+msgid "Relevance"
+msgstr "Muvofiqlik"
+
+msgctxt "Languages::se_products"
+msgid "Products"
+msgstr "Mahsulotlar"
+
+msgctxt "Languages::se_popular_suggestions"
+msgid "Popular suggestions"
+msgstr "Ommabop takliflar"
+
+msgctxt "Languages::sort_by_relevance_asc"
+msgid "Sort by Relevance"
+msgstr "Muvofiqligi bo'yicha saralash"
+
+msgctxt "Languages::se_api_key"
+msgid "API key"
+msgstr "API kaliti"
+
+msgctxt "Languages::se_private_key"
+msgid "Private key"
+msgstr "Shaxsiy kalit"
+
+msgctxt "Languages::se_options_combinations_codes"
+msgid "Options combinations codes"
+msgstr "Variantlar kombinatsiyasi kodlari"
+
+msgctxt "Languages::se_master_product_status"
+msgid "Common product status"
+msgstr "Umumiy mahsulot holati"
+
+msgctxt "Languages::se_is_vendor_product"
+msgid "Vendor product flag"
+msgstr "Sotuvchi mahsulot bayrog'i"
+
+msgctxt "Languages::se_is_master_product"
+msgid "Сommon product flag"
+msgstr "Umumiy mahsulot bayrog'i"
+
+msgctxt "Languages::se_connection_warning"
+msgid "Searchanise: There is no connection to Searchanise server! For Searchanise to work properly, the store server must be able to access searchserverapi.com. Please contact Searchanise <a href=\"mailto: [email]\">[email]</a> technical support or your system administrator."
+msgstr "Searchanise: Searchanise serveriga ulanish yo'q! Searchanise to'g'ri ishlashi uchun do'kon serveri searchserverapi.com saytiga kira olishi kerak. Iltimos, Searchanise <a href=\"mailto: [email]\">[email]</a> texnik yordamiga yoki tizim administratoringizga murojaat qiling."
+
+msgctxt "Languages::se_queue_warning"
+msgid "Searchanise: We found an issue with the export of changes in your store catalog. To resolve the issue please contact the Searchanise <a href=\"mailto: [email]\">[email]</a> technical support."
+msgstr "Searchanise: Do‘koningiz katalogidagi o‘zgarishlarni eksport qilishda muammo topdik. Muammoni hal qilish uchun Searchanise <a href=\"mailto: [email]\">[email]</a> texnik yordamiga murojaat qiling."
+
+msgctxt "SettingsSections::searchanise::configuration"
+msgid "Configuration"
+msgstr "Konfiguratsiya"
+

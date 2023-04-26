@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/age_verification.po\n"
+"X-Crowdin-File-ID: 7363\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::age_verification"
+msgid "Age verification"
+msgstr "Yoshni tekshirish"
+
+msgctxt "Addons::description::age_verification"
+msgid "Toggles age restriction rules for products and categories"
+msgstr "Mahsulotlar va toifalar uchun yoshni cheklash qoidalarini yoqadi"
+
+msgctxt "Languages::age_verification"
+msgid "Age verification"
+msgstr "Yoshni tekshirish"
+
+msgctxt "Languages::product_need_age_verification"
+msgid "You should verify your age to view this product."
+msgstr "Ushbu mahsulotni ko'rish uchun yoshingizni tasdiqlashingiz kerak."
+
+msgctxt "Languages::your_age"
+msgid "Your age"
+msgstr "Yoshingiz"
+
+msgctxt "Languages::verify"
+msgid "Verify"
+msgstr "Tasdiqlash"
+
+msgctxt "Languages::birthday"
+msgid "Birthday"
+msgstr "Tug'ilgan kun"
+
+msgctxt "Languages::age_limit"
+msgid "Age limit"
+msgstr "Yosh chegarasi"
+
+msgctxt "Languages::years"
+msgid "years"
+msgstr "yillar"
+
+msgctxt "Languages::age_warning_message"
+msgid "Warning message"
+msgstr "Ogohlantirish xabari"
+
+msgctxt "Languages::promotion_cond_birthday"
+msgid "Birthday"
+msgstr "Tug'ilgan kun"
+

@@ -1,0 +1,22 @@
+{
+    "version": "0.0.1",
+    "require": {
+        "yoomoney/yookassa-sdk-php": "^2.4.2"
+    },
+    "replace": {
+        "psr/log": "*"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "echo [WARNING] Delete all .git dirs",
+            "rm -rf vendor/yoomoney/yookassa-sdk-php/tests"
+        ],
+        "post-install-cmd": [
+            "echo [WARNING] Delete all .git dirs",
+            "rm -rf vendor/yoomoney/yookassa-sdk-php/tests"
+        ]
+    },
+    "config": {
+        "discard-changes": true
+    }
+}

@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/barcode.po\n"
+"X-Crowdin-File-ID: 7375\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::barcode"
+msgid "Order barcode"
+msgstr "Shtrix-kodga buyurtma bering"
+
+msgctxt "Addons::description::barcode"
+msgid "Makes it possible to configure and attach barcodes to orders"
+msgstr "Buyurtmalarga shtrix-kodlarni sozlash va biriktirish imkonini beradi"
+
+msgctxt "Languages::please_enable_the_add_on_to_see_barcode"
+msgid "Please enable the add-on to see a code example."
+msgstr "Iltimos, kod misolini ko'rish uchun qo'shimchani yoqing."
+
+msgctxt "SettingsSections::barcode::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::barcode::elm_image"
+msgid "Image"
+msgstr "Rasm"
+
+msgctxt "SettingsOptions::barcode::elm_image_info"
+msgid "Example Image"
+msgstr "Misol rasm"
+
+msgctxt "SettingsOptions::barcode::elm_configs"
+msgid "Configs"
+msgstr "konfiguratsiyalar"
+
+msgctxt "SettingsOptions::barcode::type"
+msgid "Type"
+msgstr "turi"
+
+msgctxt "SettingsOptions::barcode::output"
+msgid "Output"
+msgstr "Chiqish"
+
+msgctxt "SettingsOptions::barcode::text"
+msgid "Text"
+msgstr "Matn"
+
+msgctxt "SettingsOptions::barcode::height"
+msgid "Height,px"
+msgstr "Balandlik, piksel"
+
+msgctxt "SettingsOptions::barcode::width"
+msgid "Width,px"
+msgstr "Eni, piksel"
+
+msgctxt "SettingsOptions::barcode::resolution"
+msgid "Resolution"
+msgstr "Rezolyutsiya"
+
+msgctxt "SettingsOptions::barcode::text_font"
+msgid "Text Font"
+msgstr "Matn shrifti"
+
+msgctxt "SettingsOptions::barcode::prefix"
+msgid "Barcode prefix"
+msgstr "Shtrix-kod prefiksi"
+
+msgctxt "SettingsOptions::barcode::elm_specification"
+msgid "Specification"
+msgstr "Spetsifikatsiya"
+
+msgctxt "SettingsOptions::barcode::elm_spec_descr"
+msgid "Spec Description"
+msgstr "Spesifik tavsif"
+
+msgctxt "SettingsVariants::barcode::type::C128A"
+msgid "Code 128-A"
+msgstr "Kod 128-A"
+
+msgctxt "SettingsVariants::barcode::type::C128B"
+msgid "Code 128-B"
+msgstr "Kod 128-B"
+
+msgctxt "SettingsVariants::barcode::type::C128C"
+msgid "Code 128-C"
+msgstr "Kod 128-C"
+
+msgctxt "SettingsVariants::barcode::type::I25"
+msgid "Interleaved 2 of 5"
+msgstr "2 dan 5 gacha almashtiriladi"
+
+msgctxt "SettingsVariants::barcode::type::C39"
+msgid "Code 39"
+msgstr "Kod 39"
+
+msgctxt "SettingsVariants::barcode::output::png"
+msgid "Portable Network Graphics (PNG)"
+msgstr "Portativ tarmoq grafikasi (PNG)"
+
+msgctxt "SettingsVariants::barcode::output::jpeg"
+msgid "Joint Photographic Experts Group (JPEG)"
+msgstr "Birlashgan fotosuratlar bo'yicha ekspertlar guruhi (JPEG)"
+
+msgctxt "SettingsVariants::barcode::text::N"
+msgid "Disabled"
+msgstr "O'chirilgan"
+
+msgctxt "SettingsVariants::barcode::text::Y"
+msgid "Enabled"
+msgstr "Yoqilgan"
+
+msgctxt "SettingsVariants::barcode::resolution::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::resolution::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::resolution::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::1"
+msgid "1"
+msgstr "1"
+
+msgctxt "SettingsVariants::barcode::text_font::2"
+msgid "2"
+msgstr "2"
+
+msgctxt "SettingsVariants::barcode::text_font::3"
+msgid "3"
+msgstr "3"
+
+msgctxt "SettingsVariants::barcode::text_font::4"
+msgid "4"
+msgstr "4"
+
+msgctxt "SettingsVariants::barcode::text_font::5"
+msgid "5"
+msgstr "5"
+

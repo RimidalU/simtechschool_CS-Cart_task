@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "πόλεις"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Το πρόσθετο παρέχει νέα λειτουργικότητα – πόλεις που προστίθενται αυτόματα στη σελίδα υποβολής παραγγελίας."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Για να δημιουργήσετε μια νέα πόλη, θα πρέπει να επιλέξετε χώρα και περιοχή, να κάνετε κλικ στο κουμπί «Αναζήτηση» και να δημιουργήσετε μια πόλη χρησιμοποιώντας το κουμπί «+». Εάν δεν υπάρχουν περιφέρειες για τη χώρα, θα πρέπει να δημιουργηθούν."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Προσθήκη νέας πόλης"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Νέα πόλη"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Επιλέξτε πόλη"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Δεν δημιουργήθηκαν Νομοι"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Δεν επιλέχθηκε Νομος"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "άλλη πόλη"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Δημιουργία νέου Νομου"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Μπορεί να δει"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Μπορεί να επεξεργαστεί"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Μπορεί να επεξεργαστεί"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "πόλεις"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Κωδικός πόλης sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Ανανεωση πόλεων"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Ανανέωση"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Ο πίνακας πόλεων ενημερώθηκε"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "πόλη., πόλη"
+

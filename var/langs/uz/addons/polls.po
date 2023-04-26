@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/polls.po\n"
+"X-Crowdin-File-ID: 7475\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::polls"
+msgid "Polls"
+msgstr "So'rovlar"
+
+msgctxt "Addons::description::polls"
+msgid "Adds a possibility to add customized polls to the site"
+msgstr "Saytga moslashtirilgan so'rovnomalarni qo'shish imkoniyatini qo'shadi"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "So'rovlar"
+
+msgctxt "Languages::tmpl_polls_central"
+msgid "Central"
+msgstr "Markaziy"
+
+msgctxt "Languages::tmpl_polls_side"
+msgid "Side box"
+msgstr "Yon quti"
+
+msgctxt "Languages::polls_answers_with_comments"
+msgid "Answers with comments"
+msgstr "Izohlar bilan javoblar"
+
+msgctxt "Languages::polls_have_completed"
+msgid "You have already completed this poll."
+msgstr "Siz bu so‘rovnomani allaqachon yakunladingiz."
+
+msgctxt "Languages::polls_total_votes"
+msgid "Total votes"
+msgstr "Jami ovozlar"
+
+msgctxt "Languages::polls"
+msgid "Polls"
+msgstr "So'rovlar"
+
+msgctxt "Languages::new_poll"
+msgid "New poll"
+msgstr "Yangi so'rov"
+
+msgctxt "Languages::editing_poll"
+msgid "Editing poll"
+msgstr "So‘rovnomani tahrirlash"
+
+msgctxt "Languages::use_for_polls"
+msgid "Polls"
+msgstr "So'rovlar"
+
+msgctxt "Languages::text_you_have_already_filled_this_poll"
+msgid "You have already completed this poll"
+msgstr "Siz bu so‘rovnomani allaqachon yakunladingiz"
+
+msgctxt "Languages::block_polls"
+msgid "Polls"
+msgstr "So'rovlar"
+
+msgctxt "Languages::poll"
+msgid "Poll"
+msgstr "So'rov"
+
+msgctxt "Languages::questions"
+msgid "Questions"
+msgstr "Savollar"
+
+msgctxt "Languages::poll_statistics"
+msgid "Poll statistics"
+msgstr "So'rovlar statistikasi"
+
+msgctxt "Languages::add_polls_and_close"
+msgid "Add polls and close"
+msgstr "Anketalarni qo'shing va yoping"
+
+msgctxt "Languages::add_polls"
+msgid "Add polls"
+msgstr "So‘rovnomalar qo'shing"
+
+msgctxt "Languages::required_not_answered"
+msgid "You should answer all the mandatory questions"
+msgstr "Siz barcha majburiy savollarga javob berishingiz kerak"
+
+msgctxt "Languages::thanks_for_voting"
+msgid "Thank you for taking time to complete this poll."
+msgstr "Bu soʻrovnomani yakunlash uchun vaqt ajratganingiz uchun tashakkur."
+
+msgctxt "Languages::poll_show_results"
+msgid "Poll results visible to"
+msgstr "So‘rov natijalari quyidagiga ko‘rinadi"
+
+msgctxt "Languages::poll_results_nobody"
+msgid "nobody"
+msgstr "hech kim"
+
+msgctxt "Languages::poll_results_voted"
+msgid "voted users"
+msgstr "ovoz bergan foydalanuvchilar"
+
+msgctxt "Languages::poll_results_everybody"
+msgid "everybody (in a pop-up)"
+msgstr "hamma (qalqib chiquvchi oynada)"
+
+msgctxt "Languages::poll_header"
+msgid "Poll header"
+msgstr "So‘rov sarlavhasi"
+
+msgctxt "Languages::poll_footer"
+msgid "Poll footer"
+msgstr "So‘rovnomaning pastki qismi"
+
+msgctxt "Languages::poll_results"
+msgid "Poll message"
+msgstr "So'rovnoma xabari"
+
+msgctxt "Languages::new_question"
+msgid "New question"
+msgstr "Yangi savol"
+
+msgctxt "Languages::add_question"
+msgid "Add question"
+msgstr "Savol qo'shing"
+
+msgctxt "Languages::editing_question"
+msgid "Editing question"
+msgstr "Tahrirlash savoli"
+
+msgctxt "Languages::add_poll"
+msgid "Add poll"
+msgstr "So‘rovnoma qo'shing"
+
+msgctxt "Languages::polls_total_submited"
+msgid "Total number of submitted poll forms"
+msgstr "Taqdim etilgan so'rovnoma shakllarining umumiy soni"
+
+msgctxt "Languages::polls_total_completed"
+msgid "Number of poll forms completed in full"
+msgstr "Toʻliq toʻldirilgan soʻrovnoma shakllari soni"
+
+msgctxt "Languages::polls_first_submited"
+msgid "First poll form submitted"
+msgstr "Birinchi so‘rovnoma topshirildi"
+
+msgctxt "Languages::polls_last_submited"
+msgid "Last poll form submitted"
+msgstr "Oxirgi so‘rov shakli topshirildi"
+
+msgctxt "Languages::statistics_by_questions"
+msgid "Statistics by questions"
+msgstr "Savollar bo'yicha statistika"
+
+msgctxt "Languages::view_answers"
+msgid "View answers"
+msgstr "Javoblarni ko'rish"
+
+msgctxt "Languages::polls_votes"
+msgid "Votes"
+msgstr "Ovozlar"
+
+msgctxt "Languages::answers"
+msgid "Answers"
+msgstr "Javoblar"
+
+msgctxt "Languages::question_text"
+msgid "Question text"
+msgstr "Savol matni"
+
+msgctxt "Languages::select_single_type"
+msgid "Select single option"
+msgstr "Bitta variantni tanlang"
+
+msgctxt "Languages::select_one_or_more_type"
+msgid "Select one or more options"
+msgstr "Bir yoki bir nechta variantni tanlang"
+
+msgctxt "Languages::text_answer_type"
+msgid "Provide a textual answer"
+msgstr "Matnli javob bering"
+
+msgctxt "Languages::answer_text"
+msgid "Answer text"
+msgstr "Javob matni"
+
+msgctxt "Languages::text_box"
+msgid "Text box"
+msgstr "Matn qutisi"
+
+msgctxt "Languages::tt_addons_polls_hooks_pages_tabs_content_post_poll_results"
+msgid "Message that is displayed in the storefront after the poll is completed."
+msgstr "Soʻrovnoma tugallangandan soʻng doʻkonda koʻrsatiladigan xabar."
+
+msgctxt "SettingsSections::polls::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::polls::polls_votes_on_page"
+msgid "Votes on page"
+msgstr "Sahifadagi ovozlar"
+
+msgctxt "SettingsOptions::polls::polls_comments_on_page"
+msgid "Answers on page"
+msgstr "Javoblar sahifada"
+
+msgctxt "Languages::n_polls"
+msgid "[n] poll|[n] polls"
+msgstr "[n] so'rov|[n] so'rov"
+

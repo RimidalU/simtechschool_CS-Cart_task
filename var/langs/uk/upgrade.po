@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.16.2/upgrade.po\n"
+"X-Crowdin-File-ID: 7561\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Languages::yandex_delivery.upgrade_notification.title"
+msgid "Yandex Delivery shut down, shipping methods disabled"
+msgstr ""
+
+msgctxt "Languages::yandex_delivery.upgrade_notification.message"
+msgid "Yandex has closed the Yandex Delivery service with the old personal account. Your store still had shipping methods that relied on Yandex Delivery for rate calculation. Because those shipping methods will no longer work, we've changed their status to \"Disabled\"."
+msgstr ""
+

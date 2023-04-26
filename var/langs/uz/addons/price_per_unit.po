@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/price_per_unit.po\n"
+"X-Crowdin-File-ID: 7479\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::price_per_unit"
+msgid "Price per unit"
+msgstr "Bir birlik uchun narx"
+
+msgctxt "Addons::description::price_per_unit"
+msgid "Allows you to display price per unit on catalog and product pages."
+msgstr "Katalog va mahsulot sahifalarida birlik narxini ko'rsatish imkonini beradi."
+
+msgctxt "Languages::price_per_unit"
+msgid "Price per unit"
+msgstr "Bir birlik uchun narx"
+
+msgctxt "Languages::unit_name"
+msgid "Unit name"
+msgstr "Birlik nomi"
+
+msgctxt "Languages::unit_name_field_description"
+msgid "For example, 'ml' or 'g' without quotes."
+msgstr "Masalan, tirnoqsiz 'ml' yoki 'g'."
+
+msgctxt "Languages::units_in_product"
+msgid "Units in product"
+msgstr "Mahsulotdagi birliklar"
+
+msgctxt "Languages::units_in_product_field_description"
+msgid "Required for automatic calculation of price per unit."
+msgstr "Birlik narxini avtomatik hisoblash uchun talab qilinadi."
+
+msgctxt "Languages::show_price_per_x_units"
+msgid "Show price per X units"
+msgstr "X birlik uchun narxni ko'rsatish"
+
+msgctxt "Languages::show_price_per_x_units_field_description"
+msgid "For cases when you want to show price 'per 250 ml' instead of 'per ml'."
+msgstr "Narxni \"mill\" o'rniga \"250 ml uchun\" ko'rsatmoqchi bo'lgan holatlar uchun."
+

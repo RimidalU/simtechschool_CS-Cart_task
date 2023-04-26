@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/replain.po\n"
+"X-Crowdin-File-ID: 7491\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::replain"
+msgid "Re:plain Telegram chat"
+msgstr "Re: oddiy Telegram chati"
+
+msgctxt "Addons::description::replain"
+msgid "Allows you to add Telegram chat to your storefront"
+msgstr "Telegram chatini o'z vitrinangizga qo'shish imkonini beradi"
+
+msgctxt "Languages::replain"
+msgid "Re:plain chat"
+msgstr "Re: oddiy suhbat"
+
+msgctxt "Languages::replain.insert_script"
+msgid "Here is how to set up Telegram chat:<br>1. Make sure Telegram is installed on your device.<br>2. Use <a href=\"[bot_url]\">Re:plain bot</a> to create a chat.<br> 3. Paste the code acquired from the bot into the field below and click <b>Save</b> to connect the chat to your store"
+msgstr "Telegram chatini qanday sozlash mumkin:<br>1. Qurilmangizda Telegram oʻrnatilganligiga ishonch hosil qiling.<br>2. Chat yaratish uchun <a href=\"[bot_url]\">Re:plain bot</a> dan foydalaning.<br> 3. Botdan olingan kodni quyidagi maydonga kiriting va <b>Saqlash</b> tugmasini bosing. chatni do'koningizga ulash uchun"
+
+msgctxt "SettingsOptions::replain::replain_script"
+msgid "Re:Plain script"
+msgstr "Re: Oddiy skript"
+

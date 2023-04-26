@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/pay360.po\n"
+"X-Crowdin-File-ID: 7455\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::pay360"
+msgid "Pay360 payments"
+msgstr "360 to'lovlarni to'lash"
+
+msgctxt "Addons::description::pay360"
+msgid "Allows you to accept payments via Pay360"
+msgstr "Pay360 orqali toʻlovlarni qabul qilish imkonini beradi"
+
+msgctxt "Languages::pay360.api_username"
+msgid "API Username"
+msgstr "API foydalanuvchi nomi"
+
+msgctxt "Languages::pay360.api_password"
+msgid "API Password"
+msgstr "API paroli"
+
+msgctxt "Languages::pay360.installation_id"
+msgid "Hosted Cashier"
+msgstr "Xostlangan kassir"
+
+msgctxt "Languages::pay360.account_number_description"
+msgid "Account number used to identify the customer or loan. If this is a PAN, then provide the first six and last four digits of the PAN. Otherwise, provide up to ten characters of the account number."
+msgstr "Hisob raqami mijoz yoki kreditni aniqlash uchun ishlatiladi. Agar bu PAN bo'lsa, PANning birinchi olti va oxirgi to'rtta raqamini ko'rsating. Aks holda, hisob raqamining o'ntagacha belgisini taqdim eting."
+
+msgctxt "Languages::pay360.postal_code_description"
+msgid "First part of the postal code of the loan recipient; up to six characters. For example, if the postal code is “EC2A 1AE”, this would be “EC2A”."
+msgstr "Kredit oluvchining pochta indeksining birinchi qismi; oltitagacha belgi. Masalan, agar pochta indeksi \"EC2A 1AE\" bo'lsa, bu \"EC2A\" bo'ladi."
+
+msgctxt "Languages::pay360.surname_description"
+msgid "Surname of the loan recipient; up to six characters, excluding numbers or special characters. If the name is longer than six characters, then provide the first six. For example, for “Smith”, this would be “Smith”; for “Williams”, this would be “Willia”."
+msgstr "Qarz oluvchining familiyasi; raqamlar yoki maxsus belgilar bundan mustasno, oltitagacha belgi. Agar ism oltita belgidan uzun bo'lsa, birinchi oltitasini ko'rsating. Misol uchun, \"Smit\" uchun bu \"Smit\" bo'ladi; \"Williams\" uchun bu \"Willia\" bo'ladi."
+
+msgctxt "Languages::pay360.use_only_alphabet_symbols"
+msgid "Please, use only alphabetical characters."
+msgstr "Iltimos, faqat alifbo belgilaridan foydalaning."
+
+msgctxt "Languages::pay360.use_only_alphabet_symbols_and_numbers"
+msgid "Please, use only alphabetical characters and numbers."
+msgstr "Iltimos, faqat alifbodagi belgilar va raqamlardan foydalaning."
+
+msgctxt "Languages::pay360.mandatory_fields_commentary"
+msgid "Mandatory for UK- and Europe-based MCC 6012, 6051 and some 7299 merchants"
+msgstr "Buyuk Britaniya va Yevropada joylashgan MCC 6012, 6051 va 7299 ta savdogar uchun majburiy"
+

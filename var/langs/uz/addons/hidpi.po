@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/hidpi.po\n"
+"X-Crowdin-File-ID: 7431\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::hidpi"
+msgid "HiDPI displays support"
+msgstr "HiDPI qo'llab-quvvatlashni ko'rsatadi"
+
+msgctxt "Addons::description::hidpi"
+msgid "Support for Retina displays"
+msgstr "Retina displeylarini qo'llab-quvvatlash"
+
+msgctxt "SettingsSections::hidpi::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::hidpi::default_upload_high_res_image"
+msgid "Consider all uploaded images HiDPI"
+msgstr "Barcha yuklangan rasmlar HiDPI ni ko'rib chiqing"
+
+msgctxt "SettingsOptions::hidpi::default_upload_high_res_image"
+msgid "Consider all uploaded images HiDPI"
+msgstr "Barcha yuklangan rasmlar HiDPI ni ko'rib chiqing"
+
+msgctxt "SettingsTooltips::hidpi::default_upload_high_res_image"
+msgid "Make the \"I'm uploading a HiDPI image\" checkboxes ticked by default everywhere where images are uploaded. You'll be able to untick those checkboxes when necessary."
+msgstr "Tasvirlar yuklangan hamma joyda sukut bo'yicha \"Men HiDPI rasmini yuklayapman\" katakchalarini belgilang. Agar kerak bo'lsa, ushbu katakchalarni olib tashlashingiz mumkin."
+
+msgctxt "Languages::text_hidpi_support_enabled"
+msgid "HiDPI support is enabled"
+msgstr "HiDPI yordami yoqilgan"
+
+msgctxt "Languages::hidpi.upload_high_res_image"
+msgid "I’m uploading a HiDPI image."
+msgstr "Men HiDPI tasvirini yuklayapman."
+
+msgctxt "Languages::hidpi.upload_high_res_image.tooltip"
+msgid "If this checkbox is ticked, the source image will be displayed two times downscaled. This setting only affects the displaying of the source image and not its thumbnail. If you want an image to be displayed in the original size, untick this checkbox."
+msgstr "Agar ushbu katakcha belgilansa, manba tasviri ikki marta kichraytirilgan holda ko'rsatiladi. Ushbu sozlama faqat manba tasvirining ko'rsatilishiga ta'sir qiladi, uning eskiziga emas. Agar siz rasmning asl o'lchamda ko'rsatilishini istasangiz, ushbu katakchani olib tashlang."
+
+msgctxt "Languages::hidpi.restore_images"
+msgid "Image restoration"
+msgstr "Tasvirni tiklash"
+
+msgctxt "Languages::hidpi.text_restore_images"
+msgid "The previous version of the HiDPI display support add-on shrank the uploaded images. There’s no need for that now. But to make your images look nice and sharp you need to click Restore."
+msgstr "HiDPI displeyni qo'llab-quvvatlash qo'shimchasining oldingi versiyasi yuklangan rasmlarni qisqartirdi. Endi bunga hojat yo'q. Lekin rasmlaringiz chiroyli va aniq ko'rinishi uchun \"Restore\" tugmasini bosishingiz kerak."
+
+msgctxt "Languages::hidpi.restore_btn"
+msgid "Restore"
+msgstr "Tiklash"
+
+msgctxt "Languages::hidpi.warning_restore_images"
+msgid "<strong>Attention!</strong> This procedure is non—reversible: when you revert the upgrade, the image restoration manipulations will not be reverted. So, please make sure to perform a backup. The procedure can take some time—it depends on the number of images in your store."
+msgstr "<strong>Diqqat!</strong> Ushbu protsedura orqaga qaytarilmaydi: yangilanishni qaytarsangiz, tasvirni qayta tiklash manipulyatsiyasi qaytarilmaydi. Shuning uchun, iltimos, zaxira nusxasini yaratganingizga ishonch hosil qiling. Jarayon biroz vaqt olishi mumkin - bu sizning do'koningizdagi rasmlar soniga bog'liq."
+
+msgctxt "Languages::hidpi.notice.images_were_not_restored"
+msgid "Some of the old images in your store are still low-quality. To use the highest quality possible, please <a href=\"[convert_url]\">restore high-quality images</a>. The process is automatic."
+msgstr "Do'koningizdagi ba'zi eski rasmlar hali ham past sifatli. Iloji boricha yuqori sifatdan foydalanish uchun <a href=\"[convert_url]\">yuqori sifatli tasvirlarni tiklang</a>. Jarayon avtomatik."
+

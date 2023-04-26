@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: he\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "ערים"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "התוסף מספק פונקציונליות חדשה - ערים שיתווספו אוטומטית לדף ביצוע ההזמנה."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "כדי ליצור עיר חדשה, עליך לבחור מדינה ואזור, ללחוץ על כפתור \"חפש\" וליצור עיר באמצעות כפתור \"+\". אם אין אזורים למדינה, יש ליצור אותם."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "הוסף עיר חדשה"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "עיר חדשה"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "בחר עיר"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "לא נוצרו ממחוזים"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "לא נבחרו מחוזים"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "עיר אחרת"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "צור מחוז חדש"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "יכול לצפות"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "יכול לערוך"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "יכול לערוך"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "ערים"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "מיקוד של עיר sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "עדכן ערים"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "לעדכן"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "טבלת ערים מעודכנת"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "עיר., עיר"
+

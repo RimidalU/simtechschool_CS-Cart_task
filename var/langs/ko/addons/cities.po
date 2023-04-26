@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "도시"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "애드온은 주문 페이지에 도시가 자동으로 추가되는 새로운 기능을 제공합니다."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "새로운 도시를 만들려면 국가와 지역을 선택하고 “검색” 버튼을 클릭한 다음 “+” 버튼을 사용하여 도시를 만듭니다. 국가에 대한 지역이 없으면 만들어야 합니다."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "새 도시 추가"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "새로운 도시"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "도시 선택"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "생성된 상태 없음"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "선택한 상태 없음"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "다른 도시"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "새 상태 만들기"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "볼 수 있음"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "편집 가능"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "편집 가능"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "도시"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "코드시티 SDK"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "도시 업데이트"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "업데이트"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "테이블 도시가 업데이트되었습니다."
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "도시., 도시"
+

@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/form_builder.po\n"
+"X-Crowdin-File-ID: 7413\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::form_builder"
+msgid "Form builder"
+msgstr "Shakl quruvchi"
+
+msgctxt "Addons::description::form_builder"
+msgid "Lets you create custom forms (e.g. Contact us)"
+msgstr "Shaxsiy shakllar yaratish imkonini beradi (masalan, biz bilan bog'laning)"
+
+msgctxt "Languages::use_for_form_builder"
+msgid "Custom forms"
+msgstr "Maxsus shakllar"
+
+msgctxt "Languages::new_form"
+msgid "New form"
+msgstr "Yangi shakl"
+
+msgctxt "Languages::editing_form"
+msgid "Editing form"
+msgstr "Shaklni tahrirlash"
+
+msgctxt "Languages::form_builder"
+msgid "Form builder"
+msgstr "Shakl quruvchi"
+
+msgctxt "Languages::form_submit_text"
+msgid "Form submit text"
+msgstr "Shaklni yuborish matni"
+
+msgctxt "Languages::email_to"
+msgid "E-mail to"
+msgstr "Elektron pochta manziliga"
+
+msgctxt "Languages::add_form"
+msgid "Add form"
+msgstr "Shakl qo'shing"
+
+msgctxt "Languages::base"
+msgid "Base"
+msgstr "Baza"
+
+msgctxt "Languages::multiple_checkboxes"
+msgid "Multiple checkboxes"
+msgstr "Bir nechta belgilash katakchalari"
+
+msgctxt "Languages::multiple_selectbox"
+msgid "Multiple selectbox"
+msgstr "Bir nechta tanlash qutisi"
+
+msgctxt "Languages::header"
+msgid "Header"
+msgstr "Sarlavha"
+
+msgctxt "Languages::separator"
+msgid "Separator"
+msgstr "Ajratuvchi"
+
+msgctxt "Languages::special"
+msgid "Special"
+msgstr "Maxsus"
+
+msgctxt "Languages::countries_list"
+msgid "Countries list"
+msgstr "Mamlakatlar ro'yxati"
+
+msgctxt "Languages::states_list"
+msgid "States list"
+msgstr "Davlatlar ro'yxati"
+
+msgctxt "Languages::referer"
+msgid "Referer"
+msgstr "Yo'naltiruvchi"
+
+msgctxt "Languages::email_template.form_builder_form"
+msgid "Contact form"
+msgstr "Aloqa shakli"
+
+msgctxt "Languages::addons.form_builder.form_fields"
+msgid "Form fields"
+msgstr "Shakl maydonlari"
+
+msgctxt "Languages::addons.form_builder.form_name"
+msgid "Form name"
+msgstr "Shakl nomi"
+
+msgctxt "Languages::addons.form_builder.other_subject"
+msgid "Other subject (specify below)"
+msgstr "Boshqa mavzu (quyida ko'rsating)"
+
+msgctxt "Languages::addons.form_builder.email_subject_field"
+msgid "E-mail subject field"
+msgstr "Elektron pochta mavzusi maydoni"
+
+msgctxt "Languages::ttc_addons.form_builder.email_subject_field"
+msgid "Fields of type \"Select box\" or \"Input field\" can be used"
+msgstr "\"Tanlash maydoni\" yoki \"Kirish maydoni\" turidagi maydonlardan foydalanish mumkin"
+

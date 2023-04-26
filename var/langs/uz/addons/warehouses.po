@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/warehouses.po\n"
+"X-Crowdin-File-ID: 7547\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::warehouses"
+msgid "Warehouses"
+msgstr "Omborlar"
+
+msgctxt "Addons::description::warehouses"
+msgid "Lets you set product stock separately for each store and warehouse. Shows to customers the availability of a product in stores or in particular rate areas."
+msgstr "Har bir do'kon va ombor uchun mahsulot zaxirasini alohida o'rnatish imkonini beradi. Mijozlarga mahsulotning do'konlarda yoki ma'lum narxlarda mavjudligini ko'rsatadi."
+
+msgctxt "Languages::warehouses.store_type"
+msgid "Type"
+msgstr "Turi"
+
+msgctxt "Languages::warehouses.store_type_store"
+msgid "Store"
+msgstr "Do'kon"
+
+msgctxt "Languages::warehouses.store_type_pickup"
+msgid "Pickup point"
+msgstr "Qabul qilish punkti"
+
+msgctxt "Languages::warehouses.store_type_warehouse"
+msgid "Warehouse"
+msgstr "Ombor"
+
+msgctxt "Languages::warehouses.name"
+msgid "Name"
+msgstr "Ism"
+
+msgctxt "Languages::warehouses.city"
+msgid "City"
+msgstr "Shahar"
+
+msgctxt "Languages::warehouses.quantity"
+msgid "Quantity"
+msgstr "Miqdori\n"
+
+msgctxt "Languages::warehouses.settings"
+msgid "Settings"
+msgstr "Sozlamalar"
+
+msgctxt "Languages::warehouses.ship_to"
+msgid "Ship to"
+msgstr "Ga yetkazib berish"
+
+msgctxt "Languages::warehouses.ship_to_tooltip"
+msgid "Determines the rate areas in which the products from this warehouse will be considered available."
+msgstr "Ushbu ombordagi mahsulotlar mavjud deb hisoblanishi mumkin bo'lgan tarif maydonlarini belgilaydi."
+
+msgctxt "Languages::warehouses.main_destination_tooltip"
+msgid "Determines where this place is located. In turn, this determines the shipping rate and delivery time to this place."
+msgstr "Bu joy qayerda joylashganligini aniqlaydi. O'z navbatida, bu etkazib berish tezligini va ushbu joyga etkazib berish vaqtini belgilaydi."
+
+msgctxt "Languages::warehouses.show_to"
+msgid "Show to"
+msgstr "Ko'rsatish"
+
+msgctxt "Languages::warehouses.show_to_tooltip"
+msgid "Allows you to offer this pickup point to the residents of other rate areas at checkout."
+msgstr "Ushbu qabul qilish punktini boshqa tarif hududlari aholisiga to'lov vaqtida taklif qilish imkonini beradi."
+
+msgctxt "Languages::warehouses.out_of_stock_products"
+msgid "[product] isn't in stock in the selected region.|The following products aren't in stock in the selected region: [products]"
+msgstr "[product] tanlangan hududda mavjud emas.|Quyidagi mahsulotlar tanlangan hududda mavjud emas: [products]"
+
+msgctxt "Languages::warehouses.warehouse_stock"
+msgid "Quantities"
+msgstr "Miqdorlar"
+
+msgctxt "Languages::warehouses.stores_and_warehouses"
+msgid "Stores & Warehouses"
+msgstr "Do'konlar va Omborlar"
+
+msgctxt "Languages::warehouses.store_warehouse"
+msgid "Store / Warehouse"
+msgstr "Do'kon va Ombor"
+
+msgctxt "Languages::warehouses.shipping_delay"
+msgid "Moving time"
+msgstr "Harakatlanish vaqti"
+
+msgctxt "Languages::warehouses.shipping_delay.tooltip"
+msgid "The time it takes to move products from here to another store or warehouse in this rate area."
+msgstr "Mahsulotlarni bu yerdan boshqa do'kon yoki omborga ko'chirish uchun ketadigan vaqt."
+
+msgctxt "Languages::warehouses.warn_about_delay"
+msgid "Warn about delay"
+msgstr "Kechikish haqida ogohlantiring"
+
+msgctxt "Languages::warehouses.warn_about_delay.tooltip"
+msgid "If a product has to be moved to the rate area from here, show the moving time in the product list and cart."
+msgstr "Agar mahsulotni bu yerdan tarif maydoniga ko'chirish kerak bo'lsa, mahsulot ro'yxati va savatda harakatlanish vaqtini ko'rsating."
+
+msgctxt "Languages::warehouses.destinations_configuration.tooltip"
+msgid "Products can be taken from different stores and warehouses first, depending on where your customer is. <a href=\"[destinations_url]\" target=\"_blank\">Configure store and warehouse priority individually for each rate area.</a>"
+msgstr "Mahsulotlar mijozingiz qayerda ekanligiga qarab, avvalo turli do'konlar va omborlardan olinishi mumkin. <a href=\"[destinations_url]\" target=\"_blank\">Har bir tarif maydoni uchun do‘kon va ombor ustuvorligini alohida sozlang.</a>"
+
+msgctxt "Languages::warehouses.shipping_delay.description"
+msgid "Product is at a remote warehouse. If you order it, we'll send it [shipping_delay]."
+msgstr "Mahsulot uzoq omborxonada. Buyurtma bersangiz, biz uni [shipping_delay] yuboramiz."
+
+msgctxt "Languages::warehouses.shipping_delay.description.default"
+msgid "Product is at a remote warehouse. If you order it, shipping may take slightly longer."
+msgstr "Mahsulot uzoq omborxonada. Agar siz buyurtma qilsangiz, etkazib berish biroz ko'proq vaqt olishi mumkin."
+
+msgctxt "Languages::warehouses.shipping_delay.description.short"
+msgid "If ordered: [shipping_delay]"
+msgstr "Buyurtma qilingan bo'lsa: [shipping_delay]"
+
+msgctxt "Languages::warehouses.shipping_delay_for_products"
+msgid "Some of the products you ordered are at a remote warehouse. Shipping may take slightly longer than stated here."
+msgstr "Siz buyurtma qilgan ba'zi mahsulotlar uzoqdan joylashgan omborxonada. Yetkazib berish bu erda ko'rsatilganidan biroz ko'proq vaqt olishi mumkin."
+
+msgctxt "Languages::warehouses.product_available_if_ordered"
+msgid "Available if ordered"
+msgstr "Buyurtma qilingan taqdirda mavjud"
+
+msgctxt "Languages::warehouses.product_in_stock"
+msgid "In stock"
+msgstr "Sotuvda mavjud"
+
+msgctxt "Languages::warehouses.in_n_stores"
+msgid "in [n] store|in [n] stores"
+msgstr "[n] do'konda|[n] do'konda"
+
+msgctxt "Languages::warehouses.product_availability"
+msgid "Availability in stores"
+msgstr "Do'konlarda mavjudligi"
+
+msgctxt "Languages::block_availability_in_stores"
+msgid "Availability in stores"
+msgstr "Do'konlarda mavjudligi"
+
+msgctxt "Languages::block_availability_in_stores_description"
+msgid "List of stores where the product can be purchased"
+msgstr "Mahsulotni sotib olish mumkin bo'lgan do'konlar ro'yxati"
+
+msgctxt "Languages::warehouses.store_and_address"
+msgid "Store and address"
+msgstr "Do'kon va manzil"
+
+msgctxt "Languages::warehouses.phone"
+msgid "Phone"
+msgstr "Telefon"
+
+msgctxt "Languages::warehouses.search_store"
+msgid "Search store"
+msgstr "Do'kon bo'yicha qidirish"
+
+msgctxt "Languages::warehouses.stores_list"
+msgid "List"
+msgstr "Roʻyxat"
+
+msgctxt "Languages::warehouses.stores_map"
+msgid "Map"
+msgstr "Xarita"
+
+msgctxt "Languages::warehouses.no_matching_stores_found"
+msgid "No stores found matching the search criteria"
+msgstr "Qidiruv mezonlariga mos keladigan do‘kon topilmadi"
+
+msgctxt "Languages::warehouses.rate_area"
+msgid "Rate area"
+msgstr "Baho maydoni"
+
+msgctxt "Languages::warehouses.shipping_delay_notification"
+msgid "Delay warning"
+msgstr "Kechikish haqida ogohlantirish"
+
+msgctxt "Languages::warehouses.shipping_delay_notification.tooltip"
+msgid "It will appear if products aren't available in the stores and warehouses above."
+msgstr "Agar mahsulot yuqoridagi do'kon va omborlarda mavjud bo'lmasa paydo bo'ladi."
+
+msgctxt "Languages::warehouses.type_to_search_or_check_all"
+msgid "Type to search, or click the button on the right to add all rate areas"
+msgstr "Qidirish uchun yozing yoki barcha tarif maydonlarini qo'shish uchun o'ngdagi tugmani bosing"
+
+msgctxt "Languages::warehouses.any_store_type"
+msgid "Any type of store"
+msgstr "Har qanday turdagi do'kon"
+
+msgctxt "Languages::warehouses.add_all"
+msgid "Add all"
+msgstr "Hammasini qo'shing"
+
+msgctxt "Languages::warehouses.quantity_tab.no_data"
+msgid "This storefront doesn't have any stores or warehouses. Please <a href=\"[create_url]\">create one</a> or <a href=\"[list_url]\">make an existing one available</a> for this storefront"
+msgstr "Bu do‘konda hech qanday do‘kon yoki ombor yo‘q. Iltimos, ushbu vitrina uchun <a href=\"[create_url]\">yarating</a> yoki <a href=\"[list_url]\">mavjudini mavjud qiling</a>"
+
+msgctxt "Languages::warehouses.exim_reset_inventory_tooltip"
+msgid "This won't affect the products that have the quantity specified in the imported file. This also won't affect products at the warehouses that aren't updated in this preset."
+msgstr "Bu import qilingan faylda ko'rsatilgan miqdorga ega mahsulotlarga ta'sir qilmaydi. Bu shuningdek, ushbu oldindan o'rnatilganda yangilanmagan omborlardagi mahsulotlarga ta'sir qilmaydi."
+
+msgctxt "Languages::warehouses.destination_can_be_deleted"
+msgid "Couldn't delete the rate area because at least one product is contained in warehouses in this rate area. Please delete this rate area from warehouse or reset the number of <a href=\"[href]\">these products</a>, and try again."
+msgstr "Tarif maydonini oʻchirib boʻlmadi, chunki bu tarif hududidagi omborlarda kamida bitta mahsulot bor. Iltimos, ushbu tarif maydonini ombordan oʻchirib tashlang yoki <a href=\"[href]\">ushbu mahsulotlar</a> sonini tiklang va qaytadan urinib koʻring."
+
+msgctxt "Languages::commerceml.map.entity_type.warehouse"
+msgid "Warehouses"
+msgstr "Omborlar"
+
+msgctxt "Languages::commerceml.tab.warehouse"
+msgid "Warehouses"
+msgstr "Omborlar"
+
+msgctxt "Languages::warehouses.commerceml.import.error.product.warehouse_not_found"
+msgid "Couldn't find warehouse [id]"
+msgstr "Ombor topilmadi [id]"
+
+msgctxt "Languages::warehouses.commerceml.import.message.warehouse.created"
+msgid "Category [id] created; local ID: [local_id]"
+msgstr "Kategoriya [id] yaratilgan; mahalliy identifikator: [local_id]"
+

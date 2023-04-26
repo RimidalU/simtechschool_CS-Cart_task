@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Finnish\n"
+"Language: fi_FI\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:15\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "kaupungit"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "Lisäosa tarjoaa uusia toimintoja – kaupungit lisätään automaattisesti tilaussivulle."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Luodaksesi uuden kaupungin, sinun tulee valita maa ja alue, klikata \"Hae\" -painiketta ja luoda kaupunki käyttämällä \"+\" -painiketta. Jos maassa ei ole alueita, ne pitäisi luoda."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Lisää uusi kaupunki"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Uusi kaupunki"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Valitse kaupunki"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Ei luotu osavaltioita"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Osavaltiota ei ole valittu"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "toinen kaupunki"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Luo uusi tila"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Saa katsella"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Voi muokata"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Voi muokata"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "kaupungit"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Code city sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Päivitä kaupungit"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Päivittää"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Pöytäkaupungit päivitettiin"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "kaupunki., kaupunki"
+

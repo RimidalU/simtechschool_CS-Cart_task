@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /release-4.16.2/addons/cities.po\n"
+"X-Crowdin-File-ID: 7391\n"
+"PO-Revision-Date: 2023-03-21 11:14\n"
+
+msgctxt "Addons::name::cities"
+msgid "Cities"
+msgstr "Villes"
+
+msgctxt "Addons::description::cities"
+msgid "The add-on provides new functionality – cities to be added automatically to the order placing page."
+msgstr "L'add-on offre de nouvelles fonctionnalités - les villes doivent être ajoutées automatiquement à la page de passation de commande."
+
+msgctxt "Languages::select_state_instruction"
+msgid "To create a new city, you should select country and region, click the “Search” button and create a city using the “+” button. If there are no regions for the country, they should be created."
+msgstr "Pour créer une nouvelle ville, vous devez sélectionner le pays et la région, cliquer sur le bouton \"Rechercher\" et créer une ville à l'aide du bouton \"+\". S'il n'y a pas de régions pour le pays, elles doivent être créées."
+
+msgctxt "Languages::add_city"
+msgid "Add new city"
+msgstr "Ajouter une nouvelle ville"
+
+msgctxt "Languages::new_city"
+msgid "New city"
+msgstr "Nouvelle ville"
+
+msgctxt "Languages::select_city"
+msgid "Select city"
+msgstr "Sélectionnez une ville"
+
+msgctxt "Languages::empty_state"
+msgid "No states created"
+msgstr "Aucun état créé"
+
+msgctxt "Languages::not_selected_state"
+msgid "No state selected"
+msgstr "Aucun état sélectionné"
+
+msgctxt "Languages::other_town"
+msgid "another city"
+msgstr "une autre ville"
+
+msgctxt "Languages::new_city_state"
+msgid "Create new state"
+msgstr "Créer un nouvel état"
+
+msgctxt "Languages::privileges.view_cities"
+msgid "Can view"
+msgstr "Peut voir"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Peut éditer"
+
+msgctxt "Languages::privileges.manage_cities"
+msgid "Can edit"
+msgstr "Peut éditer"
+
+msgctxt "Languages::privilege_groups.cities"
+msgid "Cities"
+msgstr "Villes"
+
+msgctxt "Languages::code_sdek"
+msgid "Code city sdek"
+msgstr "Code ville sdek"
+
+msgctxt "Languages::addons.cities.label_cities_update"
+msgid "Update cities"
+msgstr "Mettre à jour les villes"
+
+msgctxt "Languages::addons.cities.cities_update"
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgctxt "Languages::addons.cities.text_update_cities"
+msgid "Table cities was updated"
+msgstr "Le tableau des villes a été mis à jour"
+
+msgctxt "Languages::addons.cities.city_prefix"
+msgid "city., city"
+msgstr "ville., ville"
+

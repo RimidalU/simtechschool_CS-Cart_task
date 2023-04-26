@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: uz\n"
+"X-Crowdin-File: /release-4.16.2/addons/price_list.po\n"
+"X-Crowdin-File-ID: 7477\n"
+"PO-Revision-Date: 2023-03-21 11:16\n"
+
+msgctxt "Addons::name::price_list"
+msgid "Price list"
+msgstr "Narxlar ro'yxati"
+
+msgctxt "Addons::description::price_list"
+msgid "Generates configurable price list in PDF or XLS"
+msgstr "PDF yoki XLS formatida sozlanishi mumkin bo'lgan narxlar ro'yxatini yaratadi"
+
+msgctxt "Languages::price_list"
+msgid "Price list"
+msgstr "Narxlar ro'yxati"
+
+msgctxt "Languages::generating_pdf"
+msgid "Generating PDF. Please, be patient..."
+msgstr "PDF yaratish. Iltimos, sabr qiling..."
+
+msgctxt "Languages::generating_xls"
+msgid "Generating XLS. Please, be patient..."
+msgstr "XLS yaratish. Iltimos, sabr qiling..."
+
+msgctxt "Languages::price_list_ziparchive_not_installed"
+msgid "Impossible to create XML price list. Please add zip support in PHP on your server. Follow <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a>."
+msgstr "XML narxlar ro'yxatini yaratish mumkin emas. Iltimos, serveringizda PHP-da zip-quvvatlashni qo'shing. <a href=\"http://www.php.net/manual/en/zip.installation.php\">http://www.php.net/manual/en/zip.installation.php</a> ga rioya qiling ."
+
+msgctxt "Languages::price_list.text_select_storefront"
+msgid "To generate a price list, please select storefront first."
+msgstr "Narxlar roʻyxatini yaratish uchun avval vitrini tanlang."
+
+msgctxt "Languages::price_list.text_regenerate"
+msgid "<p>If products, categories or selected fields were added or changed, please regenerate a price list:<br />[buttons]</p><p>Generated price lists are available by these links<br/>[links]</p>"
+msgstr "<p>Agar mahsulotlar, toifalar yoki tanlangan maydonlar qoʻshilgan yoki oʻzgartirilgan boʻlsa, narxlar roʻyxatini qayta yarating:<br />[buttons]</p><p>Yaratilgan narxlar roʻyxatini ushbu havolalar orqali olish mumkin<br/>[links] </p>"
+
+msgctxt "SettingsSections::price_list::general"
+msgid "General"
+msgstr "Umumiy"
+
+msgctxt "SettingsOptions::price_list::price_list_fields"
+msgid "Fields"
+msgstr "Maydonlar"
+
+msgctxt "SettingsOptions::price_list::price_list_sorting"
+msgid "Sort by"
+msgstr "Saralash turi"
+
+msgctxt "SettingsOptions::price_list::group_by_category"
+msgid "Group by category"
+msgstr "Kategoriya bo'yicha guruhlash"
+
+msgctxt "SettingsOptions::price_list::include_options"
+msgid "Include product options"
+msgstr "Mahsulot variantlarini kiriting"
+
