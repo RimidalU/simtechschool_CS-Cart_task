@@ -3,8 +3,8 @@ CREATE TABLE
         department_id INT(11) unsigned NOT NULL auto_increment,
         position INT(11) unsigned NOT NULL default '0',
         status varchar(1) NOT NULL default 'A',
-        timestamp INT(11) unsigned NOT NULL default '0',
-        upd_timestamp INT(11) unsigned NOT NULL default '0',
+        timestamp INT(11) unsigned NOT NULL default CURRENT_TIMESTAMP,
+        upd_timestamp INT(11) unsigned NOT NULL default CURRENT_TIMESTAMP,
         chief_id INT(11) unsigned NOT NULL default '0',
         KEY (chief_id),
         PRIMARY KEY (department_id)

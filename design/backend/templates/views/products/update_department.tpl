@@ -47,10 +47,10 @@
         </div>
 
         <div class="control-group">
-            <label class="control-label" for="elm_department_timestamp_{$id}">{__("creation_date")}</label>
-            <div class="controls">
-            {include file="common/calendar.tpl" date_id="elm_department_timestamp_`$id`" date_name="departments_data[timestamp]" date_val=$departments_data.timestamp|default:$smarty.const.TIME start_year=$settings.Company.company_start_year}
-            </div>
+            <label class="control-label" for="elm_department_creation_date">{__("creation_date")}</label>
+            <div class="controls">           
+                {include file="common/calendar.tpl" date_id="elm_department_timestamp_`$id`" date_name="departments_data[timestamp]" date_val=$departments_data.timestamp|default:$smarty.const.TIME start_year=$settings.Company.company_start_year}
+        </div>
         </div>
 
         {include file="common/select_status.tpl" input_name="departments_data[status]" id="elm_department_status" obj_id=$id obj=$departments_data hidden=false}

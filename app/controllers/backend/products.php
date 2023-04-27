@@ -1421,6 +1421,10 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             $condition .= db_quote(' AND ?:departments.status = ?s', $params['status']);
         }
         
+        if (!empty($params['timestamp'])) {
+            $condition .= db_quote(' AND ?:departments.timestamp = ?i', $params['timestamp']);
+        }
+
         if (!empty($params['position'])) {
             $condition .= db_quote(' AND ?:departments.position = ?i', $params['position']);
         }
