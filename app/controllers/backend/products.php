@@ -1332,7 +1332,16 @@ if ($mode === 'add') {
         'exim.export?section=products&pattern_id=' . Tygh::$app['session']['export_ranges']['products']['pattern_id'],
     ];
 } elseif ($mode == 'add_department' || $mode == 'update_department') {
-    // fn_print_die('end');
+
+    $department_id = !empty($_REQUEST['department_id']) ? !empty($_REQUEST['department_id']) : 0;
+    $departments_data = fn_get_departments_data($department_id, DESCR_SL);
+
+    if (empty($departments_data) && $mode == 'update_department') {
+        return [CONTROLLER_STATUS_NO_PAGE];
+    }
+
+    Tygh::$app['view']->assign('departments_data', $departments_data);
+   
 } elseif ($mode == 'manage_departments') {
     // fn_print_die('end');
     list($departments, $search) = fn_get_departments($_REQUEST, Registry::get('settings.Appearance.admin_elements_per_page'), DESCR_SL);
@@ -1354,6 +1363,20 @@ if ($mode === 'add') {
     Tygh::$app['view']->assign('search', $search);
     // Tygh::$app['view']->assign('has_select_permission', $has_select_permission);
 }
+
+
+
+function fn_get_departments_data($department_id = 0, $lang_code = CART_LANGUAGE){
+
+    $department=[]; 
+    if (!empty($department_id)){
+        list($departments) = fn_get_departments([
+            'department_id' =>  $department_id
+        ], 1, $lang_code);
+        $department = !empty($departments) ? reset($departments) : [];
+    }
+    return $department;
+};
 
 function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART_LANGUAGE){
 
@@ -1386,6 +1409,10 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
     
         if (!empty($params['item_ids'])) {
             $condition .= db_quote(' AND ?:departments.department_id IN (?n)', explode(',', $params['item_ids']));
+        }
+
+        if (!empty($params['department_id'])) {
+            $condition .= db_quote(' AND ?:departments.department_id = ?i', $params['department_id']);
         }
     
         if (!empty($params['status'])) {
