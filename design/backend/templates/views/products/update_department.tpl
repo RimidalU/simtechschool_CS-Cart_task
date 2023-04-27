@@ -14,7 +14,15 @@
         <div class="control-group">
             <label for="elm_department_name" class="control-label cm-required">{__("name")}</label>
             <div class="controls">
-            <input type="text" name="departments_data[department]" id="elm_department_name" value="{$departments_data.department}" size="25" class="input-large" /></div>
+                <input type="text" name="departments_data[department]" id="elm_department_name" value="{$departments_data.department}" size="25" class="input-large" />
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="elm_department_position">{__("position")}:</label>
+            <div class="controls">
+                <input type="text" name="departments_data[position]" id="elm_department_position" size="10" value="{$departments_data.position}" class="input-text-short" />
+            </div>
         </div>
 
         <div class="control-group" id="department_graphic">

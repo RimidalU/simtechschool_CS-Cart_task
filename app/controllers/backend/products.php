@@ -1333,12 +1333,14 @@ if ($mode === 'add') {
     ];
 } elseif ($mode == 'add_department' || $mode == 'update_department') {
 
-    $department_id = !empty($_REQUEST['department_id']) ? !empty($_REQUEST['department_id']) : 0;
+    $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+
     $departments_data = fn_get_departments_data($department_id, DESCR_SL);
 
     if (empty($departments_data) && $mode == 'update_department') {
         return [CONTROLLER_STATUS_NO_PAGE];
     }
+
 
     Tygh::$app['view']->assign('departments_data', $departments_data);
    
