@@ -60,7 +60,7 @@
                         </td>
                         
                         <td class="{$no_hide_input}" data-th="{__(" name")}">
-                            <a class="row-status" href="{" products.update_department?department_id=`$department.department_id`"|fn_url}">{$department.department}</a>
+                            <a class="row-status" href="{"products.update_department?department_id=`$department.department_id`"|fn_url}">{$department.department}</a>
                         </td>
 
                         <td width="15%" data-th="{__(" creation_date")}">

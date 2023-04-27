@@ -1393,7 +1393,7 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
         }
         
         if (!empty($params['position'])) {
-            $condition .= db_quote(' AND ?:departments.position = ?n', $params['position']);
+            $condition .= db_quote(' AND ?:departments.position = ?i', $params['position']);
         }
         $fields = array (
             '?:departments.department_id',
