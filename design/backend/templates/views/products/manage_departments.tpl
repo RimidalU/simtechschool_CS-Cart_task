@@ -4,11 +4,10 @@
 
 <form action="{""|fn_url}" method="post" id="departments_form" name="departments_form" enctype="multipart/form-data">
     <input type="hidden" name="fake" value="1" />
-    {include file="common/pagination.tpl" save_current_page=true save_current_url=true div_id="pagination_contents_departments"}
+    {include file="common/pagination.tpl" save_current_page=true save_current_url=true div_id="pagination_contents_products"}
 
+    {$rev=$smarty.request.content_id|default:"pagination_contents_products"}
     {$c_url=$config.current_url|fn_query_remove:"sort_by":"sort_order"}
-
-    {$rev=$smarty.request.content_id|default:"pagination_contents_departments"}
     {include_ext file="common/icon.tpl" class="icon-`$search.sort_order_rev`" assign=c_icon}
     {include_ext file="common/icon.tpl" class="icon-dummy" assign=c_dummy}
     {$department_statuses=""|fn_get_default_statuses:true}
@@ -98,12 +97,12 @@
         <p class="no-items">{__("no_data")}</p>
     {/if}
 
-    {include file="common/pagination.tpl" div_id="pagination_contents_departments"}
+    {include file="common/pagination.tpl" div_id="pagination_contents_products"}
 
-    {capture name="buttons"} 
-           {capture name="tools_list"}
-            <li>{btn type="delete_selected" dispatch="dispatch[products.delete_department]" form="departments_form"}</li>
-        {/capture}
+        {capture name="buttons"} 
+            {capture name="tools_list"}
+                <li>{btn type="delete_selected" dispatch="dispatch[products.delete_department]" form="departments_form"}</li>
+            {/capture}
         {dropdown content=$smarty.capture.tools_list class="mobile-hide"}
         {include file="buttons/save.tpl" but_name="dispatch[products.update_department]" but_role="action" but_target_form="departments_form" but_meta="cm-submit"}
         {include file="common/tools.tpl" tool_href="products.add_department" prefix="top" hide_tools="true" title=__("add_department") icon="icon-plus"}
