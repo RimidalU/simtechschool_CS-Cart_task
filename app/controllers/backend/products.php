@@ -1475,13 +1475,12 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             'department_id', implode(', ', $fields), $condition, $sorting, $limit
         );
     
-        // $banner_image_ids = array_column($banners, 'banner_image_id'); 
-        // $images = fn_get_image_pairs($banner_image_ids, 'promo', 'M', true, false, $lang_code); 
+        $department_image_ids = array_keys($departments); 
+        $images = fn_get_image_pairs($department_image_ids, 'department', 'M', true, false, $lang_code); 
     
-        // foreach ($departments as $department_id => $departments) {
-        //     $banners[$department_id]['main_pair'] = !empty($images[$banner['banner_image_id']]) ? reset($images[$banner['banner_image_id']]) : array();
-        // } 
-    
+        foreach ($departments as $department_id => $department) {
+            $departments[$department_id]['main_pair'] = !empty($images[$department_id]) ? reset($images[$department_id]) : array();
+        }     
         return array($departments, $params);
 };
 
@@ -1495,54 +1494,15 @@ function fn_update_department($data, $department_id, $lang_code = DESCR_SL){
         db_query("UPDATE ?:departments SET ?u WHERE department_id = ?i", $data, $department_id);
         db_query("UPDATE ?:department_descriptions SET ?u WHERE department_id = ?i AND lang_code = ?s", $data, $department_id, $lang_code);
 
-        // $banner_image_id = fn_get_banner_image_id($banner_id, $lang_code);
-        // $banner_image_exist = !empty($banner_image_id);
-        // $banner_is_multilang = Registry::get('addons.banners.banner_multilang') == 'Y';
-        // $image_is_update = fn_banners_need_image_update();
-
-        // if ($banner_is_multilang) {
-        //     if ($banner_image_exist && $image_is_update) {
-        //         fn_delete_image_pairs($banner_image_id, 'promo');
-        //         db_query("DELETE FROM ?:banner_images WHERE banner_id = ?i AND lang_code = ?s", $banner_id, $lang_code);
-        //         $banner_image_exist = false;
-        //     }
-        // } else {
-        //     if (isset($data['url'])) {
-        //         db_query("UPDATE ?:banner_descriptions SET url = ?s WHERE banner_id = ?i", $data['url'], $banner_id);
-        //     }
-        // }
-
-        // if ($image_is_update && !$banner_image_exist) {
-        //     $banner_image_id = db_query("INSERT INTO ?:banner_images (banner_id, lang_code) VALUE(?i, ?s)", $banner_id, $lang_code);
-        // }
-        // $pair_data = fn_attach_image_pairs('banners_main', 'promo', $banner_image_id, $lang_code);
-
-        // if (!$banner_is_multilang && !$banner_image_exist) {
-        //     fn_banners_image_all_links($banner_id, $pair_data, $lang_code);
-        // }
-
     } else {
         $department_id = $data['department_id'] = db_replace_into('departments', $data);
 
         foreach (Languages::getAll() as $data['lang_code'] => $v) {
             db_query("REPLACE INTO ?:department_descriptions ?e", $data);
         }
-
-        // if (fn_banners_need_image_update()) {
-        //     $banner_image_id = db_get_next_auto_increment_id('banner_images');
-        //     $pair_data = fn_attach_image_pairs('banners_main', 'promo', $banner_image_id, $lang_code);
-        //     if (!empty($pair_data)) {
-        //         $data_banner_image = array(
-        //             'banner_image_id' => $banner_image_id,
-        //             'banner_id'       => $banner_id,
-        //             'lang_code'       => $lang_code
-        //         );
-
-        //         db_query("INSERT INTO ?:banner_images ?e", $data_banner_image);
-        //         fn_banners_image_all_links($banner_id, $pair_data, $lang_code);
-        //     }
-        // }
     }
-
+    if(!empty($department_id)){
+        fn_attach_image_pairs('department', 'department', $department_id, $lang_code);
+    }
     return $department_id;
 }

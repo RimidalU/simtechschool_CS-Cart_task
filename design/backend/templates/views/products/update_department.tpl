@@ -29,7 +29,7 @@
             <label class="control-label">{__("image")}</label>
             <div class="controls">
                 {include file="common/attach_images.tpl"
-                    image_name="department_main"
+                    image_name="department"
                     image_object_type="department"
                     image_pair=$departments_data.main_pair
                     image_object_id=$id
