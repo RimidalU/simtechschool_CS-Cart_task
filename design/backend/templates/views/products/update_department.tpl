@@ -1,14 +1,14 @@
 {if $departments_data}
-    {assign var="id" value=$departments_data.department_id}
+{assign var="id" value=$departments_data.department_id}
 {else}
-    {assign var="id" value=0}
+{assign var="id" value=0}
 {/if}
 
 {capture name="mainbox"}
 
 <form action="{""|fn_url}" method="post" class="form-horizontal form-edit" name="departments_form" enctype="multipart/form-data">
-<input type="hidden" class="cm-no-hide-input" name="fake" value="1" />
-<input type="hidden" class="cm-no-hide-input" name="department_id" value="{$id}" />
+    <input type="hidden" class="cm-no-hide-input" name="fake" value="1" />
+    <input type="hidden" class="cm-no-hide-input" name="department_id" value="{$id}" />
 
     <div id="content_general">
 
@@ -16,17 +16,17 @@
             <label for="chief" class="control-label cm-required">{__("chief")}</label>
             <div class="control-group">
                 <div class="controls">
-                    {include 
-                        file="pickers/users/picker.tpl" 
-                        but_text=__("assign chief") 
-                        id="chief" 
-                        data_id="return_users" 
-                        but_meta="btn" 
-                        input_name="departments_data[chief_id]" 
-                        display="radio" 
-                        user_info=$u_info 
-                        view_mode="single_button" 
-                        placement="right"
+                    {include
+                    file="pickers/users/picker.tpl"
+                    but_text=__("assign chief")
+                    id="chief"
+                    data_id="return_users"
+                    but_meta="btn"
+                    input_name="departments_data[chief_id]"
+                    display="radio"
+                    user_info=$u_info
+                    view_mode="single_button"
+                    placement="right"
                     }
                 </div>
             </div>
@@ -50,12 +50,12 @@
             <label class="control-label">{__("logo")}</label>
             <div class="controls">
                 {include file="common/attach_images.tpl"
-                    image_name="department"
-                    image_object_type="department"
-                    image_pair=$departments_data.main_pair
-                    image_object_id=$id
-                    no_detailed=true
-                    hide_titles=true
+                image_name="department"
+                image_object_type="department"
+                image_pair=$departments_data.main_pair
+                image_object_id=$id
+                no_detailed=true
+                hide_titles=true
                 }
             </div>
         </div>
@@ -69,35 +69,42 @@
 
         <div class="control-group">
             <label class="control-label" for="elm_department_creation_date">{__("creation_date")}</label>
-            <div class="controls">           
+            <div class="controls">
                 {include file="common/calendar.tpl" date_id="elm_department_timestamp_`$id`" date_name="departments_data[timestamp]" date_val=$departments_data.timestamp|default:$smarty.const.TIME start_year=$settings.Company.company_start_year}
             </div>
         </div>
 
         {include file="common/select_status.tpl" input_name="departments_data[status]" id="elm_department_status" obj_id=$id obj=$departments_data hidden=false}
-   
-      <!--content_general--></div>
 
-{capture name="buttons"}
+
+        <div id="content_user">
+            {include file="views/profiles/components/profiles_scripts.tpl"}
+            {include file="pickers/users/picker.tpl" no_item_text=__("no_items") data_id="sales_rep_users" input_name="table_data[conditions][user]" item_ids=$conditions.user placement="right" but_meta="btn" but_icon="icon-plus"}
+        </div>
+
+        <!--content_general-->
+    </div>
+
+    {capture name="buttons"}
     {if !$id}
-            {include file="buttons/save_cancel.tpl" but_role="submit-link" but_target_form="departments_form" but_name="dispatch[products.update_department]"}
+    {include file="buttons/save_cancel.tpl" but_role="submit-link" but_target_form="departments_form" but_name="dispatch[products.update_department]"}
     {else}
-        {capture name="tools_list"}
-            <li>{btn type="list" text=__("delete") class="cm-confirm" href="products.delete_department?department_id=`$department.department_id`" method="POST"}</li>
-        {/capture}
-        {dropdown content=$smarty.capture.tools_list}
-        {include file="buttons/save_cancel.tpl" but_name="dispatch[products.update_department]" but_role="submit-link" but_target_form="departments_form" hide_first_button=$hide_first_button hide_second_button=$hide_second_button save=$id}
+    {capture name="tools_list"}
+    <li>{btn type="list" text=__("delete") class="cm-confirm" href="products.delete_department?department_id=`$department.department_id`" method="POST"}</li>
+    {/capture}
+    {dropdown content=$smarty.capture.tools_list}
+    {include file="buttons/save_cancel.tpl" but_name="dispatch[products.update_department]" but_role="submit-link" but_target_form="departments_form" hide_first_button=$hide_first_button hide_second_button=$hide_second_button save=$id}
     {/if}
-{/capture}
+    {/capture}
 
 </form>
 
 {/capture}
 
 {include file="common/mainbox.tpl"
-    title=($id) ? $departments_data.department : __("departments.new_department")
-    content=$smarty.capture.mainbox
-    buttons=$smarty.capture.buttons
-    select_languages=true}
+title=($id) ? $departments_data.department : __("departments.new_department")
+content=$smarty.capture.mainbox
+buttons=$smarty.capture.buttons
+select_languages=true}
 
 {** department section **}
