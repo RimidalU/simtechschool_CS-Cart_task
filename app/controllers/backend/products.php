@@ -23,6 +23,7 @@ use Tygh\Enum\YesNo;
 use Tygh\Http;
 use Tygh\Registry;
 use Tygh\Tools\Url;
+use Tygh\Languages\Languages;
 
 defined('BOOTSTRAP') or die('Access denied');
 
@@ -55,7 +56,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'products_data',
         'product_file'
     );
+    if($mode=='update_department'){
 
+        $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+        $data = !empty($_REQUEST['departments_data']) ? $_REQUEST['departments_data'] : [];
+
+        $department_id = fn_update_department($data, $department_id, DESCR_SL);
+
+        if(!empty($department_id)){
+            $suffix = ".update_department?department_id={$department_id}";
+        } else {
+            $suffix = ".add_department";
+        }
+        
+    }elseif($mode=='update_selected_department'){
+        fn_print_die('update_selected_department');
+
+    }elseif($mode=='delete_department'){
+        fn_print_die('delete_department');
+
+    }elseif($mode=='delete_selected_department'){
+
+    fn_print_die('delete_selected_department');
+}
 
     // Apply Global Option
     if ($mode === 'apply_global_option') {
@@ -1460,3 +1483,65 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
     
         return array($departments, $params);
 };
+
+function fn_update_department($data, $department_id, $lang_code = DESCR_SL){
+
+    if (isset($data['timestamp'])) {
+        $data['timestamp'] = fn_parse_date($data['timestamp']);
+    }
+
+    if (!empty($department_id)) {
+        db_query("UPDATE ?:departments SET ?u WHERE department_id = ?i", $data, $department_id);
+        db_query("UPDATE ?:department_descriptions SET ?u WHERE department_id = ?i AND lang_code = ?s", $data, $department_id, $lang_code);
+
+        // $banner_image_id = fn_get_banner_image_id($banner_id, $lang_code);
+        // $banner_image_exist = !empty($banner_image_id);
+        // $banner_is_multilang = Registry::get('addons.banners.banner_multilang') == 'Y';
+        // $image_is_update = fn_banners_need_image_update();
+
+        // if ($banner_is_multilang) {
+        //     if ($banner_image_exist && $image_is_update) {
+        //         fn_delete_image_pairs($banner_image_id, 'promo');
+        //         db_query("DELETE FROM ?:banner_images WHERE banner_id = ?i AND lang_code = ?s", $banner_id, $lang_code);
+        //         $banner_image_exist = false;
+        //     }
+        // } else {
+        //     if (isset($data['url'])) {
+        //         db_query("UPDATE ?:banner_descriptions SET url = ?s WHERE banner_id = ?i", $data['url'], $banner_id);
+        //     }
+        // }
+
+        // if ($image_is_update && !$banner_image_exist) {
+        //     $banner_image_id = db_query("INSERT INTO ?:banner_images (banner_id, lang_code) VALUE(?i, ?s)", $banner_id, $lang_code);
+        // }
+        // $pair_data = fn_attach_image_pairs('banners_main', 'promo', $banner_image_id, $lang_code);
+
+        // if (!$banner_is_multilang && !$banner_image_exist) {
+        //     fn_banners_image_all_links($banner_id, $pair_data, $lang_code);
+        // }
+
+    } else {
+        $department_id = $data['department_id'] = db_replace_into('departments', $data);
+
+        foreach (Languages::getAll() as $data['lang_code'] => $v) {
+            db_query("REPLACE INTO ?:department_descriptions ?e", $data);
+        }
+
+        // if (fn_banners_need_image_update()) {
+        //     $banner_image_id = db_get_next_auto_increment_id('banner_images');
+        //     $pair_data = fn_attach_image_pairs('banners_main', 'promo', $banner_image_id, $lang_code);
+        //     if (!empty($pair_data)) {
+        //         $data_banner_image = array(
+        //             'banner_image_id' => $banner_image_id,
+        //             'banner_id'       => $banner_id,
+        //             'lang_code'       => $lang_code
+        //         );
+
+        //         db_query("INSERT INTO ?:banner_images ?e", $data_banner_image);
+        //         fn_banners_image_all_links($banner_id, $pair_data, $lang_code);
+        //     }
+        // }
+    }
+
+    return $department_id;
+}
