@@ -11,8 +11,29 @@
 <input type="hidden" class="cm-no-hide-input" name="department_id" value="{$id}" />
 
     <div id="content_general">
+
         <div class="control-group">
-            <label for="elm_department_name" class="control-label cm-required">{__("name")}</label>
+            <label for="chief" class="control-label cm-required">{__("chief")}</label>
+            <div class="control-group">
+                <div class="controls">
+                    {include 
+                        file="pickers/users/picker.tpl" 
+                        but_text=__("assign chief") 
+                        id="chief" 
+                        data_id="return_users" 
+                        but_meta="btn" 
+                        input_name="departments_data[chief_id]" 
+                        display="radio" 
+                        user_info=$u_info 
+                        view_mode="single_button" 
+                        placement="right"
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label for="elm_department_name" class="control-label cm-required">{__("department name")}</label>
             <div class="controls">
                 <input type="text" name="departments_data[department]" id="elm_department_name" value="{$departments_data.department}" size="25" class="input-large" />
             </div>
@@ -26,7 +47,7 @@
         </div>
 
         <div class="control-group" id="department_graphic">
-            <label class="control-label">{__("image")}</label>
+            <label class="control-label">{__("logo")}</label>
             <div class="controls">
                 {include file="common/attach_images.tpl"
                     image_name="department"
@@ -50,11 +71,12 @@
             <label class="control-label" for="elm_department_creation_date">{__("creation_date")}</label>
             <div class="controls">           
                 {include file="common/calendar.tpl" date_id="elm_department_timestamp_`$id`" date_name="departments_data[timestamp]" date_val=$departments_data.timestamp|default:$smarty.const.TIME start_year=$settings.Company.company_start_year}
-        </div>
+            </div>
         </div>
 
         {include file="common/select_status.tpl" input_name="departments_data[status]" id="elm_department_status" obj_id=$id obj=$departments_data hidden=false}
-    <!--content_general--></div>
+   
+      <!--content_general--></div>
 
 {capture name="buttons"}
     {if !$id}

@@ -1371,10 +1371,12 @@ if ($mode === 'add') {
     }
 
 
-    Tygh::$app['view']->assign('departments_data', $departments_data);
-   
+    Tygh::$app['view']->assign([
+        'departments_data' => $departments_data,
+        'u_info' => !empty($departments_data['chief_id']) ? fn_get_user_short_info($departments_data['chief_id']) : [],
+    ]);
+
 } elseif ($mode == 'manage_departments') {
-    // fn_print_die('end');
     list($departments, $search) = fn_get_departments($_REQUEST, Registry::get('settings.Appearance.admin_elements_per_page'), DESCR_SL);
         // fn_print_die($departments);
 
@@ -1462,6 +1464,7 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             '?:departments.status',
             '?:departments.timestamp',
             '?:departments.position',
+            '?:departments.chief_id',
             '?:department_descriptions.department',
             '?:department_descriptions.description',
         );

@@ -29,6 +29,9 @@
                         <th>
                             <a class="cm-ajax" href="{" `$c_url`&sort_by=name&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("name")}{if $search.sort_by === "name"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
+                        <th>
+                            <a class="cm-ajax" href="{" `$c_url`&sort_by=chief&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("chief")}{if $search.sort_by === "chief"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
+                        </th>
                         <th width="15%">
                             <a class="cm-ajax" href="{" `$c_url`&sort_by=timestamp&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("creation_date")}{if $search.sort_by === "timestamp"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
@@ -60,6 +63,10 @@
                         
                         <td class="{$no_hide_input}" data-th="{__(" name")}">
                             <a class="row-status" href="{"products.update_department?department_id=`$department.department_id`"|fn_url}">{$department.department}</a>
+                        </td>
+
+                        <td class="{$no_hide_input}" data-th="{__(" chief")}">
+                            <a class="row-status" href="{"products.update_department?chief_id=`$department.chief_id`"|fn_url}">{$department.chief_id}</a>
                         </td>
 
                         <td width="15%" data-th="{__(" creation_date")}">
