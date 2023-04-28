@@ -39,7 +39,7 @@
             </div>
         </div>
 
-        <div class="control-group {if $b_type == "G"}hidden{/if}" id="department_text">
+        <div class="control-group" id="department_text">
             <label class="control-label" for="elm_department_description">{__("description")}:</label>
             <div class="controls">
                 <textarea id="elm_department_description" name="departments_data[description]" cols="35" rows="8" class="cm-wysiwyg input-large">{$departments_data.description}</textarea>
@@ -56,16 +56,15 @@
         {include file="common/select_status.tpl" input_name="departments_data[status]" id="elm_department_status" obj_id=$id obj=$departments_data hidden=false}
     <!--content_general--></div>
 
-    <div id="content_addons" class="hidden clearfix">
-        {hook name="departments:detailed_content"}
-        {/hook}
-    <!--content_addons--></div>
-
 {capture name="buttons"}
     {if !$id}
-        {include file="buttons/save_cancel.tpl" but_role="submit-link" but_target_form="departments_form" but_name="dispatch[departments.update]"}
+            {include file="buttons/save_cancel.tpl" but_role="submit-link" but_target_form="departments_form" but_name="dispatch[products.update_department]"}
     {else}
-        {include file="buttons/save_cancel.tpl" but_name="dispatch[departments.update]" but_role="submit-link" but_target_form="departments_form" hide_first_button=$hide_first_button hide_second_button=$hide_second_button save=$id}
+        {capture name="tools_list"}
+            <li>{btn type="list" text=__("delete") class="cm-confirm" href="products.delete_department?department_id=`$department.department_id`" method="POST"}</li>
+        {/capture}
+        {dropdown content=$smarty.capture.tools_list}
+        {include file="buttons/save_cancel.tpl" but_name="dispatch[products.update_department]" but_role="submit-link" but_target_form="departments_form" hide_first_button=$hide_first_button hide_second_button=$hide_second_button save=$id}
     {/if}
 {/capture}
 
