@@ -85,6 +85,7 @@
                 {/foreach}
             </table>
         </div>
+        
         {/capture}
 
         {include file="common/context_menu_wrapper.tpl"
@@ -99,8 +100,12 @@
 
     {include file="common/pagination.tpl" div_id="pagination_contents_departments"}
 
-
-    {capture name="adv_buttons"}
+    {capture name="buttons"} 
+           {capture name="tools_list"}
+            <li>{btn type="delete_selected" dispatch="dispatch[products.delete_department]" form="departments_form"}</li>
+        {/capture}
+        {dropdown content=$smarty.capture.tools_list class="mobile-hide"}
+        {include file="buttons/save.tpl" but_name="dispatch[products.update_department]" but_role="action" but_target_form="departments_form" but_meta="cm-submit"}
         {include file="common/tools.tpl" tool_href="products.add_department" prefix="top" hide_tools="true" title=__("add_department") icon="icon-plus"}
     {/capture}
 
@@ -116,7 +121,7 @@
 {include file="common/mainbox.tpl"
 title=$page_title
 content=$smarty.capture.mainbox
-adv_buttons=$smarty.capture.adv_buttons
+buttons=$smarty.capture.buttons
 select_languages=$select_languages
 sidebar=$smarty.capture.sidebar
 }
