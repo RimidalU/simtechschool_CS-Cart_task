@@ -54,7 +54,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'product_files_descriptions',
         'add_product_files_descriptions',
         'products_data',
-        'product_file'
+        'product_file',
+        'departments_data',
     );
     if($mode=='update_department'){
 
@@ -68,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             $suffix = ".add_department";
         }
-        
+
     }elseif($mode=='update_selected_department'){
         fn_print_die('update_selected_department');
 
