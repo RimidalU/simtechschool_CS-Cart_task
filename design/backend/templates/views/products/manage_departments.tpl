@@ -55,7 +55,7 @@
                             <input type="checkbox" name="departments_ids[]" value="{$department.department_id}" size="3" class="cm-item {$no_hide_input} cm-item-status-{$department.status|lower}" />
                         </td>
                         <td width="6%" >
-                            <input type="text" name="departments_data[department.department_id][position]" size="3" value="{$department.position}" class="input-input-micro input-hidden" />
+                            <input type="text" name="departments_data[{$department.department_id}][position]" size="3" value="{$department.position}" class="input-input-micro input-hidden" />
                         </td>
                         
                         <td class="{$no_hide_input}" data-th="{__(" name")}">
@@ -68,9 +68,9 @@
 
                         <td width="6%" class="mobile-hide">
                             {capture name="tools_list"}
-                            <li>{btn type="list" text=__("edit") href="products.update_department?department_id=`$department.department_id`"}</li>
+                                <li>{btn type="list" text=__("edit") href="products.update_department?department_id=`$department.department_id`"}</li>
                             {if $allow_save}
-                            <li>{btn type="list" class="cm-confirm" text=__("delete") href="products.delete_department?department_id=`$department.department_id`" method="POST"}</li>
+                                <li>{btn type="list" class="cm-confirm" text=__("delete") href="products.delete_department?department_id=`$department.department_id`" method="POST"}</li>
                             {/if}
                             {/capture}
                             <div class="hidden-tools">
@@ -104,7 +104,7 @@
                 <li>{btn type="delete_selected" dispatch="dispatch[products.delete_department]" form="departments_form"}</li>
             {/capture}
         {dropdown content=$smarty.capture.tools_list class="mobile-hide"}
-        {include file="buttons/save.tpl" but_name="dispatch[products.update_department]" but_role="action" but_target_form="departments_form" but_meta="cm-submit"}
+        {include file="buttons/save.tpl" but_name="dispatch[products.update_selected_department]" but_role="action" but_target_form="departments_form" but_meta="cm-submit"}
         {include file="common/tools.tpl" tool_href="products.add_department" prefix="top" hide_tools="true" title=__("add_department") icon="icon-plus"}
     {/capture}
 

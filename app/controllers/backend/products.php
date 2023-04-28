@@ -71,8 +71,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
     }elseif($mode=='update_selected_department'){
-        fn_print_die('update_selected_department');
 
+        if(!empty($_REQUEST['departments_data'])){
+            foreach ($_REQUEST['departments_data'] as $department_id => $data) {
+                fn_update_department($data, $department_id, DESCR_SL);
+            }
+        }
+        $suffix = ".add_department";
     }elseif($mode=='delete_department'){
         fn_print_die('delete_department');
 
