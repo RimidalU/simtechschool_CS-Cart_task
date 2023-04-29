@@ -4390,6 +4390,7 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             'position' => '?:departments.position',
             'name' => '?:department_descriptions.department',
             'status' => '?:departments.status',
+            'owner_id' => '?:departments.owner_id',
         );
     
         $condition = $limit = $join = '';
@@ -4407,7 +4408,11 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
         if (!empty($params['department_id'])) {
             $condition .= db_quote(' AND ?:departments.department_id = ?i', $params['department_id']);
         }
-    
+
+        if (!empty($params['owner_id'])) {
+            $condition .= db_quote(' AND ?:departments.owner_id = ?i', $params['owner_id']);
+        }
+        
         if (!empty($params['status'])) {
             $condition .= db_quote(' AND ?:departments.status = ?s', $params['status']);
         }
@@ -4418,6 +4423,7 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             '?:departments.timestamp',
             '?:departments.position',
             '?:departments.chief_id',
+            '?:departments.owner_id',
             '?:department_descriptions.department',
             '?:department_descriptions.description',
         );

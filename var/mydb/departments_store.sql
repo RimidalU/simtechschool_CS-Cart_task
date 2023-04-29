@@ -1,12 +1,13 @@
 CREATE TABLE
     IF NOT EXISTS cscart_departments (
+        owner_id INT(11) unsigned NOT NULL default '0',
         department_id INT(11) unsigned NOT NULL auto_increment,
         position INT(11) unsigned NOT NULL default '0',
         status varchar(1) NOT NULL default 'A',
         timestamp INT(11) unsigned NOT NULL default CURRENT_TIMESTAMP,
         upd_timestamp INT(11) unsigned NOT NULL default CURRENT_TIMESTAMP,
         chief_id INT(11) unsigned NOT NULL default '0',
-        KEY (chief_id),
+        KEY (owner_id),
         PRIMARY KEY (department_id)
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb3;
 

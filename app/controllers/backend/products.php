@@ -1380,6 +1380,7 @@ if ($mode === 'add') {
     Tygh::$app['view']->assign([
         'departments_data' => $departments_data,
         'u_info' => !empty($departments_data['chief_id']) ? fn_get_user_short_info($departments_data['chief_id']) : [],
+        'o_info' => !empty($departments_data['owner_id']) ? fn_get_user_short_info($departments_data['owner_id']) : [],
     ]);
 
 } elseif ($mode == 'manage_departments') {

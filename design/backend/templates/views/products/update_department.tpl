@@ -12,6 +12,25 @@
 
         <div id="content_general">
             <div class="control-group">
+                <label for="owner" class="control-label cm-required">{__("owner")}</label>
+                <div class="control-group">
+                    <div class="controls">
+                        {include
+                            file="pickers/users/picker.tpl"
+                            but_text=__("assign_owner")
+                            id="owner"
+                            data_id="return_users"
+                            but_meta="btn"
+                            input_name="departments_data[owner_id]" 
+                            display="radio"
+                            user_info=$o_info
+                            view_mode="single_button"
+                            placement="right"
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
                 <label for="chief" class="control-label cm-required">{__("chief")}</label>
                 <div class="control-group">
                     <div class="controls">
