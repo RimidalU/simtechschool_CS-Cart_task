@@ -157,7 +157,7 @@
 {/capture}
 
 {include file="common/mainbox.tpl"
-    title=($id) ? $departments_data.department : __("departments.new_department")
+    title=($id) ? $departments_data.department : __("new_department")
     content=$smarty.capture.mainbox
     buttons=$smarty.capture.buttons
     select_languages=true
