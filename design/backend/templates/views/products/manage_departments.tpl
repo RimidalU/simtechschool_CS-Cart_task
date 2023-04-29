@@ -132,7 +132,7 @@
                                     <a
                                         href="{"profiles.update?user_id=`$department.chief_id`&user_type=`$user.user_type`"|fn_url}"
                                         >
-                                            {$department.chief_id}
+                                            {$department.chief_name}
                                     </a>
                                 </td>
                                 <td width="15%" data-th="{__(" creation_date")}">

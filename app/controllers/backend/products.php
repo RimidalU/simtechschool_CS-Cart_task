@@ -1475,8 +1475,11 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
     
         foreach ($departments as $department_id => $department) {
             $departments[$department_id]['main_pair'] = !empty($images[$department_id]) ? reset($images[$department_id]) : array();
+                if(!empty($department['chief_id'])){
+                    $chief_info = fn_get_user_short_info($department['chief_id']);
+                    $departments[$department_id]['chief_name'] = $chief_info['firstname']. " " .  $chief_info['lastname'];
+                }
         }     
-
         return array($departments, $params);
 };
 
