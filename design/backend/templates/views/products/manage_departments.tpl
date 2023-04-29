@@ -18,7 +18,7 @@
                 <div class="table-responsive-wrapper longtap-selection">
                     <table class="table table-middle table--relative table-responsive">
                         <thead data-ca-bulkedit-default-object="true" data-ca-bulkedit-component="defaultObject">
-                            <th class="left mobile-hide table__check-items-column{if !$has_available_products} table__check-items-column--disabled{/if}">
+                            <th class="left mobile-hide table__check-items-column">
                                 {include file="common/check_items.tpl"
                                     is_check_disabled=!$has_permission check_statuses=($has_permission) ? $banner_statuses : '' 
                                 }
@@ -46,7 +46,7 @@
                                         th-text-overflow--{$search.sort_order_rev}
                                     {/if}"
                                     href="{"`$c_url`&sort_by=code&sort_order=`$search.sort_order_rev`"|fn_url}"
-                                    data-ca-target-id={$rev}>{__("department name")}
+                                    data-ca-target-id={$rev}>{__("department")}
                                 </a>
                             </th>
                             <th>
