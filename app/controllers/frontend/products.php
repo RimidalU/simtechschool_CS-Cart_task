@@ -281,15 +281,11 @@ if ($mode == 'search') {
 
     list($departments, $search) = fn_get_departments($params, Registry::get('settings.Appearance.products_per_page'), CART_LANGUAGE);
 
-// fn_print_die($departments);
-    if (isset($search['page']) && ($search['page'] > 1) && empty($products)) {
-        return [CONTROLLER_STATUS_NO_PAGE];
-    }
-
     $selected_layout = fn_get_products_layout($_REQUEST);
 
     Tygh::$app['view']->assign('departments', $departments);
     Tygh::$app['view']->assign('search', $search);
+    Tygh::$app['view']->assign('columns', 3);
 
     fn_add_breadcrumb(__("Departments"));
 }
