@@ -22,8 +22,8 @@ CREATE TABLE
 CREATE TABLE
     IF NOT EXISTS cscart_department_links (
         department_id INT(11) unsigned NOT NULL default '0',
-        user_id INT(11) unsigned NOT NULL default '0',
-        KEY (user_id),
+        employee_id INT(11) unsigned NOT NULL default '0',
+        KEY (employee_id),
         KEY (department_id),
-        PRIMARY KEY (department_id, user_id)
+        PRIMARY KEY (department_id, employee_id)
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb3;
