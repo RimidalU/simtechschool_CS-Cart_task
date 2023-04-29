@@ -58,10 +58,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'departments_data',
     );
     if($mode=='update_department'){
-
         $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
         $data = !empty($_REQUEST['departments_data']) ? $_REQUEST['departments_data'] : [];
-
         $department_id = fn_update_department($data, $department_id, DESCR_SL);
 
         if(!empty($department_id)){
@@ -71,15 +69,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
     }elseif($mode=='update_selected_department'){
-
         if(!empty($_REQUEST['departments_data'])){
             foreach ($_REQUEST['departments_data'] as $department_id => $data) {
                 fn_update_department($data, $department_id, DESCR_SL);
             }
         }
         $suffix = ".add_department";
+
     }elseif($mode=='delete_department'){
-        fn_print_die('delete_department');
+        $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+        $suffix = ".manage_departments";
 
     }elseif($mode=='delete_selected_department'){
 
@@ -1444,21 +1443,21 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             $condition .= db_quote(' AND ?:departments.department_id IN (?n)', explode(',', $params['item_ids']));
         }
 
-        if (!empty($params['department_id'])) {
-            $condition .= db_quote(' AND ?:departments.department_id = ?i', $params['department_id']);
-        }
+        // if (!empty($params['department_id'])) {
+        //     $condition .= db_quote(' AND ?:departments.department_id = ?i', $params['department_id']);
+        // }
     
         if (!empty($params['status'])) {
             $condition .= db_quote(' AND ?:departments.status = ?s', $params['status']);
         }
         
-        if (!empty($params['timestamp'])) {
-            $condition .= db_quote(' AND ?:departments.timestamp = ?i', $params['timestamp']);
-        }
+        // if (!empty($params['timestamp'])) {
+        //     $condition .= db_quote(' AND ?:departments.timestamp = ?i', $params['timestamp']);
+        // }
 
-        if (!empty($params['position'])) {
-            $condition .= db_quote(' AND ?:departments.position = ?i', $params['position']);
-        }
+        // if (!empty($params['position'])) {
+        //     $condition .= db_quote(' AND ?:departments.position = ?i', $params['position']);
+        // }
         $fields = array (
             '?:departments.department_id',
             '?:departments.status',
@@ -1514,3 +1513,10 @@ function fn_update_department($data, $department_id, $lang_code = DESCR_SL){
     }
     return $department_id;
 }
+
+function fn_delete_department($department_id){
+    if(!empty($department_id)){
+        db_query("DELETE FROM ?:departments WHERE department_id = ?i", $department_id);
+        db_query("DELETE FROM ?:department_descriptions WHERE department_id = ?i", $department_id);
+    }
+};
