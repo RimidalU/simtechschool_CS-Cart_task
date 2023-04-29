@@ -109,7 +109,8 @@
                         but_text=__("add_employee") 
                         data_id="employee_ids" 
                         but_meta="btn" 
-                        item_ids=$newsletter.users placement="right"
+                        item_ids=$departments_data.employee_ids
+                        placement="right"
                         input_name="departments_data[employee_ids]"
                     }
                 </div>
