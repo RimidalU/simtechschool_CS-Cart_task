@@ -212,7 +212,7 @@
             {capture name="tools_list"}
                 <li>
                     {btn type="delete_selected" 
-                        dispatch="dispatch[products.delete_department]" 
+                        dispatch="dispatch[products.delete_selected_department]" 
                         form="departments_form"
                     }
                 </li>

@@ -78,11 +78,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     }elseif($mode=='delete_department'){
         $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+
+        fn_delete_department($department_id);
         $suffix = ".manage_departments";
 
     }elseif($mode=='delete_selected_department'){
+        if(!empty($_REQUEST['departments_ids'])){
+            foreach ($_REQUEST['departments_ids'] as $department_id) {
+                fn_delete_department($department_id);
+            }
+        }
+        $suffix = ".manage_departments";
 
-    fn_print_die('delete_selected_department');
 }
 
     // Apply Global Option
