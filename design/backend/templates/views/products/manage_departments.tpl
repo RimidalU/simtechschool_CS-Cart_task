@@ -34,21 +34,21 @@
                         </th>
                         {/if}
                         <th>
-                            <a class="cm-ajax" href="{" `$c_url`&sort_by=name&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("department name")}{if $search.sort_by === "name"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
+                            <a class="cm-ajax" href="{"`$c_url`&sort_by=name&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("department name")}{if $search.sort_by === "name"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
                         <th>
-                            <a class="cm-ajax" href="{" `$c_url`&sort_by=chief&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("chief")}{if $search.sort_by === "chief"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
+                            <a class="cm-ajax" href="{"`$c_url`&sort_by=chief&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("chief")}{if $search.sort_by === "chief"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
                         <th width="15%">
-                            <a class="cm-ajax" href="{" `$c_url`&sort_by=timestamp&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("creation_date")}{if $search.sort_by === "timestamp"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
+                            <a class="cm-ajax" href="{"`$c_url`&sort_by=timestamp&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("creation_date")}{if $search.sort_by === "timestamp"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
 
                         <th width="6%" class="mobile-hide">&nbsp;</th>
                         <th width="10%" class="right">
-                            <a class="cm-ajax" href="{" `$c_url`&sort_by=status&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("status")}{if $search.sort_by === "status"}{$c_icon nofilter}{/if}</a>
+                            <a class="cm-ajax" href="{"`$c_url`&sort_by=status&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("status")}{if $search.sort_by === "status"}{$c_icon nofilter}{/if}</a>
                         </th>
                         <th>
-                            <a class="cm-ajax" href="{" `$c_url`&sort_by=position&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("position")}{if $search.sort_by === "position"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
+                            <a class="cm-ajax" href="{"`$c_url`&sort_by=position&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id={$rev}>{__("position")}{if $search.sort_by === "position"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}</a>
                         </th>
                         </tr>
                     </thead>
@@ -79,14 +79,14 @@
                                 }
                             </td>
 
-                            <td class="{$no_hide_input}" data-th="{__(" name")}">
+                            <td class="{$no_hide_input}" data-th="{__("name")}">
                                 <a class="row-status" href="{"products.update_department?department_id=`$department.department_id`"|fn_url}">
                                     {$department.department}
                                 </a>
                             </td>
 
-                            <td class="{$no_hide_input}" data-th="{__(" chief")}">
-                                <a class="row-status" href="{"products.update_department?department_id=`$department.department_id`"|fn_url}">
+                            <td width="{$person_name_col_width}" class="row-status wrap" data-th="{__("chief")}">
+                                <a href="{"profiles.update?user_id=`$department.chief_id`&user_type=`$user.user_type`"|fn_url}">
                                     {$department.chief_id}
                                 </a>
                             </td>
