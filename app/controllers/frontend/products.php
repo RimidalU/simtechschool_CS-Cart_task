@@ -255,7 +255,6 @@ if ($mode == 'search') {
 
 } elseif ($mode == 'departments') {
     Tygh::$app['session']['continue_url'] = "products.departments";
-
     $params = $_REQUEST;
 
     if ($items_per_page = fn_change_session_param(Tygh::$app['session'], $_REQUEST, 'items_per_page')) {
@@ -288,7 +287,52 @@ if ($mode == 'search') {
     Tygh::$app['view']->assign('columns', 3);
 
     fn_add_breadcrumb(__("Departments"));
+
+} elseif ($mode === 'department') {
+    $department_data = [];
+    $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+    $departments_data = fn_get_departments_data($department_id, CART_LANGUAGE);
+
+        if (empty($departments_data)) {
+            return [CONTROLLER_STATUS_NO_PAGE];
+        };
+
+    Tygh::$app['view']->assign('departments_data', $departments_data);
+    fn_add_breadcrumb("Departments", $departments_data['department_id']);
+
+    $params = $_REQUEST;
+    $params['extend'] = ['description'];
+    $params['employee_ids'] = !empty($departments_data['employee_ids']) ? implode(',', $departments_data['employee_ids']) : -1;
+
+    if ($items_per_page = fn_change_session_param(Tygh::$app['session']['search_params'], $_REQUEST, 'items_per_page')) {
+        $params['items_per_page'] = $items_per_page;
+    }
+    if ($sort_by = fn_change_session_param(Tygh::$app['session']['search_params'], $_REQUEST, 'sort_by')) {
+        $params['sort_by'] = $sort_by;
+    }
+    if ($sort_order = fn_change_session_param(Tygh::$app['session']['search_params'], $_REQUEST, 'sort_order')) {
+        $params['sort_order'] = $sort_order;
+    }
+
+    fn_gather_additional_products_data($products, [
+        'get_icon'      => true,
+        'get_detailed'  => true,
+        'get_options'   => true,
+        'get_discounts' => true,
+        'get_features'  => false
+    ]);
+
+    list($users, $params) = fn_get_users(['user_id' => $departments_data['employee_ids']], $auth, $items_per_page);
+
+    $selected_layout = fn_get_products_layout($_REQUEST);
+
+    // fn_print_die($users );
+
+    Tygh::$app['view']->assign('employees', $users);
+    Tygh::$app['view']->assign('search', $search);
+    Tygh::$app['view']->assign('selected_layout', $selected_layout);
 }
+
 
 function fn_add_product_to_recently_viewed($product_id, $max_list_size = MAX_RECENTLY_VIEWED)
 {
