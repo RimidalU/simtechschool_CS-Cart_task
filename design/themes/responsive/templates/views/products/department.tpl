@@ -23,17 +23,23 @@
                 </bdi>
             </h3>
         </div>
-</div>
+    </div>
 
-{if $employees}
-        {assign var="layouts" value=""|fn_get_products_views:false:0}
-    {if $layouts.$selected_layout.template}
-        {include file="`$layouts.$selected_layout.template`" columns=$settings.Appearance.columns_in_products_list}
+    {if employees}
+        {include file="blocks/list_templates/departments_grid_list.tpl"
+            products=$employees
+            columns=3
+            form_prefix="block_manager"
+            show_name=true
+        }
+            {assign var="layouts" value=""|fn_get_products_views:false:0}
+        {if $layouts.$selected_layout.template}
+            {include file="`$layouts.$selected_layout.template`" columns=$settings.Appearance.columns_in_products_list}
+        {/if}
+    {else}
+        <p class="ty-no-items">{__("there are no employees in this section")}</p>
     {/if}
-{else}
-    <p class="ty-no-items">{__("text_no_products")}</p>
-{/if}
-
+</div>
 {capture name="mainbox_title"}
     {__("department")} {": "} {$departments_data.department nofilter}
 {/capture}
