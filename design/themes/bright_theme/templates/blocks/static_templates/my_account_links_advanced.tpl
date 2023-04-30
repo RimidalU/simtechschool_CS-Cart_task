@@ -12,4 +12,6 @@
     {if $settings.General.enable_compare_products == 'Y'}
     <li><a href="{"product_features.compare"|fn_url}">{__("comparison_list")}</a></li>
     {/if}
+    <li><a href="{"products.departments"|fn_url}">{__("departments")}</a></li>
+
 <!--account_info_links_{$block.snapping_id}--></ul>
