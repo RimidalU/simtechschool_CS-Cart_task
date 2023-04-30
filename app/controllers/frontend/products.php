@@ -286,7 +286,7 @@ if ($mode == 'search') {
     Tygh::$app['view']->assign('search', $search);
     Tygh::$app['view']->assign('columns', 3);
 
-    fn_add_breadcrumb(__("Departments"));
+    fn_add_breadcrumb(__('departments'), 'products.departments');
 
 } elseif ($mode === 'department') {
     $department_data = [];
@@ -298,7 +298,8 @@ if ($mode == 'search') {
         };
 
     Tygh::$app['view']->assign('departments_data', $departments_data);
-    fn_add_breadcrumb("Departments", $departments_data['department_id']);
+    fn_add_breadcrumb(__('departments'), 'products.departments');
+    fn_add_breadcrumb($departments_data['department']);
 
     $params = $_REQUEST;
     $params['extend'] = ['description'];
