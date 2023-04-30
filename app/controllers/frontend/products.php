@@ -315,19 +315,8 @@ if ($mode == 'search') {
         $params['sort_order'] = $sort_order;
     }
 
-    fn_gather_additional_products_data($products, [
-        'get_icon'      => true,
-        'get_detailed'  => true,
-        'get_options'   => true,
-        'get_discounts' => true,
-        'get_features'  => false
-    ]);
-
     list($users, $params) = fn_get_users(['user_id' => $departments_data['employee_ids']], $auth, $items_per_page);
-
     $selected_layout = fn_get_products_layout($_REQUEST);
-
-    // fn_print_die($users );
 
     Tygh::$app['view']->assign('employees', $users);
     Tygh::$app['view']->assign('search', $search);

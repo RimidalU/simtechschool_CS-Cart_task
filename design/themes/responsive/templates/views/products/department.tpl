@@ -6,7 +6,7 @@
                     file="common/image.tpl"
                     images=$departments_data.main_pair
                     image_id=$departments_data.main_pair.image_id
-                    image_width="500"
+                    image_width="300"
                     image_height=$image_height
                 }
             </div>
@@ -23,17 +23,18 @@
                 </bdi>
             </h3>
         </div>
-</div>
+    </div>
+    <h3 class="ty-mainbox-title">{__("employees:")} </h3>
 
-{if $employees}
-        {assign var="layouts" value=""|fn_get_products_views:false:0}
-    {if $layouts.$selected_layout.template}
-        {include file="`$layouts.$selected_layout.template`" columns=$settings.Appearance.columns_in_products_list}
+    {if $departments_data.employee_ids}
+        {include file="blocks/list_templates/departments_grid_list.tpl"
+            products=$employees
+            columns=3
+        }
+    {else}
+        <p class="ty-no-items">{__("there are no employees in this section")}</p>
     {/if}
-{else}
-    <p class="ty-no-items">{__("text_no_products")}</p>
-{/if}
-
+</div>
 {capture name="mainbox_title"}
     {__("department")} {": "} {$departments_data.department nofilter}
 {/capture}
