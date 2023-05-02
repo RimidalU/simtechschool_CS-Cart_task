@@ -236,6 +236,10 @@
     </form>
 {/capture}
 
+{capture name="sidebar"}
+    {include file="views/products/components/departments_search_form.tpl" dispatch=$dispatch|default: "products.manage_departments"}
+{/capture}
+
 {hook name="departments:manage_mainbox_params"}
     {$page_title = __("departments")}
     {$select_languages = true}
