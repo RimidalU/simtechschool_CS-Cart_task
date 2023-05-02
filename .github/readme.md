@@ -35,13 +35,16 @@ Pages with a list of departments and a department card + interface for managing 
 > - To populate with bd testsfake data import the file [simtechdev_departments_store.sql](../var/mydb/simtechdev_departments_store.sql) to MySQL bd (For example ```import -> Imported file``` in phpMyAdmin).
 > - To add empty tables entity departments using sql queries from a file [departments_store.sql](../var//mydb/departments_store.sql). In phpMyAdmin choose ```simtechdev_departments``` table and inser in SQL tab queries.
 > - To populate with bd testsfake data (with departments) import the file [simtechdev_departments_with_departments.sql](../var/mydb/simtechdev_departments_with_departments.sql) to MySQL bd (For example ```import -> Imported file``` in phpMyAdmin).
-
-- Eun createrDB.php and createrTableInDB.php to create tabl in you db
-open index.php on webserver.
-
-- Clone this repo to your desktop and run ```yarn``` or ```npm install``` to install all the dependencies.
-- Once the dependencies are installed, you can run ```yarn dev``` or ```npm dev``` to start the application.
-- Enjoy.
+- To access the admin panel:
+``` 
+    login:    admin@example.com
+    possword: admin
+```
+- test user in shop: 
+``` 
+    login:    testUser@test.com
+    possword: test$1user
+```
 
 ## Test cases
 
