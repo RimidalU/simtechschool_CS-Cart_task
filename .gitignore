@@ -1,6 +1,7 @@
 app/lib/composer.phar
 design/backend/css/twitterbootstrap.css
 images/*
+!images/department/
 !**/images/
 !images/.gitkeep
 users/*
