@@ -26,7 +26,7 @@
         <div class="sidebar-field">
             <label for="elm_department">{__("department")}</label>
             <div class="break">
-                <input type="text" name="name" id="elm_department" value="{$search.department}" />
+                <input type="text" name="departments" id="elm_department" value="{$search.department}" />
             </div>
         </div>
         <div class="sidebar-field">
@@ -44,7 +44,9 @@
     {include file="common/advanced_search.tpl" 
         no_adv_link=true 
         simple_search=$smarty.capture.simple_search 
-        dispatch=$dispatch view_type="departments"
+        dispatch=$dispatch 
+        view_type="product_features" 
+        method="GET"
     }
 
 </form>

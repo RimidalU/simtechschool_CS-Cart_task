@@ -4388,7 +4388,7 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
         $sortings = array(
             'timestamp' => '?:departments.timestamp',
             'position' => '?:departments.position',
-            'name' => '?:department_descriptions.department',
+            'departments' => '?:department_descriptions.department',
             'status' => '?:departments.status',
             'owner_id' => '?:departments.owner_id',
         );
@@ -4417,6 +4417,10 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             $condition .= db_quote(' AND ?:departments.status = ?s', $params['status']);
         }
         
+        if (!empty($params['departments'])) {
+            $condition .= db_quote(' AND ?:department_descriptions.department LIKE ?l', '%' . trim($params['departments']). '%');
+        }
+
         $fields = array (
             '?:departments.department_id',
             '?:departments.status',
