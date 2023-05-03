@@ -62,6 +62,8 @@ HTML-screenshots of the key stages of testing can be viewed in the folder [debug
 
 Description of some bugs found during development
 - [Department name search not working](./bugReports/searchBox.md) [ru]
+- [Incorrect saving of the edited department](./bugReports/departmentEditing.md) [ru]
+
 
 
 ## Features
