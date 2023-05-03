@@ -14,6 +14,7 @@
 [Project setup](#project-setup) •
 [Test cases](#test-cases) •
 [Auto test](#auto-test) •
+[Bug reports](#bug-reports) •
 [Features](#features) •
 [Project Status](#project-status) •
 [Contact](#contact)
@@ -56,6 +57,12 @@ Pages with a list of departments and a department card + interface for managing 
 
 To run an autotest in Codeception run ```codecept run --steps``` at the root of the project.
 HTML-screenshots of the key stages of testing can be viewed in the folder [debug](../tests/_output/debug/) (they can be opened with a browser).
+
+## Bug reports
+
+Description of some bugs found during development
+- [Department name search not working](./bugReports/searchBox.md) [ru]
+
 
 ## Features
 - Implemented creation a new entity 'departments' in the admin panel.
