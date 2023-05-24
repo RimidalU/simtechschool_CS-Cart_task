@@ -4378,7 +4378,9 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
         'page' => 1,
         'items_per_page' => $items_per_page,
     );
-    
+    $currentUser = Registry::get('user_info')['user_id'];
+    // fn_print_die($currentUser);
+
         $params = array_merge($default_params, $params);
     
         if (AREA == 'C') {
@@ -4409,10 +4411,10 @@ function fn_get_departments($params = [], $items_per_page = 0, $lang_code = CART
             $condition .= db_quote(' AND ?:departments.department_id = ?i', $params['department_id']);
         }
 
-        if (!empty($params['owner_id'])) {
-            $condition .= db_quote(' AND ?:departments.owner_id = ?i', $params['owner_id']);
+        if (!empty($params['user_id'])) {
+            $condition .= db_quote(' AND ?:departments.owner_id = ?i', $params['user_id']);
         }
-        
+
         if (!empty($params['status'])) {
             $condition .= db_quote(' AND ?:departments.status = ?s', $params['status']);
         }
