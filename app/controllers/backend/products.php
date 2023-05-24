@@ -23,6 +23,7 @@ use Tygh\Enum\YesNo;
 use Tygh\Http;
 use Tygh\Registry;
 use Tygh\Tools\Url;
+use Tygh\Languages\Languages;
 
 defined('BOOTSTRAP') or die('Access denied');
 
@@ -53,9 +54,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'product_files_descriptions',
         'add_product_files_descriptions',
         'products_data',
-        'product_file'
+        'product_file',
+        'departments_data',
     );
+    if($mode=='update_department'){
+        $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+        $data = !empty($_REQUEST['departments_data']) ? $_REQUEST['departments_data'] : [];
+        $department_id = fn_update_department($data, $department_id, DESCR_SL);
 
+        if(!empty($department_id)){
+            $suffix = ".update_department?department_id={$department_id}";
+        } else {
+            $suffix = ".add_department";
+        }
+
+    }elseif($mode=='update_selected_department'){
+        if(!empty($_REQUEST['departments_data'])){
+            foreach ($_REQUEST['departments_data'] as $department_id => $data) {
+                fn_update_department($data, $department_id, DESCR_SL);
+            }
+        }
+        $suffix = ".manage_departments";
+
+    }elseif($mode=='delete_department'){
+        $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+
+        fn_delete_department($department_id);
+        $suffix = ".manage_departments";
+
+    }elseif($mode=='delete_selected_department'){
+        if(!empty($_REQUEST['departments_ids'])){
+            foreach ($_REQUEST['departments_ids'] as $department_id) {
+                fn_delete_department($department_id);
+            }
+        }
+        $suffix = ".manage_departments";
+
+}
 
     // Apply Global Option
     if ($mode === 'apply_global_option') {
@@ -1331,4 +1366,26 @@ if ($mode === 'add') {
         CONTROLLER_STATUS_OK,
         'exim.export?section=products&pattern_id=' . Tygh::$app['session']['export_ranges']['products']['pattern_id'],
     ];
+} elseif ($mode == 'add_department' || $mode == 'update_department') {
+
+    $department_id = !empty($_REQUEST['department_id']) ? $_REQUEST['department_id'] : 0;
+
+    $departments_data = fn_get_departments_data($department_id, DESCR_SL);
+
+    if (empty($departments_data) && $mode == 'update_department') {
+        return [CONTROLLER_STATUS_NO_PAGE];
+    }
+
+
+    Tygh::$app['view']->assign([
+        'departments_data' => $departments_data,
+        'u_info' => !empty($departments_data['chief_id']) ? fn_get_user_short_info($departments_data['chief_id']) : [],
+        'o_info' => !empty($departments_data['owner_id']) ? fn_get_user_short_info($departments_data['owner_id']) : [],
+    ]);
+
+} elseif ($mode == 'manage_departments') {
+    list($departments, $search) = fn_get_departments($_REQUEST, Registry::get('settings.Appearance.admin_elements_per_page'), DESCR_SL);
+
+    Tygh::$app['view']->assign('departments', $departments);
+    Tygh::$app['view']->assign('search', $search);
 }
