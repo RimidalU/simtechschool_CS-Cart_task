@@ -28,7 +28,7 @@
 
     {if $departments_data.employee_ids}
         {include file="addons/departments/blocks/list_templates/departments_grid_list.tpl"
-            products=$employees
+            users=$employees
             columns=3
         }
     {else}
