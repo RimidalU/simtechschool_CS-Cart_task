@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::departments"
+msgid "Departments"
+msgstr "Departments"
+
+msgctxt "Addons::description::departments"
+msgid "Lets you create departments easily"
+msgstr "Lets you create departments easily"
+
+msgctxt "Languages::departments_menu_description"
+msgid "Manage your departments."
+msgstr "Manage your departments."
